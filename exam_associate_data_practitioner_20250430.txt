@@ -1,0 +1,33 @@
+Exam Associate Data Practitioner topic 1 question 2 discussion
+Your company has several retail locations. Your company tracks the total number of sales made at each location each day. You want to use SQL to calculate the weekly moving average of sales by location to identify trends for each store. Which query should you use?
+A. -------------------------
+B. -------------------------
+C. -------------------------
+D. -------------------------
+
+
+
+======================================================================================
+
+Exam Associate Data Practitioner topic 1 question 4 discussion
+You want to process and load a daily sales CSV file stored in Cloud Storage into BigQuery for downstream reporting. You need to quickly build a scalable data pipeline that transforms the data while providing insights into data quality issues. What should you do?
+A. Create a batch pipeline in Cloud Data Fusion by using a Cloud Storage source and a BigQuery sink.
+B. Load the CSV file as a table in BigQuery, and use scheduled queries to run SQL transformation scripts.
+C. Load the CSV file as a table in BigQuery. Create a batch pipeline in Cloud Data Fusion by using a BigQuery source and sink.
+D. Create a batch pipeline in Dataflow by using the Cloud Storage CSV file to BigQuery batch template.
+
+
+
+======================================================================================
+
+Exam Associate Data Practitioner topic 1 question 7 discussion
+You manage a large amount of data in Cloud Storage, including raw data, processed data, and backups. Your organization is subject to strict compliance regulations that mandate data immutability for specific data types. You want to use an efficient process to reduce storage costs while ensuring that your storage strategy meets retention requirements. What should you do?
+A. Configure lifecycle management rules to transition objects to appropriate storage classes based on access patterns. Set up Object Versioning for all objects to meet immutability requirements.
+B. Move objects to different storage classes based on their age and access patterns. Use Cloud Key Management Service (Cloud KMS) to encrypt specific objects with customer-managed encryption keys (CMEK) to meet immutability requirements.
+C. Create a Cloud Run function to periodically check object metadata, and move objects to the appropriate storage class based on age and access patterns. Use object holds to enforce immutability for specific objects.
+D. Use object holds to enforce immutability for specific objects, and configure lifecycle management rules to transition objects to appropriate storage classes based on age and access patterns.
+
+
+
+======================================================================================
+
