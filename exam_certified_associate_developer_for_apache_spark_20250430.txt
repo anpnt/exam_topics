@@ -1,0 +1,2619 @@
+Exam Certified Associate Developer for Apache Spark topic 1 question 1 discussion
+Which of the following describes the Spark driver?
+A. The Spark driver is responsible for performing all execution in all execution modes – it is the entire Spark application.
+B. The Spare driver is fault tolerant – if it fails, it will recover the entire Spark application.
+C. The Spark driver is the coarsest level of the Spark execution hierarchy – it is synonymous with the Spark application.
+D. The Spark driver is the program space in which the Spark application’s main method runs coordinating the Spark entire application.
+E. The Spark driver is horizontally scaled to increase overall processing throughput of a Spark application.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 2 discussion
+Which of the following describes the relationship between nodes and executors?
+A. Executors and nodes are not related.
+B. Anode is a processing engine running on an executor.
+C. An executor is a processing engine running on a node.
+D. There are always the same number of executors and nodes.
+E. There are always more nodes than executors.
+
+Highly Voted comment found!
+In a Spark cluster, each node typically has multiple executors, which are responsible for executing tasks on that node. An executor is a separate process that runs on a node and is responsible for executing tasks assigned to it by the driver. Therefore, a node can have multiple executors running on it. The number of executors on a node depends on the resources available on that node and the configuration settings of the Spark application. So, option C is the correct answer.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 3 discussion
+Which of the following will occur if there are more slots than there are tasks?
+A. The Spark job will likely not run as efficiently as possible.
+B. The Spark application will fail – there must be at least as many tasks as there are slots.
+C. Some executors will shut down and allocate all slots on larger executors first.
+D. More tasks will be automatically generated to ensure all slots are being used.
+E. The Spark job will use just one single slot to perform all tasks.
+
+Highly Voted comment found!
+Slots are the basic unit of parallelism in Spark, and represent a unit of resource allocation on a single executor. If there are more slots than there are tasks, it means that some of the slots will be idle and not being used to execute any tasks, leading to inefficient resource utilization. In this scenario, the Spark job will likely not run as efficiently as possible. However, it is still possible for the Spark job to complete successfully. Therefore, option A is the correct answer.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 4 discussion
+Which of the following is the most granular level of the Spark execution hierarchy?
+A. Task
+B. Executor
+C. Node
+D. Job
+E. Slot
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 5 discussion
+Which of the following statements about Spark jobs is incorrect?
+A. Jobs are broken down into stages.
+B. There are multiple tasks within a single job when a DataFrame has more than one partition.
+C. Jobs are collections of tasks that are divided up based on when an action is called.
+D. There is no way to monitor the progress of a job.
+E. Jobs are collections of tasks that are divided based on when language variables are defined.
+
+Highly Voted comment found!
+There are two incorrect answers in the original question.
+
+Option D, "There is no way to monitor the progress of a job," is incorrect. As I mentioned earlier, Spark provides various tools and interfaces for monitoring the progress of a job, including the Spark UI, which provides real-time information about the job's stages, tasks, and resource utilization. Other tools, such as the Spark History Server, can be used to view completed job information.
+
+Option E, "Jobs are collections of tasks that are divided based on when language variables are defined," is also incorrect. The division of tasks in a Spark job is not based on when language variables are defined, but rather based on when actions are called.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 6 discussion
+Which of the following operations is most likely to result in a shuffle?
+A. DataFrame.join()
+B. DataFrame.filter()
+C. DataFrame.union()
+D. DataFrame.where()
+E. DataFrame.drop()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 7 discussion
+The default value of spark.sql.shuffle.partitions is 200. Which of the following describes what that means?
+A. By default, all DataFrames in Spark will be spit to perfectly fill the memory of 200 executors.
+B. By default, new DataFrames created by Spark will be split to perfectly fill the memory of 200 executors.
+C. By default, Spark will only read the first 200 partitions of DataFrames to improve speed.
+D. By default, all DataFrames in Spark, including existing DataFrames, will be split into 200 unique segments for parallelization.
+E. By default, DataFrames will be split into 200 unique partitions when data is being shuffled.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 8 discussion
+Which of the following is the most complete description of lazy evaluation?
+A. None of these options describe lazy evaluation
+B. A process is lazily evaluated if its execution does not start until it is put into action by some type of trigger
+C. A process is lazily evaluated if its execution does not start until it is forced to display a result to the user
+D. A process is lazily evaluated if its execution does not start until it reaches a specified date and time
+E. A process is lazily evaluated if its execution does not start until it is finished compiling
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 9 discussion
+Which of the following DataFrame operations is classified as an action?
+A. DataFrame.drop()
+B. DataFrame.coalesce()
+C. DataFrame.take()
+D. DataFrame.join()
+E. DataFrame.filter()
+
+Highly Voted comment found!
+The DataFrame operation classified as an action is:
+
+C. DataFrame.take()
+
+Explanation: In Spark, actions are operations that trigger the execution of transformations on a DataFrame and return results or side effects. Actions are evaluated eagerly, meaning they initiate the execution of the computation plan built by transformations. Among the options provided, DataFrame.take() is an action because it returns an array with the first n elements from the DataFrame as an array. It triggers the execution of any pending transformations and collects the resulting data.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 10 discussion
+Which of the following DataFrame operations is classified as a wide transformation?
+A. DataFrame.filter()
+B. DataFrame.join()
+C. DataFrame.select()
+D. DataFrame.drop()
+E. DataFrame.union()
+
+Highly Voted comment found!
+B. DataFrame.join() is classified as a wide transformation, as it shuffles the data across the network to perform the join operation.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 11 discussion
+Which of the following describes the difference between cluster and client execution modes?
+A. The cluster execution mode runs the driver on a worker node within a cluster, while the client execution mode runs the driver on the client machine (also known as a gateway machine or edge node).
+B. The cluster execution mode is run on a local cluster, while the client execution mode is run in the cloud.
+C. The cluster execution mode distributes executors across worker nodes in a cluster, while the client execution mode runs a Spark job entirely on one client machine.
+D. The cluster execution mode runs the driver on the cluster machine (also known as a gateway machine or edge node), while the client execution mode runs the driver on a worker node within a cluster.
+E. The cluster execution mode distributes executors across worker nodes in a cluster, while the client execution mode submits a Spark job from a remote machine to be run on a remote, unconfigurable cluster.
+
+Highly Voted comment found!
+Explanation:
+In cluster mode, the driver runs on the master node, while in client mode, the driver runs on a virtual machine in the cloud.
+
+This is wrong, since execution modes do not specify whether workloads are run in the cloud or on-premise.
+
+In cluster mode, each node will launch its own executor, while in client mode, executors will exclusively run on the client machine.
+
+Wrong, since in both cases executors run on worker nodes.
+
+In cluster mode, the driver runs on the edge node, while the client mode runs the driver in a worker node.
+
+Wrong C in cluster mode, the driver runs on a worker node. In client mode, the driver runs on the client machine.
+
+In client mode, the cluster manager runs on the same host as the driver, while in cluster mode, the cluster manager runs on a separate node.
+
+No. In both modes, the cluster manager is typically on a separate node C not on the same host as the driver. It only runs on the same host as the driver in local execution mode. More info: Learning Spark, 2nd Edition, Chapter 1, and Spark: The Definitive Guide, Chapter 15. ()
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 12 discussion
+Which of the following statements about Spark’s stability is incorrect?
+A. Spark is designed to support the loss of any set of worker nodes.
+B. Spark will rerun any failed tasks due to failed worker nodes.
+C. Spark will recompute data cached on failed worker nodes.
+D. Spark will spill data to disk if it does not fit in memory.
+E. Spark will reassign the driver to a worker node if the driver’s node fails.
+
+Highly Voted comment found!
+Option E is incorrect because the driver program in Spark is not reassigned to another worker node if the driver's node fails. The driver program is responsible for the coordination and control of the Spark application and runs on a separate machine, typically the client machine or cluster manager. If the driver's node fails, the Spark application as a whole may fail or need to be restarted, but the driver is not automatically reassigned to another worker node.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 13 discussion
+Which of the following cluster configurations is most likely to experience an out-of-memory error in response to data skew in a single partition?
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image1.png
+Note: each configuration has roughly the same compute power using 100 GB of RAM and 200 cores.
+A. Scenario #4
+B. Scenario #5
+C. Scenario #6
+D. More information is needed to determine an answer.
+E. Scenario #1
+
+Highly Voted comment found!
+The most likely scenario to experience an out-of-memory error in response to data skew in a single partition is:
+
+C. Scenario #6: 12.5 GB Worker Node, 12.5 GB Executor. 1 Driver & 8 Executors.
+
+Explanation:
+
+Data skew refers to an uneven distribution of data across partitions. When there is significant skew in a single partition, it can lead to increased memory usage for that specific partition, potentially causing out-of-memory errors. The smaller the available memory per executor, the higher the likelihood of encountering such issues.
+
+In this case, Scenario #6 has the smallest worker node and executor configuration, with only 12.5 GB of RAM available for each executor. With 8 executors, the total available memory is still 100 GB (similar to other scenarios), but the reduced memory per executor increases the risk of encountering out-of-memory errors when handling skewed data in a single partition.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 14 discussion
+Of the following situations, in which will it be most advantageous to store DataFrame df at the MEMORY_AND_DISK storage level rather than the MEMORY_ONLY storage level?
+A. When all of the computed data in DataFrame df can fit into memory.
+B. When the memory is full and it’s faster to recompute all the data in DataFrame df rather than read it from disk.
+C. When it’s faster to recompute all the data in DataFrame df that cannot fit into memory based on its logical plan rather than read it from disk.
+D. When it’s faster to read all the computed data in DataFrame df that cannot fit into memory from disk rather than recompute it based on its logical plan.
+E. The storage level MENORY_ONLY will always be more advantageous because it’s faster to read data from memory than it is to read data from disk.
+
+Highly Voted comment found!
+D. When it’s faster to read all the computed data in DataFrame df that cannot fit into memory from disk rather than recompute it based on its logical plan.
+******************************
+Highly Voted comment found!
+All other explanation is either wrong or misleading. To understand the question, you need to understand the difference between Memory_only and Memory_and_Disk
+1. Memory_and_Disk, which is the default mode for cache ro persist. That means, if the data size is larger than the memory, it will store the extra data in disk. next time when we n eed to read data, we will read data firstly from memory, and then read from disk.
+2. Memory_Only means, if the data size is larger than memory, it will not store the extra data. next time we read data, we will read from memory first and then recompute the extra data which cannot store in memory.
+PS. Mr. 4be8126 is wrong about raising error when out of memory.
+Therefore, the difference/balance between Memory_only and memory_and_disk lay in how they handle the extra data out of memory. which is option D, if it is faster to read data from disk is faster than recompute it, then memory_and_disk.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 15 discussion
+A Spark application has a 128 GB DataFrame A and a 1 GB DataFrame B. If a broadcast join were to be performed on these two DataFrames, which of the following describes which DataFrame should be broadcasted and why?
+A. Either DataFrame can be broadcasted. Their results will be identical in result and efficiency.
+B. DataFrame B should be broadcasted because it is smaller and will eliminate the need for the shuffling of itself.
+C. DataFrame A should be broadcasted because it is larger and will eliminate the need for the shuffling of DataFrame B.
+D. DataFrame B should be broadcasted because it is smaller and will eliminate the need for the shuffling of DataFrame A.
+E. DataFrame A should be broadcasted because it is smaller and will eliminate the need for the shuffling of itself.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 16 discussion
+Which of the following operations can be used to create a new DataFrame that has 12 partitions from an original DataFrame df that has 8 partitions?
+A. df.repartition(12)
+B. df.cache()
+C. df.partitionBy(1.5)
+D. df.coalesce(12)
+E. df.partitionBy(12)
+
+Highly Voted comment found!
+The answer is A. The repartition operation can be used to increase or decrease the number of partitions in a DataFrame. In this case, the number of partitions is being increased from 8 to 12, so we can use the repartition operation with a partition count of 12: df.repartition(12).
+
+Option B, df.cache(), is used to cache a DataFrame in memory for faster access, but it does not change the number of partitions.
+
+Option C, df.partitionBy(1.5), is not a valid operation for partitioning a DataFrame.
+
+Option D, df.coalesce(12), can be used to reduce the number of partitions in a DataFrame, but it cannot be used to increase the number of partitions beyond the current number.
+
+Option E, df.partitionBy(12), is used to partition a DataFrame by a specific column or set of columns, but it does not change the number of partitions.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 17 discussion
+Which of the following object types cannot be contained within a column of a Spark DataFrame?
+A. DataFrame
+B. String
+C. Array
+D. null
+E. Vector
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 18 discussion
+Which of the following operations can be used to create a DataFrame with a subset of columns from DataFrame storesDF that are specified by name?
+A. storesDF.subset()
+B. storesDF.select()
+C. storesDF.selectColumn()
+D. storesDF.filter()
+E. storesDF.drop()
+
+Highly Voted comment found!
+The operation that can be used to create a DataFrame with a subset of columns from DataFrame storesDF that are specified by name is storesDF.select().
+
+The select() operation allows you to specify the columns you want to keep in the resulting DataFrame by passing in the column names as arguments. For example, to create a new DataFrame that contains only the columns store_id and store_name from the storesDF 
+
+DataFrame, you can use the following code:
+
+newDF = storesDF.select("store_id", "store_name")
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 19 discussion
+The code block shown below contains an error. The code block is intended to return a DataFrame containing all columns from DataFrame storesDF except for column sqft and column customerSatisfaction. Identify the error.
+Code block:
+storesDF.drop(sqft, customerSatisfaction)
+A. The drop() operation only works if one column name is called at a time – there should be two calls in succession like storesDF.drop("sqft").drop("customerSatisfaction").
+B. The drop() operation only works if column names are wrapped inside the col() function like storesDF.drop(col(sqft), col(customerSatisfaction)).
+C. There is no drop() operation for storesDF.
+D. The sqft and customerSatisfaction column names should be quoted like "sqft" and "customerSatisfaction".
+E. The sqft and customerSatisfaction column names should be subset from the DataFrame storesDF like storesDF."sqft" and storesDF."customerSatisfaction".
+
+Highly Voted comment found!
+The error in the code block is that the column names sqft and customerSatisfaction should be quoted, like "sqft" and "customerSatisfaction", since they are strings. The correct code block should be:
+
+storesDF.drop("sqft", "customerSatisfaction")
+
+Option D correctly identifies this error.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 21 discussion
+Which of the following code blocks returns a DataFrame containing only the rows from DataFrame storesDF where the value in column sqft is less than or equal to 25,000 OR the value in column customerSatisfaction is greater than or equal to 30?
+A. storesDF.filter(col("sqft") <= 25000 | col("customerSatisfaction") >= 30)
+B. storesDF.filter(col("sqft") <= 25000 or col("customerSatisfaction") >= 30)
+C. storesDF.filter(sqft <= 25000 or customerSatisfaction >= 30)
+D. storesDF.filter(col(sqft) <= 25000 | col(customerSatisfaction) >= 30)
+E. storesDF.filter((col("sqft") <= 25000) | (col("customerSatisfaction") >= 30))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 22 discussion
+Which of the following code blocks returns a new DataFrame from DataFrame storesDF where column storeId is of the type string?
+A. storesDF.withColumn("storeId, cast(col("storeId"), StringType()))
+B. storesDF.withColumn("storeId, col("storeId").cast(StringType()))
+C. storesDF.withColumn("storeId, cast(storeId).as(StringType)
+D. storesDF.withColumn("storeId, col(storeId).cast(StringType)
+E. storesDF.withColumn("storeId, cast("storeId").as(StringType()))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 23 discussion
+Which of the following code blocks returns a new DataFrame with a new column employeesPerSqft that is the quotient of column numberOfEmployees and column sqft, both of which are from DataFrame storesDF? Note that column employeesPerSqft is not in the original DataFrame storesDF.
+A. storesDF.withColumn("employeesPerSqft", col("numberOfEmployees") / col("sqft"))
+B. storesDF.withColumn("employeesPerSqft", "numberOfEmployees" / "sqft")
+C. storesDF.select("employeesPerSqft", "numberOfEmployees" / "sqft")
+D. storesDF.select("employeesPerSqft", col("numberOfEmployees") / col("sqft"))
+E. storesDF.withColumn(col("employeesPerSqft"), col("numberOfEmployees") / col("sqft"))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 24 discussion
+The code block shown below should return a new DataFrame from DataFrame storesDF where column modality is the constant string "PHYSICAL", Assume DataFrame storesDF is the only defined language variable. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF. _1_(_2_,_3_(_4_))
+A. 1. withColumn2. "modality"3. col4. "PHYSICAL"
+B. 1. withColumn2. "modality"3. lit4. PHYSICAL
+C. 1. withColumn2. "modality"3. lit4. "PHYSICAL"
+D. 1. withColumn2. "modality"3. SrtringType4. "PHYSICAL"
+E. 1. newColumn2. modality3. SrtringType4. PHYSICAL
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 25 discussion
+Which of the following code blocks returns a DataFrame where column storeCategory from DataFrame storesDF is split at the underscore character into column storeValueCategory and column storeSizeCategory?
+A sample of DataFrame storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image2.png
+A. (storesDF.withColumn("storeValueCategory", split(col("storeCategory"), "_")[1]).withColumn("storeSizeCategory", split(col("storeCategory"), "_")[2]))
+B. (storesDF.withColumn("storeValueCategory", col("storeCategory").split("_")[0]).withColumn("storeSizeCategory", col("storeCategory").split("_")[1]))
+C. (storesDF.withColumn("storeValueCategory", split(col("storeCategory"), "_")[0]).withColumn("storeSizeCategory", split(col("storeCategory"), "_")[1]))
+D. (storesDF.withColumn("storeValueCategory", split("storeCategory", "_")[0]).withColumn("storeSizeCategory", split("storeCategory", "_")[1]))
+E. (storesDF.withColumn("storeValueCategory", col("storeCategory").split("_")[1]).withColumn("storeSizeCategory", col("storeCategory").split("_")[2]))
+
+Highly Voted comment found!
+Both C or D are correct. Function split accepts both col and str.
+https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.functions.split.html?highlight=split#pyspark.sql.functions.split
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 26 discussion
+Which of the following code blocks returns a new DataFrame where column productCategories only has one word per row, resulting in a DataFrame with many more rows than DataFrame storesDF?
+A sample of storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image3.png
+A. storesDF.withColumn("productCategories", explode(col("productCategories")))
+B. storesDF.withColumn("productCategories", split(col("productCategories")))
+C. storesDF.withColumn("productCategories", col("productCategories").explode())
+D. storesDF.withColumn("productCategories", col("productCategories").split())
+E. storesDF.withColumn("productCategories", explode("productCategories"))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 27 discussion
+Which of the following code blocks returns a new DataFrame with column storeDescription where the pattern "Description: " has been removed from the beginning of column storeDescription in DataFrame storesDF?
+A sample of DataFrame storesDF is below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image4.png
+A. storesDF.withColumn("storeDescription", regexp_replace(col("storeDescription"), "^Description: "))
+B. storesDF.withColumn("storeDescription", col("storeDescription").regexp_replace("^Description: ", ""))
+C. storesDF.withColumn("storeDescription", regexp_extract(col("storeDescription"), "^Description: ", ""))
+D. storesDF.withColumn("storeDescription", regexp_replace("storeDescription", "^Description: ", ""))
+E. storesDF.withColumn("storeDescription", regexp_replace(col("storeDescription"), "^Description: ", ""))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 28 discussion
+Which of the following code blocks returns a new DataFrame where column division from DataFrame storesDF has been replaced and renamed to column state and column managerName from DataFrame storesDF has been replaced and renamed to column managerFullName?
+A. (storesDF.withColumnRenamed(["division", "state"], ["managerName", "managerFullName"])
+B. (storesDF.withColumn("state", col("division")).withColumn("managerFullName", col("managerName")))
+C. (storesDF.withColumn("state", "division").withColumn("managerFullName", "managerName"))
+D. (storesDF.withColumnRenamed("state", "division").withColumnRenamed("managerFullName", "managerName"))
+E. (storesDF.withColumnRenamed("division", "state").withColumnRenamed("managerName", "managerFullName"))
+
+Highly Voted comment found!
+Option E is the correct answer. The withColumnRenamed function renames an existing column, whereas withColumn creates a new column. To replace the "division" column with a new column "state" and rename the "managerName" column to "managerFullName", we need to use withColumnRenamed. So option E is correct, where we first rename "division" to "state" and then rename "managerName" to "managerFullName".
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 29 discussion
+The code block shown contains an error. The code block is intended to return a new DataFrame where column sqft from DataFrame storesDF has had its missing values replaced with the value 30,000. Identify the error.
+A sample of DataFrame storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image5.png
+Code block:
+storesDF.na.fill(30000, col("sqft"))
+A. The argument to the subset parameter of fill() should be a string column name or a list of string column names rather than a Column object.
+B. The na.fill() operation does not work and should be replaced by the dropna() operation.
+C. he argument to the subset parameter of fill() should be a the numerical position of the column rather than a Column object.
+D. The na.fill() operation does not work and should be replaced by the nafill() operation.
+E. The na.fill() operation does not work and should be replaced by the fillna() operation.
+
+Highly Voted comment found!
+Correct anwser is A.
+even for most updated version, spark 3.4. na.fill() still functioning, it is an alias of fillna()
+Mr. 4be8126 , 你可真是张嘴就来啊
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 30 discussion
+Which of the following operations fails to return a DataFrame with no duplicate rows?
+A. DataFrame.dropDuplicates()
+B. DataFrame.distinct()
+C. DataFrame.drop_duplicates()
+D. DataFrame.drop_duplicates(subset = None)
+E. DataFrame.drop_duplicates(subset = "all")
+
+Highly Voted comment found!
+A. DataFrame.dropDuplicates(): This method returns a new DataFrame with distinct rows based on all columns. It should return a DataFrame with no duplicate rows.
+
+B. DataFrame.distinct(): This method returns a new DataFrame with distinct rows based on all columns. It should also return a DataFrame with no duplicate rows.
+
+C. DataFrame.drop_duplicates(): This is an alias for DataFrame.dropDuplicates(). It should also return a DataFrame with no duplicate rows.
+
+D. DataFrame.drop_duplicates(subset=None): This method returns a new DataFrame with distinct rows based on all columns. It should return a DataFrame with no duplicate rows.
+
+E. DataFrame.drop_duplicates(subset="all"): This method attempts to drop duplicates based on all columns but returns an error, because "all" is not a valid argument for the subset parameter. So this operation fails to return a DataFrame with no duplicate rows.
+
+Therefore, the correct answer is E.
+******************************
+Highly Voted comment found!
+Option E is incorrect as "all" is not a valid value for the subset parameter in the drop_duplicates() method. The correct value should be a column name or a list of column names to be used as the subset to identify duplicate rows.
+
+All other options (A, B, C, and D) can be used to return a DataFrame with no duplicate rows. The dropDuplicates(), distinct(), and drop_duplicates() methods are all equivalent and return a new DataFrame with distinct rows. The drop_duplicates() method also accepts a subset parameter to specify the columns to use for identifying duplicates, and when the subset parameter is not specified, all columns are used. Therefore, both option A and C are valid, and option D is also valid as it is equivalent to drop_duplicates() with no subset parameter.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 31 discussion
+Which of the following code blocks will most quickly return an approximation for the number of distinct values in column division in DataFrame storesDF?
+A. storesDF.agg(approx_count_distinct(col("division")).alias("divisionDistinct"))
+B. storesDF.agg(approx_count_distinct(col("division"), 0.01).alias("divisionDistinct"))
+C. storesDF.agg(approx_count_distinct(col("division"), 0.15).alias("divisionDistinct"))
+D. storesDF.agg(approx_count_distinct(col("division"), 0.0).alias("divisionDistinct"))
+E. storesDF.agg(approx_count_distinct(col("division"), 0.05).alias("divisionDistinct"))
+
+Highly Voted comment found!
+To quickly return an approximation for the number of distinct values in column division in DataFrame storesDF, the most efficient code block to use would be:
+
+B. storesDF.agg(approx_count_distinct(col("division"), 0.01).alias("divisionDistinct"))
+
+Using the approx_count_distinct() function allows for an approximate count of the distinct values in the column without scanning the entire DataFrame. The second parameter passed to the function is the maximum estimation error allowed, which in this case is set to 0.01. This is a trade-off between the accuracy of the estimate and the computational cost. Option C may still be efficient but with a larger estimation error of 0.15. Option A and D are not correct as they do not specify the estimation error, which means that the function would use the default value of 0.05. Option E specifies an estimation error of 0.05, but a smaller error of 0.01 is a better choice for a more accurate estimate with less computational cost.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 32 discussion
+The code block shown below contains an error. The code block is intended to return a new DataFrame with the mean of column sqft from DataFrame storesDF in column sqftMean. Identify the error.
+Code block:
+storesDF.agg(mean("sqft").alias("sqftMean"))
+A. The argument to the mean() operation should be a Column abject rather than a string column name.
+B. The argument to the mean() operation should not be quoted.
+C. The mean() operation is not a standalone function – it’s a method of the Column object.
+D. The agg() operation is not appropriate here – the withColumn() operation should be used instead.
+E. The only way to compute a mean of a column is with the mean() method from a DataFrame.
+
+Highly Voted comment found!
+The code block shown is correct and should return a new DataFrame with the mean of column sqft from DataFrame storesDF in column sqftMean. Therefore, the answer is E - none of the options identify a valid error in the code block.
+
+Here's an explanation for each option:
+
+A. The argument to the mean() operation can be either a Column object or a string column name, so there is no error in using a string column name in this case.
+
+E. This option is incorrect because the code block shown is a valid way to compute the mean of a column using PySpark. Another way to compute the mean of a column is with the mean() method from a DataFrame, but that doesn't mean the code block shown is invalid.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 33 discussion
+Which of the following operations can be used to return the number of rows in a DataFrame?
+A. DataFrame.numberOfRows()
+B. DataFrame.n()
+C. DataFrame.sum()
+D. DataFrame.count()
+E. DataFrame.countDistinct()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 34 discussion
+Which of the following operations returns a GroupedData object?
+A. DataFrame.GroupBy()
+B. DataFrame.cubed()
+C. DataFrame.group()
+D. DataFrame.groupBy()
+E. DataFrame.grouping_id()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 35 discussion
+Which of the following code blocks returns a collection of summary statistics for all columns in
+DataFrame storesDF?
+A. storesDF.summary("mean")
+B. storesDF.describe(all = True)
+C. storesDF.describe("all")
+D. storesDF.summary("all")
+E. storesDF.describe()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 36 discussion
+Which of the following code blocks fails to return a DataFrame reverse sorted alphabetically based on column division?
+A. storesDF.orderBy("division", ascending – False)
+B. storesDF.orderBy(["division"], ascending = [0])
+C. storesDF.orderBy(col("division").asc())
+D. storesDF.sort("division", ascending – False)
+E. storesDF.sort(desc("division"))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 37 discussion
+Which of the following code blocks returns a 15 percent sample of rows from DataFrame storesDF without replacement?
+A. storesDF.sample(fraction = 0.10)
+B. storesDF.sampleBy(fraction = 0.15)
+C. storesDF.sample(True, fraction = 0.10)
+D. storesDF.sample()
+E. storesDF.sample(fraction = 0.15)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 38 discussion
+Which of the following code blocks returns all the rows from DataFrame storesDF?
+A. storesDF.head()
+B. storesDF.collect()
+C. storesDF.count()
+D. storesDF.take()
+E. storesDF.show()
+
+Highly Voted comment found!
+Answer: B
+
+Explanation:
+
+head() returns the first n rows of the DataFrame. By default, it returns the first 5 rows.
+collect() returns an array of Row objects that represent the entire DataFrame.
+count() returns the number of rows in the DataFrame.
+take(n) returns the first n rows of the DataFrame as an array of Row objects.
+show() prints the first 20 rows of the DataFrame in a tabular form.
+Only collect() returns all the rows from the DataFrame.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 39 discussion
+Which of the following code blocks applies the function assessPerformance() to each row of DataFrame storesDF?
+A. [assessPerformance(row) for row in storesDF.take(3)]
+B. [assessPerformance() for row in storesDF]
+C. storesDF.collect().apply(lambda: assessPerformance)
+D. [assessPerformance(row) for row in storesDF.collect()]
+E. [assessPerformance(row) for row in storesDF]
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 40 discussion
+The code block shown below contains an error. The code block is intended to print the schema of DataFrame storesDF. Identify the error.
+Code block:
+storesDF.printSchema
+A. There is no printSchema member of DataFrame – schema and the print() function should be used instead.
+B. The entire line needs to be a string – it should be wrapped by str().
+C. There is no printSchema member of DataFrame – the getSchema() operation should be used instead.
+D. There is no printSchema member of DataFrame – the schema() operation should be used instead.
+E. The printSchema member of DataFrame is an operation and needs to be followed by parentheses.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 41 discussion
+The code block shown below should create and register a SQL UDF named "ASSESS_PERFORMANCE" using the Python function assessPerformance() and apply it to column customerSatisfaction in table stores. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+spark._1_._2_(_3_, _4_)
+spark.sql("SELECT customerSatisfaction, _5_(customerSatisfaction) AS result FROM stores")
+A. 1. udf2. register3. "ASSESS_PERFORMANCE"4. assessPerformance5. ASSESS_PERFORMANCE
+B. 1. udf2. register3. assessPerformance4. "ASSESS_PERFORMANCE"5. "ASSESS_PERFORMANCE"
+C. 1. udf2. register3."ASSESS_PERFORMANCE"4. assessPerformance5. "ASSESS_PERFORMANCE"
+D. 1. register2. udf3. "ASSESS_PERFORMANCE"4. assessPerformance5. "ASSESS_PERFORMANCE"
+E. 1. udf2. register3. ASSESS_PERFORMANCE4. assessPerformance5. ASSESS_PERFORMANCE
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 42 discussion
+The code block shown below contains an error. The code block is intended to create a Python UDF assessPerformanceUDF() using the integer-returning Python function assessPerformance() and apply it to column customerSatisfaction in DataFrame storesDF. Identify the error.
+Code block:
+assessPerformanceUDF – udf(assessPerformance)
+storesDF.withColumn("result", assessPerformanceUDF(col("customerSatisfaction")))
+A. The assessPerformance() operation is not properly registered as a UDF.
+B. The withColumn() operation is not appropriate here – UDFs should be applied by iterating over rows instead.
+C. UDFs can only be applied vie SQL and not through the DataFrame API.
+D. The return type of the assessPerformanceUDF() is not specified in the udf() operation.
+E. The assessPerformance() operation should be used on column customerSatisfaction rather than the assessPerformanceUDF() operation.
+
+Highly Voted comment found!
+The right answer is D.
+pyspark.sql.functions.udf(f=None, returnType=StringType)
+The default return type is string, but this question requires integer returning.
+so it should be D. "The return type of the assessPerformanceUDF() is not specified in the udf() operation."
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 43 discussion
+The code block shown below contains an error. The code block is intended to use SQL to return a new DataFrame containing column storeId and column managerName from a table created from DataFrame storesDF. Identify the error.
+Code block:
+storesDF.createOrReplaceTempView("stores")
+storesDF.sql("SELECT storeId, managerName FROM stores")
+A. The createOrReplaceTempView() operation does not make a Dataframe accessible via SQL.
+B. The sql() operation should be accessed via the spark variable rather than DataFrame storesDF.
+C. There is the sql() operation in DataFrame storesDF. The operation query() should be used instead.
+D. This cannot be accomplished using SQL – the DataFrame API should be used instead.
+E. The createOrReplaceTempView() operation should be accessed via the spark variable rather than DataFrame storesDF.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 44 discussion
+The code block shown below should create a single-column DataFrame from Python list years which is made up of integers. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+_1_._2_(_3_, _4_)
+A. 1. spark2. createDataFrame3. years4. IntegerType
+B. 1. DataFrame2. create3. [years]4. IntegerType
+C. 1. spark2. createDataFrame3. [years]4. IntegertType
+D. 1. spark2. createDataFrame3. [years]4. IntegertType()
+E. 1. spark2. createDataFrame3. years4. IntegertType()
+
+Highly Voted comment found!
+The answer should be E because Year is already a python list.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 45 discussion
+The code block shown below contains an error. The code block is intended to cache DataFrame storesDF only in Spark’s memory and then return the number of rows in the cached DataFrame. Identify the error.
+Code block:
+storesDF.cache().count()
+A. The cache() operation caches DataFrames at the MEMORY_AND_DISK level by default – the storage level must be specified to MEMORY_ONLY as an argument to cache().
+B. The cache() operation caches DataFrames at the MEMORY_AND_DISK level by default – the storage level must be set via storesDF.storageLevel prior to calling cache().
+C. The storesDF DataFrame has not been checkpointed – it must have a checkpoint in order to be cached.
+D. DataFrames themselves cannot be cached – DataFrame storesDF must be cached as a table.
+E. The cache() operation can only cache DataFrames at the MEMORY_AND_DISK level (the default) – persist() should be used instead.
+
+Highly Voted comment found!
+E is correct. You cannot set StorageLevel Memory_only with cache(), if memory available then it keeps everything into memory else it will spill to disk. To keep everything into Memory you need to use Persist() with Storage Level Memory only.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 46 discussion
+Which of the following operations can be used to return a new DataFrame from DataFrame storesDF without inducing a shuffle?
+A. storesDF.intersect()
+B. storesDF.repartition(1)
+C. storesDF.union()
+D. storesDF.coalesce(1)
+E. storesDF.rdd.getNumPartitions()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 47 discussion
+The code block shown below contains an error. The code block is intended to return a new 12-partition DataFrame from the 8-partition DataFrame storesDF by inducing a shuffle. Identify the error.
+Code block:
+storesDF.coalesce(12)
+A. The coalesce() operation cannot guarantee the number of target partitions – the repartition() operation should be used instead.
+B. The coalesce() operation does not induce a shuffle and cannot increase the number of partitions – the repartition() operation should be used instead.
+C. The coalesce() operation will only work if the DataFrame has been cached to memory – the repartition() operation should be used instead.
+D. The coalesce() operation requires a column by which to partition rather than a number of partitions – the repartition() operation should be used instead.
+E. The number of resulting partitions, 12, is not achievable for an 8-partition DataFrame.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 48 discussion
+Which of the following Spark properties is used to configure whether DataFrame partitions that do not meet a minimum size threshold are automatically coalesced into larger partitions during a shuffle?
+A. spark.sql.shuffle.partitions
+B. spark.sql.autoBroadcastJoinThreshold
+C. spark.sql.adaptive.skewJoin.enabled
+D. spark.sql.inMemoryColumnarStorage.batchSize
+E. spark.sql.adaptive.coalescePartitions.enabled
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 49 discussion
+The code block shown below contains an error. The code block is intended to return a DataFrame containing a column openDateString, a string representation of Java’s SimpleDateFormat. Identify the error.
+Note that column openDate is of type integer and represents a date in the UNIX epoch format – the number of seconds since midnight on January 1st, 1970.
+An example of Java’s SimpleDateFormat is "Sunday, Dec 4, 2008 1:05 PM".
+A sample of storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image6.png
+Code block:
+storesDF.withColumn("openDateString", from_unixtime(col("openDate"), "EEE, MMM d, yyyy h:mm a", TimestampType()))
+A. The from_unixtime() operation only accepts two parameters – the TimestampTime() arguments not necessary.
+B. The from_unixtime() operation only works if column openDate is of type long rather than integer – column openDate must first be converted.
+C. The second argument to from_unixtime() is not correct – it should be a variant of TimestampType() rather than a string.
+D. The from_unixtime() operation automatically places the input column in java’s SimpleDateFormat – there is no need for a second or third argument.
+E. The column openDate must first be converted to a timestamp, and then the Date() function can be used to reformat to java’s SimpleDateFormat.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 50 discussion
+Which of the following code blocks returns a DataFrame containing a column dayOfYear, an integer representation of the day of the year from column openDate from DataFrame storesDF?
+Note that column openDate is of type integer and represents a date in the UNIX epoch format – the number of seconds since midnight on January 1st, 1970.
+A sample of storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image7.png
+A. (storesDF.withColumn("openTimestamp", col("openDate").cast("Timestamp")). withColumn("dayOfYear", dayofyear(col("openTimestamp"))))
+B. storesDF.withColumn("dayOfYear", get dayofyear(col("openDate")))
+C. storesDF.withColumn("dayOfYear", dayofyear(col("openDate")))
+D. (storesDF.withColumn("openDateFormat", col("openDate").cast("Date")). withColumn("dayOfYear", dayofyear(col("openDateFormat"))))
+E. storesDF.withColumn("dayOfYear", substr(col("openDate"), 4, 6))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 51 discussion
+The code block shown below contains an error. The code block intended to return a new DataFrame that is the result of an inner join between DataFrame storesDF and DataFrame employeesDF on column storeId. Identify the error.
+Code block:
+StoresDF.join(employeesDF, "inner", "storeID")
+A. The key column storeID needs to be wrapped in the col() operation.
+B. The key column storeID needs to be in a list like ["storeID"].
+C. The key column storeID needs to be specified in an expression of both DataFrame columns like storesDF.storeId == employeesDF.storeId.
+D. There is no DataFrame.join() operation – DataFrame.merge() should be used instead.
+E. The column key is the second parameter to join() and the type of join in the third parameter to join() – the second and third arguments should be switched.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 52 discussion
+Which of the following operations can perform an outer join on two DataFrames?
+A. DataFrame.crossJoin()
+B. Standalone join() function
+C. DataFrame.outerJoin()
+D. DataFrame.join()
+E. DataFrame.merge()
+
+Highly Voted comment found!
+D. result_df = df1.join(df2, on="id", how="outer")
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 53 discussion
+Which of the following pairs of arguments cannot be used in DataFrame.join() to perform an inner join on two DataFrames, named and aliased with "a" and "b" respectively, to specify two key columns?
+A. on = [a.column1 == b.column1, a.column2 == b.column2]
+B. on = [col("column1"), col("column2")]
+C. on = [col("a.column1") == col("b.column1"), col("a.column2") == col("b.column2")]
+D. All of these options can be used to perform an inner join with two key columns.
+E. on = ["column1", "column2"]
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 54 discussion
+The below code block contains a logical error resulting in inefficiency. The code block is intended to efficiently perform a broadcast join of DataFrame storesDF and the much larger DataFrame employeesDF using key column storeId. Identify the logical error.
+Code block:
+storesDF.join(broadcast(employeesDF), "storeId")
+A. The larger DataFrame employeesDF is being broadcasted rather than the smaller DataFrame storesDF.
+B. There is never a need to call the broadcast() operation in Apache Spark 3.
+C. The entire line of code should be wrapped in broadcast() rather than just DataFrame employeesDF.
+D. The broadcast() operation will only perform a broadcast join if the Spark property spark.sql.autoBroadcastJoinThreshold is manually set.
+E. Only one of the DataFrames is being broadcasted rather than both of the DataFrames.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 55 discussion
+The code block shown below contains an error. The code block is intended to return a new DataFrame that is the result of a cross join between DataFrame storesDF and DataFrame employeesDF. Identify the error.
+Code block:
+storesDF.join(employeesDF, "cross")
+A. A cross join is not implemented by the DataFrame.join() operations – the standalone CrossJoin() operation should be used instead.
+B. There is no direct cross join in Spark, but it can be implemented by performing an outer join on all columns of both DataFrames.
+C. A cross join is not implemented by the DataFrame.join()operation – the DataFrame.crossJoin()operation should be used instead.
+D. There is no key column specified – the key column "storeId" should be the second argument.
+E. A cross join is not implemented by the DataFrame.join() operations – the standalone join() operation should be used instead.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 56 discussion
+The code block shown below contains an error. The code block is intended to return a new DataFrame that is the result of a position-wise union between DataFrame storesDF and DataFrame acquiredStoresDF. Identify the error.
+Code block:
+storesDF.unionByName(acquiredStoresDF)
+A. There is no DataFrame.unionByName() operation – the concat() operation should be used instead with both DataFrames as arguments.
+B. There are no key columns specified – similar column names should be the second argument.
+C. The DataFrame.unionByName() operation does not union DataFrames based on column position – it uses column name instead.
+D. The unionByName() operation is a standalone operation rather than a method of DataFrame – it should have both DataFrames as arguments.
+E. There are no column positions specified – the desired column positions should be the second argument.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 57 discussion
+Which of the following code blocks writes DataFrame storesDF to file path filePath as JSON?
+A. storesDF.write.option("json").path(filePath)
+B. storesDF.write.json(filePath)
+C. storesDF.write.path(filePath)
+D. storesDF.write(filePath)
+E. storesDF.write().json(filePath)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 58 discussion
+In what order should the below lines of code be run in order to write DataFrame storesDF to file path filePath as parquet and partition by values in column division?
+Lines of code:
+1. .write() \
+2. .partitionBy("division") \
+3. .parquet(filePath)
+4. .storesDF \
+5. .repartition("division")
+6. .write \
+7. .path(filePath, "parquet")
+A. 4, 1, 2, 3
+B. 4, 1, 5, 7
+C. 4, 6, 2, 3
+D. 4, 1, 5, 3
+E. 4, 6, 2, 7
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 59 discussion
+The code block shown below contains an error. The code block intended to read a parquet at the file path filePath into a DataFrame. Identify the error.
+Code block:
+spark.read.load(filePath, source – "parquet")
+A. There is no source parameter to the load() operation – the schema parameter should be used instead.
+B. There is no load() operation – it should be parquet() instead.
+C. The spark.read operation should be followed by parentheses to return a DataFrameReader object.
+D. The filePath argument to the load() operation should be quoted.
+E. There is no source parameter to the load() operation – it can be removed.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 60 discussion
+In what order should the below lines of code be run in order to read a JSON file at the file path filePath into a DataFrame with the specified schema schema?
+Lines of code:
+1. .json(filePath, schema = schema)
+2. .storesDF
+3. .spark \
+4. .read() \
+5. .read \
+6. .json(filePath, format = schema)
+A. 3, 5, 6
+B. 2, 4, 1
+C. 3, 5, 1
+D. 2, 5, 1
+E. 3, 4, 1
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 61 discussion
+Which of the following storage levels should be used to store as much data as possible in memory on two cluster nodes while storing any data that does not fit in memory on disk to be read in when needed?
+A. MEMORY_ONLY_2
+B. MEMORY_AND_DISK_SER
+C. MEMORY_AND_DISK
+D. MEMORY_AND_DISK_2
+E. MEMORY_ONLY
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 62 discussion
+Which of the following Spark properties is used to configure the maximum size of an automatically broadcasted DataFrame when performing a join?
+A. spark.sql.broadcastTimeout
+B. spark.sql.autoBroadcastJoinThreshold
+C. spark.sql.shuffle.partitions
+D. spark.sql.inMemoryColumnarStorage.batchSize
+E. spark.sql.adaptive.skewedJoin.enabled
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 63 discussion
+Which of the following Spark properties is used to configure whether skewed partitions are automatically detected and subdivided into smaller partitions when joining two DataFrames together?
+A. spark.sql.adaptive.skewedJoin.enabled
+B. spark.sql.adaptive.coalescePartitions.enable
+C. spark.sql.adaptive.skewHints.enabled
+D. spark.sql.shuffle.partitions
+E. spark.sql.shuffle.skewHints.enabled
+
+Highly Voted comment found!
+Answer should be A, but the config is skewJoin not skewedJoin
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 64 discussion
+Which of the following statements about the Spark DataFrame is true?
+A. Spark DataFrames are mutable unless they've been collected to the driver.
+B. A Spark DataFrame is rarely used aside from the import and export of data.
+C. Spark DataFrames cannot be distributed into partitions.
+D. A Spark DataFrame is a tabular data structure that is the most common Structured API in Spark.
+E. A Spark DataFrame is exactly the same as a data frame in Python or R.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 65 discussion
+Which of the following operations can be used to return a new DataFrame from DataFrame storesDF without columns that are specified by name?
+A. storesDF.filter()
+B. storesDF.select()
+C. storesDF.drop()
+D. storesDF.subset()
+E. storesDF.dropColumn()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 66 discussion
+Which of the following code blocks returns a DataFrame containing only the rows from DataFrame storesDF where the value in column sqft is less than or equal to 25,000?
+A. storesDF.where(storesDF[sqft] > 25000)
+B. storesDF.filter(sqft > 25000)
+C. storesDF.filter("sqft" <= 25000)
+D. storesDF.filter(col("sqft") <= 25000)
+E. storesDF.where(sqft > 25000)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 67 discussion
+Which of the following code blocks returns a DataFrame containing only the rows from DataFrame storesDF where the value in column sqft is less than or equal to 25,000 OR the value in column customerSatisfaction is greater than or equal to 30?
+A. storesDF.filter(col("sqft") <= 25000 and col("customerSatisfaction") >= 30)
+B. storesDF.filter(col("sqft") <= 25000 | col("customerSatisfaction") >= 30)
+C. storesDF.filter(col(sqft) <= 25000 or col(customerSatisfaction) >= 30)
+D. storesDF.filter(sqft <= 25000 | customerSatisfaction >= 30)
+E. storesDF.filter(col("sqft") <= 25000 or col("customerSatisfaction") >= 30)
+
+Highly Voted comment found!
+I dont think even B is correct the conditions should be inside parenthesis as well
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 68 discussion
+The code block shown below should return a new DataFrame from DataFrame storesDF where column storeId is of the type string. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF.__1__("storeId", __2__("storeId").__3__(__4__)
+A. 1. withColumn2. col3. cast4. StringType()
+B. 1. withColumn2. cast3. col4. StringType()
+C. 1. newColumn2. col3. cast4. StringType()
+D. 1. withColumn2. cast3. col4. StringType
+E. 1. withColumn2. col3. cast4. StringType
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 69 discussion
+Which of the following code blocks returns a new DataFrame from DataFrame storesDF where column modality is the constant string "PHYSICAL"? Assume DataFrame storesDF is the only defined language variable.
+A. storesDF.withColumn("modality", lit(PHYSICAL))
+B. storesDF.withColumn("modality", col("PHYSICAL"))
+C. storesDF.withColumn("modality", lit("PHYSICAL"))
+D. storesDF.withColumn("modality", StringType("PHYSICAL"))
+E. storesDF.withColumn("modality", "PHYSICAL")
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 70 discussion
+The code block shown below contains an error. The code block is intended to return a new DataFrame where column managerName from DataFrame storesDF is split at the space character into column managerFirstName and column managerLastName. Identify the error.
+A sample of DataFrame storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image8.png
+Code block:
+storesDF.withColumn("managerFirstName", col("managerName").split(" ").getItem(0))
+.withColumn("managerLastName", col("managerName").split(" ").getItem(1))
+A. The index values of 0 and 1 are not correct – they should be 1 and 2, respectively.
+B. The index values of 0 and 1 should be provided as second arguments to the split() operation rather than indexing the result.
+C. The split() operation comes from the imported functions object. It accepts a string column name and split character as arguments. It is not a method of a Column object.
+D. The split() operation comes from the imported functions object. It accepts a Column object and split character as arguments. It is not a method of a Column object.
+E. The withColumn operation cannot be called twice in a row.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 71 discussion
+The code block shown below should return a new DataFrame where single quotes in column storeSlogan have been replaced with double quotes. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+A sample of DataFrame storesDF is below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image9.png
+Code block:
+storesDF.__1__(__2__, __3__(__4__, __5__, __6__))
+A. 1. withColumn2. "storeSlogan"3. regexp_extract4. col("storeSlogan")5. "\""6. "'"
+B. 1. newColumn2. storeSlogan3. regexp_extract4. col(storeSlogan)5. "\""6. "'"
+C. 1. withColumn2. "storeSlogan"3. regexp_replace4. col("storeSlogan")5. "\""6. "'"
+D. 1. withColumn2. "storeSlogan"3. regexp_replace4. col("storeSlogan")5. "'"6. "\""
+E. 1. withColumn2. "storeSlogan"3. regexp_extract4. col("storeSlogan")5. "'"6. "\""
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 72 discussion
+Which of the following code blocks returns a new DataFrame where column division from DataFrame storesDF has been replaced and renamed to column state and column managerName from DataFrame storesDF has been replaced and renamed to column managerFullName?
+A. storesDF.withColumnRenamed("division", "state").withColumnRenamed("managerName", "managerFullName")
+B. storesDF.withColumn("state", "division").withColumn("managerFullName", "managerName")
+C. storesDF.withColumn("state", col("division")).withColumn("managerFullName", col("managerName"))
+D. storesDF.withColumnRenamed(Seq("division", "state"), Seq("managerName", "managerFullName"))
+E. storesDF.withColumnRenamed("state", "division").withColumnRenamed("managerFullName", "managerName")
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 73 discussion
+Which of the following code blocks returns a new DataFrame where column sqft from DataFrame storesDF has had its missing values replaced with the value 30,000?
+A sample of DataFrame storesDF is below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image10.png
+A. storesDF.na.fill(30000, Seq("sqft"))
+B. storesDF.nafill(30000, col("sqft"))
+C. storesDF.na.fill(30000, col("sqft"))
+D. storesDF.fillna(30000, col("sqft"))
+E. storesDF.na.fill(30000, "sqft")
+
+Highly Voted comment found!
+E is answer. It's tested.
+A)AttributeError: module 'pyspark.sql.functions' has no attribute 'Seq'
+B)AttributeError: 'DataFrame' object has no attribute 'nafill'
+C)PySparkTypeError: [NOT_LIST_OR_TUPLE] Argument `subset` should be a list or tuple, got Column.
+D)PySparkTypeError: [NOT_LIST_OR_TUPLE] Argument `subset` should be a list or tuple, got Column.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 74 discussion
+Which of the following operations can be used to return a DataFrame with no duplicate rows? Please select the most complete answer.
+A. DataFrame.distinct()
+B. DataFrame.dropDuplicates() and DataFrame.distinct()
+C. DataFrame.dropDuplicates()
+D. DataFrame.drop_duplicates()
+E. DataFrame.dropDuplicates(), DataFrame.distinct() and DataFrame.drop_duplicates()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 75 discussion
+QUESTION NO: 75 -
+Which of the following code blocks returns a DataFrame where column divisionDistinct is the approximate number of distinct values in column division from DataFrame storesDF?
+A. storesDF.withColumn("divisionDistinct", approx_count_distinct(col("division")))
+B. storesDF.agg(col("division").approx_count_distinct("divisionDistinct"))
+C. storesDF.agg(approx_count_distinct(col("division")).alias("divisionDistinct"))
+D. storesDF.withColumn("divisionDistinct", col("division").approx_count_distinct())
+E. storesDF.agg(col("division").approx_count_distinct().alias("divisionDistinct"))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 76 discussion
+The code block shown below should return a new DataFrame with the mean of column sqft from DataFrame storesDF in column sqftMean. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF.__1__(__2__(__3__).alias("sqftMean"))
+A. 1. agg2. mean3. col("sqft")
+B. 1. withColumn2. mean3. col("sqft")
+C. 1. agg2. average3. col("sqft")
+D. 1. mean2. col3. "sqft"
+E. 1. agg2. mean3. "sqft"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 77 discussion
+Which of the following code blocks returns the number of rows in DataFrame storesDF for each unique value in column division?
+A. storesDF.groupBy("division").agg(count())
+B. storesDF.agg(groupBy("division").count())
+C. storesDF.groupby.count("division")
+D. storesDF.groupBy().count("division")
+E. storesDF.groupBy("division").count()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 78 discussion
+Which of the following code blocks returns a DataFrame sorted alphabetically based on column division?
+A. storesDF.sort("division")
+B. storesDF.orderBy(desc("division"))
+C. storesDF.orderBy(col("division").desc())
+D. storesDF.orderBy("division", ascending - true)
+E. storesDF.sort(desc("division"))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 79 discussion
+Which of the following code blocks returns a 10 percent sample of rows from DataFrame storesDF with replacement?
+A. storesDF.sample(true)
+B. storesDF.sample(true, fraction = 0.1)
+C. storesDF.sample(true, fraction = 0.15)
+D. storesDF.sampleBy(fraction = 0.1)
+E. storesDF.sample(false, fraction = 0.1)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 80 discussion
+Which of the following code blocks returns the first 3 rows of DataFrame storesDF?
+A. storesDF.top_n(3)
+B. storesDF.n(3)
+C. storesDF.take(3)
+D. storesDF.head(3)
+E. storesDF.collect(3)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 81 discussion
+Which of the following code blocks applies the function assessPerformance() to each row of DataFrame storesDF?
+A. storesDF.collect.foreach(assessPerformance(row))
+B. storesDF.collect().apply(assessPerformance)
+C. storesDF.collect.apply(row => assessPerformance(row))
+D. storesDF.collect.map(assessPerformance(row))
+E. storesDF.collect.foreach(row => assessPerformance(row))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 82 discussion
+The code block shown below contains an error. The code block is intended to print the schema of DataFrame storesDF. Identify the error.
+Code block:
+storesDF.printSchema.getAs[String]
+A. There is no printSchema member of DataFrame – the getSchema() operation should be used instead.
+B. There is no printSchema member of DataFrame – the schema() operation should be used instead.
+C. The entire line needs to be a string – it should be wrapped by str().
+D. The printSchema member of DataFrame is an operation prints the DataFrame – there is no need to call getAs.
+E. There is no printSchema member of DataFrame – schema and the print() function should be used instead.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 83 discussion
+Which of the following code blocks creates and registers a SQL UDF named "ASSESS_PERFORMANCE" using the Scala function assessPerformance() and applies it to column customerSatisfaction in table stores?
+A. spark.udf.register("ASSESS_PERFORMANCE", assessPerformance)spark.sql("SELECT customerSatisfaction, ASSESS_PERFORMANCE(customerSatisfaction) AS result FROM stores")
+B. spark.udf.register("ASSESS_PERFORMANCE", assessPerformance)
+C. spark.udf.register("ASSESS_PERFORMANCE", assessPerformance)spark.sql("SELECT customerSatisfaction, assessPerformance(customerSatisfaction) AS result FROM stores")
+D. spark.udf.register("ASSESS_PERFORMANCE", assessPerformance)storesDF.withColumn("result", assessPerformance(col("customerSatisfaction")))
+E. spark.udf.register("ASSESS_PERFORMANCE", assessPerformance)storesDF.withColumn("result", ASSESS_PERFORMANCE(col("customerSatisfaction")))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 84 discussion
+The code block shown below should use SQL to return a new DataFrame containing column storeId and column managerName from a table created from DataFrame storesDF. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__("stores")
+__3__.__4__("SELECT storeId, managerName FROM stores")
+A. 1. spark2. createOrReplaceTempView3. storesDF4. query
+B. 1. spark2. createTable3. storesDF4. sql
+C. 1. storesDF2. createOrReplaceTempView3. spark4. query
+D. 1. spark2. createOrReplaceTempView3. storesDF4. sql
+E. 1. storesDF2. createOrReplaceTempView3. spark4. sql
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 85 discussion
+The code block shown below contains an error. The code block intended to create a single-column DataFrame from Scala List years which is made up of integers. Identify the error.
+Code block:
+spark.createDataset(years)
+A. The years list should be wrapped in another list like List(years) to make clear that it is a column rather than a row.
+B. The data type is not specified – the second argument to createDataset should be IntegerType.
+C. There is no operation createDataset – the createDataFrame operation should be used instead.
+D. The result of the above is a Dataset rather than a DataFrame – the toDF operation must be called at the end.
+E. The column name must be specified as the second argument to createDataset.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 86 discussion
+Which of the following code blocks will always return a new 4-partition DataFrame from the 8-partition DataFrame storesDF without inducing a shuffle?
+A. storesDF.repartition(4, "sqft")
+B. storesDF.repartition()
+C. storesDF.coalesce(4)
+D. storesDF.repartition(4)
+E. storesDF.coalesce
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 87 discussion
+The code block shown below should return a new 12-partition DataFrame from DataFrame storesDF. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__(__3__)
+A. 1. storesDF2. coalesce3. 4
+B. 1. storesDF2. coalesce3. 4, "storeId"
+C. 1. storesDF2. repartition3. "storeId"
+D. 1. storesDF2. repartition3. 12
+E. 1. storesDF2. repartition3. Nothing
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 88 discussion
+The code block shown below contains an error. The code block is intended to adjust the number of partitions used in wide transformations like join() to 32. Identify the error.
+Code block:
+spark.conf.set("spark.default.parallelism", "32")
+A. spark.default.parallelism is not the right Spark configuration parameter – spark.sql.shuffle.partitions should be used instead.
+B. There is no way to adjust the number of partitions used in wide transformations – it defaults to the number of total CPUs in the cluster.
+C. Spark configuration parameters cannot be set in runtime.
+D. Spark configuration parameters are not set with spark.conf.set().
+E. The second argument should not be the string version of "32" – it should be the integer 32.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 89 discussion
+The code block shown below contains an error. The code block intended to return a DataFrame containing a column dayOfYear, an integer representation of the day of the year from column openDate from DataFrame storesDF. Identify the error.
+Note that column openDate is of type integer and represents a date in the UNIX epoch format – the number of seconds since midnight on January 1st, 1970.
+A sample of storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image11.png
+Code block:
+storesDF.withColumn("dayOfYear", dayofyear(col("openDate")))
+A. The dayofyear() operation cannot extract the day of year from a column of type integer – column openDate must first be converted to type Timestamp.
+B. The dayofyear() operation takes a quoted column name rather than a Column object as its first argument – the first argument should be "openDate".
+C. The dayofyear() operation cannot extract the day of year from a column of type integer – column openDate must first be converted to type Date.
+D. The dayofyear() operation is not applicable in a withColumn() call – the newColumn() operation must be used instead.
+E. There is no dayofyear() operation – the day of year number must be extracted using substring utilities.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 90 discussion
+The code block shown below should return a new DataFrame that is the result of an inner join between DataFrame storeDF and DataFrame employeesDF on column storeId. Choose the response chat correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF.__1__(__2__, __3__, __4__)
+A. 1. join2. employeesDF3. "inner"4. storesDF.storeId === employeesDF.storeId
+B. 1. join2. employeesDF3. "storeId"4. "inner"
+C. 1. merge2. employeesDF3. "storeId"4. "inner"
+D. 1. join2. employeesDF3. "inner"4. "storeId"
+E. 1. join2. employeesDF3. "inner"4. "storeId"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 91 discussion
+The code block shown below should return a new DataFrame that is the result of an outer join between DataFrame storesDF and DataFrame employeesDF on column storeId. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF.__1__(__2__, __3__, __4__)
+A. 1. join2. employeesDF3. "outer"4. Seq("storeId")
+B. 1. merge2. employeesDF3. "outer"4. Seq("storeId")
+C. 1. join2. employeesDF3. "outer"4. storesDF.storeId === employeesDF.storeId
+D. 1. merge2. employeesDF3. Seq("storeId")4. "outer"
+E. 1. join2. employeesDF3. Seq("storeId")4. "outer"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 92 discussion
+Which of the following code blocks fails to return a new DataFrame that is the result of an inner join between DataFrame storesDF and DataFrame employeesDF on column storeId and column employeeId?
+A. storesDF.join(employeesDF, Seq(col("storeId"), col("employeeId")))
+B. storesDF.join(employeesDF, Seq("storeId", "employeeId"))
+C. storesDF.join(employeesDF, storesDF("storeId") === employeesDF("storeId") and storesDF("employeeId") === employeesDF("employeeId"))
+D. storesDF.join(employeesDF, Seq("storeId", "employeeId"), "inner")
+E. storesDF.alias("s").join(employeesDF.alias("e"), col("s.storeId") === col("e.storeId") and col("s.employeeId") === col("e.employeeId"))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 93 discussion
+The code block shown below should efficiently perform a broadcast join of DataFrame storesDF and the much larger DataFrame employeesDF using key column storeId.
+Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.join(__2__(__3__), "storeId")
+A. 1. employeesDF2. broadcast3. storesDF
+B. 1. broadcast(employeesDF)2. broadcast3. storesDF
+C. 1. broadcast2. employeesDF3. storesDF
+D. 1. storesDF2. broadcast3. employeesDF
+E. 1. broadcast(storesDF)2. broadcast3. employeesDF
+
+Highly Voted comment found!
+Correct answer is A. storesDF is smaller and should be broadcasted.
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 94 discussion
+Which of the following operations performs a cross join on two DataFrames?
+A. DataFrame.join()
+B. The standalone join() function
+C. The standalone crossJoin() function
+D. DataFrame.crossJoin()
+E. DataFrame.merge()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 95 discussion
+Which of the following code blocks writes DataFrame storesDF to file path filePath as CSV?
+A. storesDF.write().csv(filePath)
+B. storesDF.write(filePath)
+C. storesDF.write.csv(filePath)
+D. storesDF.write.option("csv").path(filePath)
+E. storesDF.write.path(filePath)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 96 discussion
+Which of the following code blocks writes DataFrame storesDF to file path filePath as parquet and partitions by values in column division?
+A. storesDF.write.partitionBy(col("division")).path(filePath)
+B. storesDF.write.option("parquet").partitionBy("division").path(filePath)
+C. storesDF.write.option("parquet").partitionBy(col("division")).path(filePath)
+D. storesDF.write.partitionBy("division").parquet(filePath)
+E. storesDF.write().partitionBy("division").parquet(filePath)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 97 discussion
+Of the following, which is the coarsest level in the Spark execution hierarchy?
+A. Slot
+B. Job
+C. Task
+D. Stage
+E. Executor
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 98 discussion
+Which of the following statements about slots is incorrect?
+A. Slots are the most granular level of execution in the Spark execution hierarchy.
+B. Slots are resources for parallelization within an executor.
+C. Tasks are assigned to slots for computation.
+D. There can be more slots than tasks.
+E. There must be at least as many slots as there are executors.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 99 discussion
+Which of the following code blocks returns a new Data Frame from DataFrame storesDF with no duplicate rows?
+A. storesDF.removeDuplicates()
+B. storesDF.getDistinct()
+C. storesDF.duplicates.drop()
+D. storesDF.duplicates()
+E. storesDF.dropDuplicates()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 100 discussion
+The code block shown below contains an error. The code block is intended to return the exact number of distinct values in column division in DataFrame storesDF. Identify the error.
+Code block:
+storesDF.agg(approx_count_distinct(col(“division”)).alias(“divisionDistinct”))
+A. The approx_count_distinct() operation needs a second argument to set the rsd parameter to ensure it returns the exact number of distinct values.
+B. There is no alias() operation for the approx_count_distinct() operation's output.
+C. There is no way to return an exact distinct number in Spark because the data Is distributed across partitions.
+D. The approx_count_distinct()operation is not a standalone function - it should be used as a method from a Column object.
+E. The approx_count_distinct() operation cannot determine an exact number of distinct values in a column.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 101 discussion
+Which of the following code blocks returns the number of rows in DataFrame storesDF for each distinct combination of values in column division and column storeCategory?
+A. storesDF.groupBy(Seq(col(“division”), col(“storeCategory”))).count()
+B. storesDF.groupBy(division, storeCategory).count()
+C. storesDF.groupBy(“division”, “storeCategory”).count()
+D. storesDF.groupBy(“division”).groupBy(“StoreCategory”).count()
+E. storesDF.groupBy(Seq(“division”, “storeCategory”)).count()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 102 discussion
+The code block shown below contains an error. The code block is intended to return a collection of summary statistics for column sqft in Data Frame storesDF. Identify the error.
+Code block:
+storesDF.describes(col(“sgft”))
+A. The column sqft should be subsetted from DataFrame storesDF prior to computing summary statistics on it alone.
+B. The describe() operation does not accept a Column object as an argument outside of a sequence — the sequence Seq(col(“sqft”)) should be specified instead.
+C. The describe()operation doesn’t compute summary statistics for a single column — the summary() operation should be used instead.
+D. The describe()operation doesn't compute summary statistics for numeric columns — the summary() operation should be used instead.
+E. The describe()operation does not accept a Column object as an argument — the column name string “sqft” should be specified instead.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 103 discussion
+The code block shown below should extract the integer value for column sqft from the first row of DataFrame storesDF. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__.__3__[Int](__4__)
+A. 1. storesDF2. first()3. getAs()4. “sqft”
+B. 1. storesDF2. first3. getAs4. sqft
+C. 1. storesDF2. first()3. getAs4. col(“sqft”)
+D. 1. storesDF2. first3. getAs4. “sqft”
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 104 discussion
+The code block shown below should print the schema of DataFrame storesDF. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__
+A. 1. storesDF2. printSchema(“all”)
+B. 1. storesDF2. schema
+C. 1. storesDF2. getAs[str]
+D. 1. storesDF2. printSchema(true)
+E. 1. storesDF2. printSchema
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 105 discussion
+The code block shown below contains an error. The code block is intended to create and register a SQL UDF named “ASSESS_PERFORMANCE” using the Scala function assessPerformance() and apply it to column customerSatisfaction in the table stores. Identify the error.
+Code block:
+spark.udf.register(“ASSESS_PERFORMANCE”, assessPerforance)
+spark.sql(“SELECT customerSatisfaction, assessPerformance(customerSatisfaction) AS result FROM stores”)
+A. The customerSatisfaction column cannot be called twice inside the SQL statement.
+B. Registered UDFs cannot be applied inside of a SQL statement.
+C. The order of the arguments to spark.udf.register() should be reversed.
+D. The wrong SQL function is used to compute column result - it should be ASSESS_PERFORMANCE instead of assessPerformance.
+E. There is no sql() operation - the DataFrame API must be used to apply the UDF assessPerformance().
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 106 discussion
+The code block shown below contains an error. The code block is intended to create the Scala UDF assessPerformanceUDF() and apply it to the integer column customers1t1sfaction in Data Frame storesDF. Identify the error.
+Code block:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image12.png
+A. The input type of customerSatisfaction is not specified in the udf() operation.
+B. The return type of assessPerformanceUDF() must be specified.
+C. The withColumn() operation is not appropriate here - UDFs should be applied by iterating over rows instead.
+D. The assessPerformanceUDF() must first be defined as a Scala function and then converted to a UDF.
+E. UDFs can only be applied via SQL and not through the Data Frame API.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 107 discussion
+The code block shown below should create a single-column DataFrame from Scala list years which is made up of integers. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__(__3__).__4__
+A. 1. spark2. createDataFrame3. years4. IntegerType
+B. 1. spark2. createDataset3. years4. IntegerType
+C. 1. spark2. createDataset3. List(years)4. toDF
+D. 1. spark2. createDataFrame3. List(years)4. IntegerType
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 108 discussion
+The code block shown below should cache DataFrame storesDF only in Spark's memory. Choose the response that correctly fil ls in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__(__3__).count()
+A. 1. storesDF2. cache3. StorageLevel.MEMORY_ONLY
+B. 1. storesDF2. storageLevel3. cache
+C. 1. storesDF2. cache3. Nothing
+D. 1. storesDF2. persist3. Nothing
+E. 1. storesDF2. persist3. StorageLevel.MEMORY_ONLY
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 109 discussion
+Which of the following code blocks returns a DataFrame containing a column month, an integer representation of the day of the year from column openDate from DataFrame storesDF.
+Note that column openDate is of type integer and represents a date in the UNIX epoch format – the number of seconds since midnight on January 1st, 1970.
+A sample of storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image13.png
+Code block:
+stored.withColumn(“openTimestamp”, col(“openDate”).cast(__1__))
+.withColumn(__2__, __3__(__4__))
+A. 1. “Data”2. month3. “month”4. “openTimestamp”
+B. 1. “Timestamp”2. month3. “month”4. col(“openTimestamp”)
+C. 1. “Timestamp”2. month3. getMonth4. col(“openTimestamp”)
+D. 1. “Timestamp”2. “month”3. month4. col(“openTimestamp”)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 110 discussion
+The code block shown below contains an error. The code block intended to return a new DataFrame that is the result of an inner join between DataFrame storesDF and DataFrame employeesDF on column storeId. Identify the error.
+Code block:
+StoresDF.join(employeesDF, Seq("storeId")
+A. The key column storeId needs to be a string like “storeId”.
+B. The key column storeId needs to be specified in an expression of both Data Frame columns like storesDF.storeId ===employeesDF.storeId.
+C. The default argument to the joinType parameter is “inner” - an additional argument of “left” must be specified.
+D. There is no DataFrame.join() operation - DataFrame.merge() should be used instead.
+E. The key column storeId needs to be wrapped in the col() operation.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 111 discussion
+Which of the following pairs of arguments cannot be used in DataFrame.join() to perform an inner join on two DataFrames, named and aliased with "a" and "b" respectively, to specify two key columns column1 and column2?
+A. joinExprs = col(“a.column1”) === col(“b.column1”) and col(“a.column2”) === col(“b.column2”)
+B. usingColumns = Seq(col(“column1”), col(“column2”))
+C. All of these options can be used to perform an inner join with two key columns.
+D. joinExprs = storesDF(“column1”) === employeesDF(“column1”) and storesDF(“column2”) === employeesDF (“column2”)
+E. usingColumns = Seq(“column1”, “column2”)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 112 discussion
+The code block shown below contains an error. The code block is intended to return a new DataFrame that is the result of a position-wise union between DataFrame storesDF and DataFrame acquiredStoresDF.
+A. concat(storesDF, acquiredStoresDF)
+B. storesDF.unionByName(acquiredStoresDF)
+C. union(storesDF, acquiredStoresDF)
+D. unionAll(storesDF, acquiredStoresDF)
+E. storesDF.union(acquiredStoresDF)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 113 discussion
+Which of the following code blocks writes DataFrame storesDF to file path filePath as parquet overwriting any existing files in that location?
+A. storesDF.write(filePath, mode = “overwrite”)
+B. storesDF.write().mode(“overwrite”).parquet(filePath)
+C. storesDF.write.mode(“overwrite”).parquet(filePath)
+D. storesDF.write.option(“parquet”, “overwrite”).path(filePath)
+E. storesDF.write.mode(“overwrite”).path(filePath)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 114 discussion
+Which of the following code blocks reads a CSV at the file path filePath into a Data Frame with the specified schema schema?
+A. spark.read().csv(filePath)
+B. spark.read().schema(“schema”).csv(filePath)
+C. spark.read.schema(schema).csv(filePath)
+D. spark.read.schema(“schema”).csv(filePath)
+E. spark.read().schema(schema).csv(filePath)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 115 discussion
+Which of the following code blocks returns a DataFrame containing only the rows from DataFrame storesDF where the value in column sqft is less than or equal to 25,000 AND the value in column customerSatisfaction is greater than or equal to 30?
+A. storesDF.filter(col("sqft") <= 25000 and col("customerSatisfaction") >= 30)
+B. storesDF.filter(col("sqft") <= 25000 or col("customerSatisfaction") >= 30)
+C. storesDF.filter(sqft) <= 25000 and customerSatisfaction >= 30)
+D. storesDF.filter(col("sqft") <= 25000 & col("customerSatisfaction") >= 30)
+E. storesDF.filter(sqft <= 25000) & customerSatisfaction >= 30)
+
+Highly Voted comment found!
+in pyspark, all wrong as the conditions inside the filter should be wrapped inside parentesis. should be: D. storesDF.filter((col("sqft") <= 25000) & (col("customerSatisfaction") >= 30))
+******************************
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 116 discussion
+Which of the following sets of DataFrame methods will both return a new DataFrame only containing rows that meet a specified logical condition?
+A. drop(), where()
+B. filter(), select()
+C. filter(), where()
+D. select(), where()
+E. filter(), drop()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 117 discussion
+The code block shown below should return a DataFrame containing all columns from DataFrame storesDF except for column sqft and column customerSatisfaction. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__(__3__)
+A. 1. drop2. storesDF3. col(“sqft”), col(“customerSatisfaction”)
+B. 1. storesDF2. drop3. sqft, customerSatisfaction
+C. 1. storesDF2. drop3. “sqft”, “customerSatisfaction”
+D. 1. storesDF2. drop3. col(sqft), col(customerSatisfaction)
+E. 1. drop2. storesDF3. col(sqft), col(customerSatisfaction)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 118 discussion
+Which of the following describes the difference between DataFrame.repartition(n) and DataFrame.coalesce(n)?
+A. DataFrame.repartition(n) will split a DataFrame into n number of new partitions with data distributed evenly.DataFrame.coalesce(n) will more quickly combine the existing partitions of a DataFrame but might result in an uneven distribution of data across the new partitions.
+B. While the results are similar, DataFrame.repartition(n) will be more efficient than DataFrame.coalesce(n) because it can partition a Data Frame by the column.
+C. DataFrame.repartition(n) will split a Data Frame into any number of new partitions while minimizing shuffling.DataFrame.coalesce(n) will split a DataFrame onto any number of new partitions utilizing a full shuffle.
+D. While the results are similar, DataFrame.repartition(n) will be less efficient than DataFrame.coalesce(n) because it can partition a Data Frame by the column.
+E. DataFrame.repartition(n) will combine the existing partitions of a DataFrame but may result in an uneven distribution of data across the new partitions.DataFrame.coalesce(n) will more slowly split a Data Frame into n number of new partitions with data distributed evenly.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 119 discussion
+Which of the following cluster configurations is most likely to experience delays due to garbage collection of a large Dataframe?
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image14.png
+Note: each configuration has roughly the same compute power using 100GB of RAM and 200 cores.
+A. More information is needed to determine an answer.
+B. Scenario #5
+C. Scenario #4
+D. Scenario #1
+E. Scenario #2
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 120 discussion
+Which of the following DataFrame operations is classified as a transformation?
+A. DataFrame.select()
+B. DataFrame.count()
+C. DataFrame.show()
+D. DataFrame.first()
+E. DataFrame.collect()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 121 discussion
+Which of the following operations will fail to trigger evaluation?
+A. DataFrame.collect()
+B. DataFrame.count()
+C. DataFrame.first()
+D. DataFrame.join()
+E. DataFrame.take()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 122 discussion
+The code block shown below should read a JSON at the file path filePath into a DataFrame with the specified schema schema. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__.__3__(__4__).format("csv").__5__(__6__)
+A. 1. spark2. read()3. schema4. schema5. json6. filePath
+B. 1. spark2. read()3. json4. filePath5. format6. schema
+C. 1. spark2. read()3. schema4. schema5. load6. filePath
+D. 1. spark2. read3. schema4. schema5. load6. filePath
+E. 1. spark2. read3. format4. "json"5. load6. filePath
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 123 discussion
+Which of the following code blocks returns a new DataFrame with a new column customerSatisfactionAbs that is the absolute value of column customerSatisfaction in DataFrame storesDF? Note that column customerSatisfactionAbs is not in the original DataFrame storesDF.
+A. storesDF.withColumn(“customerSatisfactionAbs”, abs(col(“customerSatisfaction”)))
+B. storesDF.withColumnRenamed(“customerSatisfactionAbs”, abs(col(“customerSatisfaction”)))
+C. storesDF.withColumn(col(“customerSatisfactionAbs”, abs(col(“customerSatisfaction”)))
+D. storesDF.withColumn(“customerSatisfactionAbs”, abs(col(customerSatisfaction)))
+E. storesDF.withColumn(“customerSatisfactionAbs”, abs(“customerSatisfaction”))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 124 discussion
+Which of the following statements about the Spark driver is true?
+A. Spark driver is horizontally scaled to increase overall processing throughput.
+B. Spark driver is the most coarse level of the Spark execution hierarchy.
+C. Spark driver is fault tolerant — if it fails, it will recover the entire Spark application.
+D. Spark driver is responsible for scheduling the execution of data by various worker nodes in cluster mode.
+E. Spark driver is only compatible with its included cluster manager.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 125 discussion
+The code block shown below should write DataFrame storesDF to file path filePath as parquet and partition by values in column division. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF.__1__.__2__(__3__).__4__(__5__)
+A. 1. write2. partitionBy3. “division”4. path5. filePath, node = parquet
+B. 1. write2. partitionBy3. “division”4. parquet5. filePath
+C. 1. write2. partitionBy3. col(“division”)4. parquet5. filePath
+D. 1. write()2. partitionBy3. col(“division”)4. parquet5. filePath
+E. 1. write2. repartition3. “division”4. path5. filePath, mode = “parquet”
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 126 discussion
+Which of the following types of processes induces a stage boundary?
+A. Shuffle
+B. Caching
+C. Executor failure
+D. Job delegation
+E. Application failure
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 127 discussion
+Which of the following cluster configurations will induce the least network traffic during a shuffle operation?
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image15.png
+Note: each configuration has roughly the same compute power using 100GB of RAM and 200 cores.
+A. This cannot be determined without knowing the number of partitions.
+B. Scenario 5
+C. Scenario 1
+D. Scenario 4
+E. Scenario 6
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 128 discussion
+Which of the following describes a partition?
+A. A partition is the amount of data that fits in a single executor.
+B. A partition is an automatically-sized segment of data that is used to create efficient logical plans.
+C. A partition is the amount of data that fits on a single worker node.
+D. A partition is a portion of a Spark application that is made up of similar jobs.
+E. A partition is a collection of rows of data that fit on a single machine in a cluster.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 129 discussion
+Which of the following identifies multiple narrow operations that are executed in sequence?
+A. Slot
+B. Job
+C. Stage
+D. Task
+E. Executor
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 130 discussion
+Spark's execution/deployment mode determines where the driver and executors are physically located when a Spark application is run. Which of the following Spark execution/deployment modes does not exist? If they all exist, please indicate so with Response E.
+A. Client mode
+B. Cluster mode
+C. Standard mode
+D. Local mode
+E. All of these execution/deployment modes exist
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 131 discussion
+Which of the following will cause a Spark job to fail?
+A. Never pulling any amount of data onto the driver node.
+B. Trying to cache data larger than an executor's memory.
+C. Data needing to spill from memory to disk.
+D. A failed worker node.
+E. A failed driver node.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 132 discussion
+Which of the following best describes the similarities and differences between the MEMORY_ONLY storage level and the MEMORY_AND_DISK storage level?
+A. The MEMORY_ONLY storage level will store as much data as possible in memory and will store any data that does on fit in memory on disk and read it as it's called.The MEMORY_AND_DISK storage level will store as much data as possible in memory and will recompute any data that does not fit in memory as it’s called.
+B. The MEMORY_ONLY storage level will store as much data as possible in memory on two cluster nodes and will recompute any data that does not fit in memory as it’s called.The MEMORY_AND_DISK storage level will store as much data as possible in memory on two cluster nodes and will store any data that does on fit in memory on disk and read it as it's called.
+C. The MEMORY_ONLY storage level will store as much data as possible in memory on two cluster nodes and will store any data that does on fit in memory on disk and read it as it's called.The MEMORY_AND_DISK storage level will store as much data as possible in memory on two cluster nodes and will recompute any data that does not fit in memory as it's called.
+D. The MEMORY_ONLY storage level will store as much data as possible in memory and will recompute any data that does not fit in memory as it's called.The MEMORY_AND_DISK storage level will store as much data as possible in memory and will store any data that does on fit in memory on disk and read it as it's called.
+E. The MEMORY_ONLY storage level will store as much data as possible in memory and will recompute any data that does not fit in memory as it’s called.The MEMORY_AND_DISK storage level will store half of the data in memory and store half of the memory on disk. This provides quick preview and better logical plan design.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 133 discussion
+Which of the following Spark properties is used to configure whether DataFrames found to be below a certain size threshold at runtime will be automatically broadcasted?
+A. spark.sql.broadcastTimeout
+B. spark.sql.autoBroadcastJoinThreshold
+C. spark.sql.shuffle.partitions
+D. spark.sql.inMemoryColumnarStorage.batchSize
+E. spark.sql.adaptive.localShuffleReader.enabled
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 134 discussion
+The code block shown below contains an error. The code block is intended to return a new DataFrame from DataFrame storesDF where column storeId is of the type string. Identify the error.
+Code block:
+storesDF.withColumn(“storeId”, cast(col(“storeId”), StringType()))
+A. Calls to withColumn() cannot create a new column of the same name on which it is operating.
+B. DataFrame columns cannot be converted to a new type inside of a call to withColumn().
+C. The call to StringType should not be followed by parentheses.
+D. The column name storeId inside the col() operation should not be quoted.
+E. The cast() operation is a method in the Column class rather than a standalone function.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 135 discussion
+Which of the following code blocks returns a new DataFrame where column division is the first two characters of column division in DataFrame storesDF?
+A. storesDF.withColumn(“division”, substr(col(“division”), 0, 2))
+B. storesDF.withColumn(“division”, susbtr(col(“division”), 1, 2))
+C. storesDF,withColumn(“division”, col(“division”).substr(0, 3))
+D. storesDF.withColumn(“division”, col(“division”).substr(0, 2))
+E. storesDF.withColumn(“division”, col(“division”).substr(l, 2))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 136 discussion
+The code block shown below should return a new DataFrame where column division from DataFrame storesDF has been renamed to column state and column managerName from DataFrame storesDF has been renamed to column managerFullName. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF. __1__(__2__, __2__).__4__(__5__, __6__)
+A. 1. withColumnRenamed2."state"3."division"4.withColumnRenamed5."managerFullName"6."managerName"
+B. 1.withColumnRenamed2.division3.col("state")4. withColumnRenamed5."managerName"6.col("managerFullName")
+C. 1. WithColumnRenamed2. "division"3."state"4. withColumnRenamed5. "managerName"6."managerFullName"
+D. 1. withColumn2. "division"3. "state"4.withcolumn5."managerName"6."managerFullName
+E. 1. withColumn2. "division"3. "state"4. withColumn5."managerName"6."managerFullName"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 137 discussion
+The code block shown below should return a new DataFrame where rows in DataFrame storesDF with missing values in every column have been dropped. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF.__1__.2__(3__ = __4__)
+A. 1. na2.drop3. how4."any"
+B. 1. na2.drop3. subset4."all"
+C. 1. na2.drop3.subset4. "any"
+D. 1. na2.drop3. how4. "all"
+E. 1. drop2. na3. how4. "all"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 138 discussion
+The code block shown below should return a collection of summary statistics for column sqft in DataFrame storesDF. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF.__1__(__2__)
+A. 1. summary2. col("sqft")
+B. 1. describe2. col("sqft")
+C. 1. summary2. "sqft"
+D. 1. describe2. "sqft"
+E. 1. summary2. "all"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 139 discussion
+Which of the following code blocks returns a 15 percent sample of rows from DataFrame storesDF without replacement?
+A. storesDF.sample(True, fraction = 0.15)
+B. storesDF.sample(fraction = 0.15)
+C. storesDF.sampleBy(fraction = 0.15)
+D. storesDF.sample(fraction = 0.10)
+E. storesDF.sample()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 140 discussion
+Which of the following code blocks extracts the value for column sqft from the first row of DataFrame storesDF?
+A. storesDF.first()[col("sqft")]
+B. storesDF[0]["sqft"]
+C. storesDF.collect(l)[0]["sqft"]
+D. storesDF.first.sqft
+E. storesDF.first().sqft
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 141 discussion
+Which of the following code blocks uses SQL to return a new DataFrame containing column storeId and column managerName from a table created from DataFrame storesDF?
+A. storesDF.createOrReplaceTempView()spark.sql("SELECT storeId, managerName FROM stores")
+B. storesDF.query(”SELECT storeid, managerName from stores")
+C. spark.createOrReplaceTempView("storesDF")storesDF.sql("SELECT storeId, managerName from stores")
+D. storesDF.createOrReplaceTempView("stores")spark.sql("SELECT storeId, managerName FROM stores")
+E. storesDF.createOrReplaceTempView("stores")storesDF.query("SELECT storeId, managerName FROM stores")
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 142 discussion
+The code block shown below should adjust the number of partitions used in wide transformations like join() to 32. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__(__2__, __3__)
+A. 1. spark.conf.get2. "spark.sql.shuffle.partitions"3. "32"
+B. 1. spark.conf.set2. "spark.default.parallelism"3. 32
+C. 1. spark.conf.text2. "spark.default.parallelism"3. "32"
+D. 1. spark.conf.set2. "spark.default.parallelism"3. "32"
+E. 1. spark.conf.set2. "spark.sql.shuffle.partitions"3. "32"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 143 discussion
+Which of the following code blocks returns a DataFrame containing a column openDateString, a string representation of Java’s SimpleDateFormat?
+Note that column openDate is of type integer and represents a date in the UNIX epoch format — the number of seconds since midnight on January 1st, 1970.
+An example of Java's SimpleDateFormat is "Sunday, Dec 4, 2008 1:05 pm".
+A sample of storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image16.png
+A. storesDF.withColumn("openDatestring", from unixtime(col("openDate“), “EEEE, MMM d, yyyy h:mm a"))
+B. storesDF.withColumn("openDateString", from_unixtime(col("openDate“), "EEEE, MMM d, yyyy h:mm a", TimestampType()))
+C. storesDF.withColumn("openDateString", date(col("openDate"), "EEEE, MMM d, yyyy h:mm a"))
+D. storesDF.newColumn(col("openDateString"), from_unixtime("openDate", "EEEE, MMM d, yyyy h:mm a"))
+E. storesDF.withColumn("openDateString", date(col("openDate“), "EEEE, MMM d, yyyy h:mm a", TimestampType))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 144 discussion
+Which of the following code blocks returns a new DataFrame that is the result of a cross join between DataFrame storesDF and DataFrame employeesDF?
+A. storesDF.crossJoin(employeesDF)
+B. storesDF.join(employeesDF, "storeId", "cross")
+C. crossJoin(storesDF, employeesDF)
+D. join(storesDF, employeesDF, "cross")
+E. storesDF.join(employeesDF, "cross")
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 145 discussion
+Which of the following code blocks returns a new DataFrame that is the result of a position-wise union between DataFrame storesDF and DataFrame acquiredStoresDF?
+A. storesDF.unionByName(acquiredStoresDF)
+B. unionAll(storesDF, acquiredStoresDF)
+C. union(storesDF, acquiredStoresDF)
+D. concat(storesDF, acquiredStoresDF)
+E. storesDF.union(acquiredStoresDF)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 146 discussion
+In what order should the below lines of code be run in order to read a parquet at the file path filePath into a DataFrame?
+Lines of code:
+1. storesDF
+2. .load(filePath, source = "parquet")
+3. .read \
+4. spark \
+5. .read() \
+6. .parquet(filePath)
+A. 1, 5, 2
+B. 4, 5, 2
+C. 4, 3, 6
+D. 4, 5, 6
+E. 4, 3, 2
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 147 discussion
+The code block shown below should read a CSV at the file path filePath into a DataFrame with the specified schema schema. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__.__3__(__4__).format("csv").__5__(__6__)
+A. 1. spark2. read()3. schema4. schema5. json6. filePath
+B. 1. spark2. read()3. schema4. schema5. load6. filePath
+C. 1. spark2. read3. format4. "json"5. load6. filePath
+D. 1. spark2. read()3. json4. filePath5. format6. schema
+E. 1. spark2. read3. schema4. schema5. load6. filePath
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 148 discussion
+Which of the following describes slots?
+A. Slots are the most coarse level of execution in the Spark execution hierarchy.
+B. Slots are resource threads that can be used for parallelization within a Spark application.
+C. Slots are resources that are used to run multiple Spark applications at once on a single cluster.
+D. Slots are the most granular level of execution in the Spark execution hierarchy.
+E. Slots are unique segments of data from a DataFrame that are split up by row.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 150 discussion
+Which of the following operations is least likely to result in a shuffle?
+A. DataFrame.join()
+B. DataFrame.fliter()
+C. DataFrame.orderBy()
+D. DataFrame.distinct()
+E. DataFrame.intersect()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 151 discussion
+Which of the following cluster configurations is least likely to experience delays due to garbage collection of a large DataFrame?
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image17.png
+Note: each configuration has roughly the same compute power using 100GB of RAM and 200 cores.
+A. Scenario #4
+B. Scenario #1
+C. Scenario #5
+D. More information is needed to determine an answer.
+E. Scenario #6
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 152 discussion
+The code block shown below should return a new DataFrame where column productСategories only has one word per row, resulting in a DataFrame with many more rows than DataFrame storesDF. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+A sample of storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image18.png
+Code block:
+storesDF.__1__(__2__, __3__(__4__(__5__)))
+A. 1. newColumn2. "productCategories"3. col4. split5. "productCategories"
+B. 1. withColumn2. "productCategory"3. split4. col5. "productCategories"
+C. 1. withColumn2. "productCategory"3. explode4. col5. "productCategories"
+D. 1. newColumn2. "productCategory"3. explode4. col5. "productCategories"
+E. 1. withColumn2. "productCategories"3. explode4. col5. "productCategories"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 153 discussion
+Which of the following code blocks returns a new DataFrame with column storeReview where the pattern "End" has been removed from the end of column storeReview in DataFrame storesDF?
+A sample DataFrame storesDF is below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image19.png
+A. storesDF.withColumn("storeReview", col("storeReview").regexp_replace(" End$", ""))
+B. storesDF.withColumn("storeReview", regexp_replace(col("storeReview"), " End$", ""))
+C. storesDF.withColumn("storeReview”, regexp_replace(col("storeReview"), " End$"))
+D. storesDF.withColumn("storeReview", regexp_replace("storeReview", " End$", ""))
+E. storesDF.withColumn("storeReview", regexp_extract(col("storeReview"), " End$", ""))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 154 discussion
+The code block shown below should return a new DataFrame where rows in DataFrame storesDF containing at least one missing value have been dropped. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+StoresDF.__1__.__2__(__3__ = __4__)
+A. 1. na2. drop3. subset4. "any"
+B. 1. na2. drop3. how4. "all"
+C. 1. na2. drop3. subset4. "all"
+D. 1. na2. drop3. how4. "any"
+E. 1. drop2. na3. how4. "any"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 155 discussion
+Which of the following operations calculates the simple average of a group of values, like a column?
+A. simpleAvg()
+B. mean()
+C. agg()
+D. average()
+E. approxMean()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 156 discussion
+Which of the following code blocks fails to return the number of rows in DataFrame storesDF for each distinct combination of values in column division and column storeCategory?
+A. storesDF.groupBy((col("division"), col("storeCategory")]).count()
+B. storesDF.groupBy("division").groupBy("storeCategory").count()
+C. storesDF.groupBy(["division", "storeCategory"]).count()
+D. storesDF.groupBy("division", "storeCategory").count()
+E. storesDF.groupBy(col("division“), col("storeCategory")).count()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 157 discussion
+The code block shown below contains an error. The code block is intended to return a collection of summary statistics for column sqft in Data Frame storesDF. Identify the error.
+Code block:
+storesDF.describes(col("sgft "))
+A. The describe() operation doesn't compute summary statistics for a single column — the summary() operation should be used instead.
+B. The column sqft should be subsetted from DataFrame storesDF prior to computing summary statistics on it alone.
+C. The describe() operation does not accept a Column object as an argument outside of a list — the list [col("sqft")] should be specified instead.
+D. The describe() operation does not accept a Column object as an argument — the column name string "sqft" should be specified instead.
+E. The describe() operation doesn't compute summary statistics for numeric columns — the sumwary() operation should be used instead.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 158 discussion
+The code block shown below should return a 25 percent sample of rows from DataFrame storesDF with reproducible results. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+StoresDF.__1__(__2__ = __3__, __4__ = __5__)
+A. 1. sample2. fraction3. 0.254. seed5. True
+B. 1. sample2. withReplacement3. True4. seed5. True
+C. 1. sample2. fraction3. 0.254. seed5. 1234
+D. 1. sample2. fraction3. 0.154. seed5. 1234
+E. 1. sample2. withReplacement3. True4. seed5. 1234
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 159 discussion
+Which of the following code blocks creates a Python UDF assessPerformanceUDF() using the integer-returning Python function assessPerformance() and applies it to Column customerSatisfaction in DataFrame storesDF?
+A. assessPerformanceUDF = udf(assessPerformance, IntegerType) storesDF.withColumn("result", assessPerformanceUDF(col("customerSatisfaction")))
+B. assessPerformanceUDF = udf(assessPerformance, IntegerType()) storesDF.withColumn("result", assessPerformanceUDF(col("customerSatisfaction")))
+C. assessPerformanceUDF - udf(assessPerformance) storesDF.withColumn("result", assessPerformance(col(“customerSatisfaction")))
+D. assessPerformanceUDF = udf(assessPerformance) storesDF.withColumn("result", assessPerformanceUDF(col("customerSatisfaction")))
+E. assessPerformanceUDF = udf(assessPerformance, IntegerType()) storesDF.withColumn("result", assessPerformance(col("customerSatisfaction")))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 160 discussion
+The code block shown below contains an error. The code block is intended to create a single-column DataFrame from Python list years which is made up of integers. Identify the error.
+Code block:
+spark.createDataFrame(years, IntegerType)
+A. The column name must be specified.
+B. The years list should be wrapped in another list like [years] to make clear that it is a column rather than a row.
+C. There is no createDataFrame operation in spark.
+D. The IntegerType call must be followed by parentheses.
+E. The IntegerType call should not be present — Spark can tell that list years is full of integers.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 161 discussion
+The code block shown below should return a DataFrame containing a column openDateString, a string representation of Java’s SimpleDateFormat. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Note that column openDate is of type integer and represents a date in the UNIX epoch format — the number of seconds since midnight on January 1st, 1970.
+An example of Java’s SimpleDateFormat is "Sunday, Dec 4, 2008 1:05 pm".
+A sample of storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image20.png
+Code block:
+storesDF.__1__("openDateString", __2__(__3__, __4__))
+A. 1. withColumn2. from_unixtime3. col("openDate")4. “EEEE, MMM d, yyyy h:mm a"
+B. 1. withColumn2. date_format3. col("openDate")4. "EEEE, mmm d, yyyy h:mm a"
+C. 1. newColumn2. from_unixtinie3. "openDate"4. "EEEE, MMM d, yyyy h:mm a"
+D. 1. withColumn2. from_unixtlme3. col("openDate")4. SimpleDateFormat
+E. 1. withColumn2. from_unixtime3. col("openDate")4. "dw, MMM d, yyyy h:mm a"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 162 discussion
+Which of the following operations can be used to perform a left join on two DataFrames?
+A. DataFrame.join()
+B. DataFrame.crossJoin()
+C. DataFrame.merge()
+D. DataFrame.leftJoin()
+E. Standalone join() function
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 163 discussion
+The code block shown below should return a new DataFrame that is the result of an inner join between DataFrame storesDF and DataFrame employeesDF on column storeId and column employeeId. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF.join(employeesDF, [__1__ == __2__, __3__ == __4__])
+A. 1. storesDF.storeId2. storesDF.employeeId3. employeesDF.storeId4. employeesDF.employeeId
+B. 1. col("storeId")2.col("storeId")3.col("employeeId")4. col("employeeId")
+C. 1. storeId2. storeId3. employeeId4. employeeId
+D. 1. col("storeId")2. col("employeeId")3. col("employeeId")4. col(''storeId")
+E. 1. storesDF.storeId2. employeesDF.storeId3. storesDF.employeeId4. employeesDF.employeeId
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 164 discussion
+The code block shown below should return a new DataFrame that is the result of a position-wise union between DataFrame storesDF and DataFrame acquiredStoresDF. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__(__3__)
+A. 1. DataFrame2. union3. storesDF, acquiredStoresDF
+B. 1. DataFrame2. concat3. storesDF, acqulredStoresDF
+C. 1. storesDF2. union3.acquiredStoresDF
+D. 1. storesDF2. unionByName3. acquiredStoresDF
+E. 1. DataFrame2. unionAll3. storesDF, acquiredStoresDF
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 165 discussion
+Which of the following code blocks writes DataFrame storesDF to file path filePath as text files overwriting any existing files in that location?
+A. storesDF.write(filePath, mode = "overwrite", source = "text")
+B. storesDF.write.mode("overwrite").text(filePath)
+C. storesDF.write.mode("overwrite").path(filePath)
+D. storesDF.write.option("text", "overwrite").path(filePath)
+E. storesDF.write().mode("overwrite").text(filePath)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 166 discussion
+The code block shown below contains an error. The code block is intended to read JSON at the file path filePath into a DataFrame with the specified schema schema. Identify the error.
+Code block:
+spark.read.schema("schema").format("json").load(filePath)
+A. The schema operation from read takes a schema object rather than a string — the argument should be schema.
+B. There is no load() operation for DataFrameReader — it should be replaced with the json() operation.
+C. The spark.read operation should be followed by parentheses in order to return a DataFrameReader object.
+D. There is no read property of spark — spark should be replaced with DataFrame.
+E. The schema operation from read takes a column rather than a string — the argument should be col("schema").
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 167 discussion
+Which of the following describes executors?
+A. Executors are the communication pathways from the driver node to the worker nodes.
+B. Executors are the most granular level of execution in the Spark execution hierarchy.
+C. Executors always have a one-to-one relationship with worker nodes.
+D. Executors are synonymous with worker nodes.
+E. Executors are processing engine instances for performing data computations which run on a worker node.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 168 discussion
+The code block shown below should return a DataFrame containing only the rows from DataFrame storesDF where the value in column sqft is less than or equal to 25,000 AND the value in column customerSatisfaction is greater than or equal to 30. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+storesDF.__1__(__2__ __3__ __4__)
+A. 1. filter2. (col("sqft") <= 25000)3. &4. (col("customerSatisfaction") >= 30)
+B. 1. filter2. (col("sqft") <= 250003. &4. col("customerSatisfaction") >= 30
+C. 1. filter2. (col("sqft") <= 25000)3. and4. (col("customerSatisfaction") >= 30)
+D. 1. drop2. (col(sqft) <= 25000)3. &4. (col(customerSatisfaction) >= 30)
+E. 1. filter2. col("sqft") <= 250003. and4. col("customerSatisfaction") >= 30
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 169 discussion
+Which of the following code blocks returns a DataFrame with column storeSlogan where single quotes in column storeSlogan in DataFrame storesDF have been replaced with double quotes?
+A sample of DataFrame storesDF is below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image21.png
+A. storesDF.withColumn("storeSlogan", col("storeSlogan").regexp_replace("’" "\""))
+B. storesDF.withColumn("storeSlogan", regexp_replace(col("storeSlogan"), "’"))
+C. storesDF.withColumn("storeSlogan", regexp_replace(col("storeSlogan"), "’", "\""))
+D. storesDF.withColumn("storeSlogan", regexp_replace("storeSlogan", "’", "\""))
+E. storesDF.withColumn("storeSlogan", regexp_extract(col("storeSlogan"), "’", "\""))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 170 discussion
+Which of the following operations can be used to rename and replace an existing column in a DataFrame?
+A. DataFrame.renamedColumn()
+B. DataFrame.withColumnRenamed()
+C. DataFrame.wlthColumn()
+D. col()
+E. DataFrame.newColumn()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 171 discussion
+The code block shown below should print the schema of DataFrame storesDF. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__(__3__)
+A. 1. storesDF2. schema3. Nothing
+B. 1. storesDF2. str3. schema
+C. 1. storesDF2. printSchema3. True
+D. 1. storesDF2. printSchema3. Nothing
+E. 1. storesDF2. printSchema3. "all"
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 172 discussion
+The code block shown below contains an error. The code block is intended to create and register a SQL UDF named "ASSESS_PERFORMANCE" using the Python function assessPerformance() and apply it to column customerSatistfaction in table stores. Identify the error.
+Code block:
+spark.udf.register("ASSESS_PERFORMANCE", assessPerformance)
+spark.sql("SELECT customerSatisfaction, assessPerformance(customerSatisfaction) AS result FROM stores")
+A. There is no sql() operation — the DataFrame API must be used to apply the UDF assessPerformance().
+B. The order of the arguments to spark.udf.register() should be reversed.
+C. The customerSatisfaction column cannot be called twice inside the SQL statement.
+D. Registered UDFs cannot be applied inside of a SQL statement.
+E. The wrong SQL function is used to compute column result — it should be ASSESS_PERFORMANCE instead of assessPerformance.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 173 discussion
+Which of the following code blocks attempts to cache the partitions of DataFrame storesDF only in Spark’s memory?
+A. storesDF.cache(StorageLevel.MEMORY_ONLY).count()
+B. storesDF.persist().count()
+C. storesDF.cache().count()
+D. storesDF.persist(StorageLevel.MEMORY_ONLY).count()
+E. storesDF.persist("MEMORY_ONLY").count()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 174 discussion
+Which of the following operations will always return a new DataFrame with updated partitions from DataFrame storesDF by inducing a shuffle?
+A. storesDF.coalesce()
+B. storesDF.rdd.getNumPartitions()
+C. storesDF.repartition()
+D. storesDF.union()
+E. storesDF.intersect()
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 175 discussion
+Which of the following code blocks returns a DataFrame containing a column month, an integer representation of the month from column openDate from DataFrame storesDF?
+Note that column openDate is of type integer and represents a date in the UNIX epoch format — the number of seconds since midnight on January 1 st, 1970.
+A sample of storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image20.png
+A. storesDF.withColumn("month", getMonth(col("openDate")))
+B. storesDF.withColumn("month", substr(col("openDate"), 4, 2))
+C. (storesDF.withColumn("openDateFormat", col("openDate").cast("Date")).withColumn("month", month(col("openDateFormat"))))
+D. (storesDF.withColumn("openTimestamp", col("openDate").cast("Timestamp")).withColumn("month", month(col("openTimestamp"))))
+E. storesDF.withColumn("month", month(col("openDate")))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 176 discussion
+The code block shown below should read a parquet at the file path filePath into a DataFrame. Choose the response that correctly fills in the numbered blanks within the code block to complete this task.
+Code block:
+__1__.__2__.__3__(__4__)
+A. 1.spark2. read()3. parquet4. filePath
+B. 1. spark2. read()3. load4. filePath
+C. 1. spark2. read3. load4. filePath, source = "parquet"
+D. 1. storesDF2. read()3. load4. filePath
+E. 1. spark2. read3. load4. filePath
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 177 discussion
+Which of the following statements describing a difference between transformations and actions is incorrect?
+A. There are wide and narrow transformations but there are not wide and narrow actions.
+B. Transformations do not trigger execution while actions do trigger execution.
+C. Transformations work on DataFrames/Datasets while actions are reserved for native language objects.
+D. Some actions can be used to return data objects in a format native to the programming language being used to access the Spark API while transformations do not provide this ability.
+E. Transformations are typically logic operations while actions are typically focused on returning results.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 178 discussion
+Which of the following describes why garbage collection in Spark is important?
+A. Logical results will be incorrect if inaccurate data is not collected and removed from the Spark job.
+B. Spark jobs will fail or run slowly if inaccurate data is not collected and removed from the Spark job.
+C. Spark jobs will fail or run slowly if memory is not available for new objects to be created.
+D. Spark jobs will produce inaccurate results if there are too many different transformations called before a single action.
+E. Spark jobs will produce inaccurate results if memory is not available for new tasks to run and complete.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 180 discussion
+Which of the following code blocks returns a DataFrame where rows in DataFrame storesDF containing missing values in every column have been dropped?
+A. storesDF.na.drop()
+B. storesDF.dropna()
+C. storesDF.na.drop("all", subset = "sqft")
+D. storesDF.na.drop("all")
+E. storesDF.nadrop("all")
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 182 discussion
+The code block shown below contains an error. The code block is intended to return a new DataFrame where column productCategories only has one word per row, resulting in a DataFrame with many more rows than DataFrame storesDF. Identify the error and how to fix it.
+A sample of storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image22.png
+storesDF.withColumn("productCategories", split(col("productCategories")))
+A. The split() operation does not accomplish the requested task in the way that it is used. It should be used provided an alias.
+B. The split() operation does not accomplish the requested task. The broadcast() operation should be used instead.
+C. The split() operation does not accomplish the requested task in the way that it is used. It should be used as a column object method instead.
+D. The split() operation does not accomplish the requested task. The explode() operation should be used instead.
+E. The split() operation does not accomplish the requested task. The array_distinct() operation should be used instead.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 183 discussion
+Which of the following code blocks returns a DataFrame where column managerName from DataFrame storesDF is split at the space character into column managerFirstName and column managerLastName?
+A sample of DataFrame storesDF is displayed below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image23.png
+A. (storesDF.withColumn("managerFirstName", split(col("managerName"), " ")[0]).withColumn("managerLastName", split(col("managerName"), " ")[1]))
+B. (storesDF.withColumn("managerFirstName", col("managerName"). split(" ")[1]).withColumn("managerLastName", col("managerName").split(" ")[2]))
+C. (storesDF.withColumn("managerFirstName", split(col("managerName"), " ")[1]).withColumn("managerLastName", split(col("managerName"), " ")[2]))
+D. (storesDF.withColumn("managerFirstName", col("managerName").split(" ")[0]).withColumn("managerLastName", col("managerName").split(" ")[1]))
+E. (storesDF.withColumn("managerFirstName", split("managerName"), " ")[0]).withColumn("managerLastName", split("managerName"), " ")[1]))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 184 discussion
+Which of the following cluster configurations will fail to ensure completion of a Spark application in light of a worker node failure?
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image24.png
+Note: each configuration has roughly the same compute power using 100GB of RAM and 200 cores.
+A. Scenario #5
+B. Scenario #4
+C. Scenario #6
+D. Scenario #1
+E. They should all ensure completion because worker nodes are fault tolerant
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 185 discussion
+Which of the following code blocks returns a new DataFrame where column managerName from DataFrame storesDF has had its missing values replaced with the value "No Manager"?
+A sample of DataFrame storesDF is below:
+https://img.examtopics.com/certified-associate-developer-for-apache-spark/image25.png
+A. storesDF.na.fill("No Manager", "managerName")
+B. storesDF.nafill("No Manager", col("managerName"))
+C. storesDF.na.fill("No Manager", col("managerName"))
+D. storesDF.fillna("No Manager", col("managerName"))
+E. storesDF.nafill("No Manager", "managerName")
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 187 discussion
+Which of the following code blocks returns a DataFrame containing only the rows from DataFrame storesDF where the value in column sqft is less than or equal to 25,000 AND the value in column customerSatisfaction is greater than or equal to 30?
+A. storesDF.filter(col("sqft") <= 25000 and col("customerSatisfaction") >= 30)
+B. storesDF.filter(col(sqft) <= 25000 & col(customerSatisfaction) >= 30)
+C. storesDF.filter(col("sqft") <= 25000 & col("customerSatisfaction") >= 30)
+D. storesDF.filter((col("sqft") <= 25000) & (col("customerSatisfaction") >= 30))
+E. storesDF.filter(sqft <= 25000 and customerSatisfaction >= 30)
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 188 discussion
+Which of the following statements about Spark DataFrames is incorrect?
+A. Spark DataFrames are the same as a data frame in Python or R.
+B. Spark DataFrames are built on top of RDDs.
+C. Spark DataFrames are immutable.
+D. Spark DataFrames are distributed.
+E. Spark DataFrames have common Structured APIs.
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 190 discussion
+Which of the following code blocks returns a new DataFrame with the mean of column sqft from DataFrame storesDF in column sqftMean?
+A. storesDF.withColumn(mean(col("sqft")).alias("sqftMean"))
+B. storesDF.agg(col("sqft").mean().alias("sqftMean"))
+C. storesDF.agg(mean("sqft").alias("sqftMean"))
+D. storesDF.agg(mean(col("sqft")).alias("sqftMean"))
+E. storesDF.withColumn("sqftMean", mean(col("sqft")))
+
+
+
+======================================================================================
+
+Exam Certified Associate Developer for Apache Spark topic 1 question 195 discussion
+Which of the following code blocks fails to return a DataFrame sorted alphabetically based on column division?
+A. storesDF.sort(asc("division"))
+B. storesDF.orderBy(["division"], ascending = [1])
+C. storesDF.orderBy(col("division").desc())
+D. storesDF.orderBy("division")
+E. storesDF.sort("division")
+
+
+
+======================================================================================
+
