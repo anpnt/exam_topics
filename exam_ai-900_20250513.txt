@@ -1,0 +1,4197 @@
+Exam AI-900 topic 1 question 246 discussion
+You are developing a chatbot solution in Azure.
+Which service should you use to determine a user’s intent?
+A. Translator
+B. Language
+C. Azure Cognitive Search
+D. Speech
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 245 discussion
+You have a bot that identifies the brand names of products in images of supermarket shelves.
+Which service does the bot use?
+A. AI enrichment for Azure Search capabilities
+B. Computer Vision Image Analysis capabilities
+C. Custom Vision Image Classification capabilities
+D. Language Understanding capabilities
+
+Highly Voted comment found!
+Can't delete my previous comment. I guess I was wrong. The correct answer should be B.
+https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-brand-detection
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 244 discussion
+DRAG DROP
+-
+Match the types of computer vision workloads to the appropriate scenarios.
+To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image289.png
+
+Highly Voted comment found!
+Image classification -> Generate captions for images.
+Object detection -> Locate vehicles in images.
+Optical character recognition (OCR) -> Extract movie title names from movie poster images.
+******************************
+Highly Voted comment found!
+OCR, OCR, Object Detection respectively, are the correct answers
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 243 discussion
+You need to identify street names based on street signs in photographs.
+Which type of computer vision should you use?
+A. object detection
+B. optical character recognition (OCR)
+C. image classification
+D. facial recognition
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 242 discussion
+Predicting agricultural yields based on weather conditions and soil quality measurements is an example of which type of machine learning model?
+A. classification
+B. regression
+C. clustering
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 241 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image287.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 240 discussion
+You are building a tool that will process images from retail stores and identify the products of competitors.
+The solution must be trained on images provided by your company.
+Which Azure AI service should you use?
+A. Form Recognizer
+B. Custom Vision
+C. Face
+D. Computer Vision
+
+Highly Voted comment found!
+B - Custom Vision is the correct answer, because you have to use your own images as input to train the model
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 239 discussion
+DRAG DROP
+-
+Match the machine learning models to the appropriate descriptions.
+To answer, drag the appropriate model from the column on the left to its description on the right. Each model may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/ai-900/image285.png
+
+Highly Voted comment found!
+Correct  Answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 238 discussion
+A smart device that responds to the question “What is the stock price of Contoso. Ltd.?” is an example of which AI workload?
+A. knowledge mining
+B. natural language processing
+C. computer vision
+D. anomaly detection
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 237 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image283.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 236 discussion
+Which Azure Cognitive Services service can be used to identify documents that contain sensitive information?
+A. Custom Vision
+B. Conversational Language Understanding
+C. Form Recognizer
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 235 discussion
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image281.png
+
+Highly Voted comment found!
+Y-N-Y is the correct answer.
+******************************
+Highly Voted comment found!
+Same question as #231.  The questions are just in a different order.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 234 discussion
+You plan to build a conversational AI solution that can be surfaced in Microsoft Teams, Microsoft Cortana, and Amazon Alexa.
+Which service should you use?
+A. Azure Bot Service
+B. Azure Cognitive Search
+C. Speech
+D. Language service
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 233 discussion
+You need to provide customers with the ability to query the status of orders by using phones, social media, or digital assistants.
+What should you use?
+A. an Azure Machine Learning model
+B. the Translator service
+C. a Form Recognizer model
+D. Azure Bot Service
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 232 discussion
+What is an example of the Microsoft responsible AI principle of transparency?
+A. ensuring that opportunities are allocated equally to all applicants
+B. helping users understand the decisions made by an AI system
+C. ensuring that developers are accountable for the solutions they create
+D. ensuring that the privileged data of users is stored in a secure manner
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 231 discussion
+HOTSPOT
+-
+For each of the following statement, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image279.png
+
+Highly Voted comment found!
+A smart device in the home that responds to questions such as “When is my next appointment?” is an example of conversational AI. --> Yes.
+
+An interactive webchat feature on a company website can be implemented by using Azure Bot Service. --> Yes.
+
+Automatically generating captions for pre-recorded videos is an example of conversation AI. --> No.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 230 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image277.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 229 discussion
+You are building a Language Understanding model for an e-commerce business.
+You need to ensure that the model detects when utterances are outside the intended scope of the model.
+What should you do?
+A. Export the model
+B. Add utterances to the None intent
+C. Create a prebuilt task entity
+D. Create a new model
+
+Highly Voted comment found!
+B is the answer.
+
+https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/conversational-language-understanding/concepts/none-intent
+Every project in conversational language understanding includes a default None intent. The None intent is a required intent and can't be deleted or renamed. The intent is meant to categorize any utterances that do not belong to any of your other custom intents.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 228 discussion
+Which AI service can you use to extract intent from a user input such as “Call me back later”?
+A. Azure Cognitive Search
+B. Translator
+C. Language
+D. Speech
+
+Highly Voted comment found!
+It's C, the Language service. It doesn't specify that the user input is audio.
+See here: https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/overview#conversational-language-understanding
+******************************
+Highly Voted comment found!
+too many wrong answers in this AI-900 preparation, including this one
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 227 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image275.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 226 discussion
+You have 100 instructional videos that do NOT contain any audio. Each instructional video has a script.
+You need to generate a narration audio file for each video based on the script.
+Which type of workload should you use?
+A. language modeling
+B. speech recognition
+C. speech synthesis
+D. translation
+
+Highly Voted comment found!
+You're converting text to speech - so Speech service's text-to-speech option
+
+https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/text-to-speech
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 225 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image273.png
+
+Highly Voted comment found!
+correct answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 224 discussion
+You have a solution that reads manuscripts in different languages and categorizes the manuscripts based on topic.
+Which types of natural language processing (NLP) workloads does the solution use?
+A. speech recognition and entity recognition
+B. speech recognition and language modeling
+C. translation and key phrase extraction
+D. translation and sentiment analysis
+
+Highly Voted comment found!
+speech recognition would be required only if we were dealing with audio input.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 223 discussion
+HOTSPOT
+-
+You have an app that identifies birds in images. The app performs the following tasks:
+• Identifies the location of the birds in the image
+• Identifies the species of the birds in the image
+Which type of computer vision does each task use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image271.png
+
+Highly Voted comment found!
+correct only
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 222 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image269.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 221 discussion
+You need to build an image tagging solution for social media that tags images of your friends automatically.
+Which Azure Cognitive Services service should you use?
+A. Face
+B. Form Recognizer
+C. Language
+D. Computer Vision
+
+Highly Voted comment found!
+Face: While Face can detect faces, it wouldn't be suitable for tagging general objects or scenes in social media images that might not contain people.
+Therefore, D - Computer Vision
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 220 discussion
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image267.png
+
+Highly Voted comment found!
+I think the answer is text extraction
+
+Since the goal is to extract the vehicle registration numbers from the CCTV footage, text extraction using OCR algorithms would be the most appropriate choice. OCR algorithms can recognize and extract text information from images, making it possible to retrieve the registration numbers from the captured video frames. This enables automated monitoring and analysis of the traffic data by extracting the relevant textual information.
+******************************
+Highly Voted comment found!
+Correct answer is text extraction , the only way to collect registration number is OCR which is text extraction, object detection is useful to find a car
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 219 discussion
+You have an app that identifies the coordinates of a product in an image of a supermarket shelf.
+Which service does the app use?
+A. Custom Vision classification
+B. Custom Vision object detection
+C. Computer Vision Read
+D. Computer Vision optical character recognition (OCR)
+
+Highly Voted comment found!
+answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 218 discussion
+For which two workloads can you use computer vision? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. assigning the color pixels in an image to object names
+B. detecting inconsistencies and anomalies in a stream of data
+C. creating visual representations of numerical data
+D. creating photorealistic images by using three-dimensional models
+E. describing the contents of an image
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 217 discussion
+You have a security system that analyzes images from CCTV to provide authorized staff entry into restricted area.
+Which type of computer vision does the system use?
+A. optical character recognition (OCR)
+B. semantic segmentation
+C. facial detection and facial recognition
+D. image analysis
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 216 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image265.png
+
+Highly Voted comment found!
+Features
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 215 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image263.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 214 discussion
+You need to convert receipts into transactions in a spreadsheet. The spreadsheet must include the date of the transaction, the merchant, the total spent, and any taxes paid.
+Which Azure AI service should you use?
+A. Custom Vision
+B. Form Recognizer
+C. Face
+D. Language
+
+Highly Voted comment found!
+Form Recognizer is now Azure AI Document Intelligence!
+https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview?view=doc-intel-4.0.0
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 213 discussion
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image261.png
+
+Highly Voted comment found!
+confusion matrix
+
+https://learn.microsoft.com/en-us/azure/machine-learning/how-to-understand-automated-ml?view=azureml-api-2#confusion-matrix-for-a-good-model
+******************************
+Highly Voted comment found!
+answer should be confusion matrix
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 212 discussion
+HOTSPOT
+-
+You have a large dataset that contains motor vehicle sales data.
+You need to train an automated machine learning (automated ML) model to predict vehicle sale values based on the type of vehicle.
+Which task should you select? To answer, select the appropriate task in the answer area.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image259.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 211 discussion
+Your company is exploring the use of voice recognition technologies in its smart home devices. The company wants to identify any barriers that might unintentionally leave out specific user groups.
+This is an example of which Microsoft guiding principle for responsible AI?
+A. accountability
+B. fairness
+C. privacy and security
+D. inclusiveness
+
+Highly Voted comment found!
+inclusiveness
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 210 discussion
+HOTSPOT
+-
+To complete the sentence, select the appropriate option in the answer area.
+https://img.examtopics.com/ai-900/image257.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 209 discussion
+Which type of natural language processing (NLP) entity is used to identify a phone number?
+A. regular expression
+B. machine-learned
+C. list
+D. Pattern.any
+
+Highly Voted comment found!
+Examtopics should not be charging for this exam. It contains too many wrong answers and lots of outdated questions
+******************************
+Highly Voted comment found!
+I agree. Too many confusing answers now.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 208 discussion
+DRAG DROP -
+You are designing a system that will generate insurance quotes automatically.
+Match the Microsoft responsible AI principles to the appropriate requirements.
+To answer, drag the appropriate principle from the column on the left to its requirement on the right. Each principle may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/ai-900/image255.png
+
+Highly Voted comment found!
+1. Privacy and security
+2. Transparency
+3. Inclusiveness
+
+https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/8-understand-responsible-ai
+******************************
+Highly Voted comment found!
+Privacy and security: A customer's personal information must be visible only to staff who are involved in the decision-making process to ensure the privacy and security of sensitive data.
+    Transparency: The decision-making process must be recorded so that staff can identify the reasoning behind a particular quote, promoting transparency and accountability.
+    Inclusiveness: The system must be accessible to customers who use screen readers or other assistive technology, ensuring inclusiveness and providing equal access to all users. (ChatGPT)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 207 discussion
+You are developing a solution that uses the Language service.
+You need to identify the main talking points in a collection of documents.
+Which type of natural language processing should you use?
+A. language detection
+B. sentiment analysis
+C. entity recognition
+D. key phrase extraction
+
+Highly Voted comment found!
+key phrase extraction
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 206 discussion
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image253.png
+
+Highly Voted comment found!
+Point C should be NO as question mentions "Language Service's question answering" can determine the intent of a user utterance which is not correct. "Language Service" can but "Language Service's question answering" can't.
+******************************
+Highly Voted comment found!
+NO
+YES
+YES
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 205 discussion
+You have a solution that analyzes social media posts to extract the mentions of city names and the city names discussed most frequently.
+Which type of natural language processing (NLP) workload does the solution use?
+A. speech recognition
+B. sentiment analysis
+C. key phrase extraction
+D. entity recognition
+
+Highly Voted comment found!
+entity recognition
+******************************
+Highly Voted comment found!
+D is the answer.
+
+https://learn.microsoft.com/en-us/azure/cognitive-services/language-service/named-entity-recognition/overview
+Named Entity Recognition (NER) is one of the features offered by Azure Cognitive Service for Language, a collection of machine learning and AI algorithms in the cloud for developing intelligent applications that involve written language. The NER feature can identify and categorize entities in unstructured text. For example: people, places, organizations, and quantities.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 204 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image251.png
+
+Highly Voted comment found!
+YNN. Second one is Azure cognitive search
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 203 discussion
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image249.png
+
+Highly Voted comment found!
+Yes, No, Yes
+******************************
+Highly Voted comment found!
+On exam 08/01/2024
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 202 discussion
+You have a website that includes customer reviews.
+You need to store the reviews in English and present the reviews to users in their respective language by recognizing each user's geographical location.
+Which type of natural language processing workload should you use?
+A. key phrase extraction
+B. speech recognition
+C. language modeling
+D. translation
+
+Highly Voted comment found!
+translation is correct answer
+******************************
+Highly Voted comment found!
+This should be translation.  for this specific use case, the best option would be the Azure Translator Text API.
+
+The Translator Text API is a cloud-based machine translation service that can translate text between multiple languages in real-time. It supports a wide range of languages and provides language detection capabilities that can automatically identify the language of the input text. It can also detect the user's location based on their IP address or browser settings and automatically translate the reviews to the user's preferred language.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 201 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image247.png
+
+Highly Voted comment found!
+I vote for Y N Y
+    A webchat bot can interact with users visiting a website:
+        Yes, a webchat bot can be implemented on a website to provide automated responses and interact with users in a conversational manner.
+
+    Automatically generating captions for pre-recorded videos is an example of natural language processing:
+        No, automatically generating captions for videos typically falls under the domain of speech recognition or audio processing, rather than natural language processing. NLP primarily deals with understanding and processing human language in textual form.
+
+    A smart device in the home that responds to questions such as "What will the weather be like today?" is an example of natural language processing:
+        Yes, a smart device that can understand and respond to natural language queries or commands, such as asking about the weather, relies on natural language processing techniques to interpret and process the user's input and provide a relevant response. (Chat GPT)
+******************************
+Highly Voted comment found!
+Given answer is correct. Speech and Conversational AI workloads come under NLP.
+
+Source : https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/5-understand-natural-language-process
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 200 discussion
+DRAG DROP
+-
+Match the Azure Cognitive Services service to the appropriate actions.
+To answer, drag the appropriate service from the column on the left to its action on the right. Each service may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image245.png
+
+Highly Voted comment found!
+I got in exam 5/9/23.
+******************************
+Highly Voted comment found!
+1. Speech
+2. Language Service
+3. Language Service
+
+https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/overview
+The Speech service provides speech to text and text to speech capabilities with an Speech resource. You can transcribe speech to text with high accuracy, produce natural-sounding text to speech voices, translate spoken audio, and use speaker recognition during conversations.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 199 discussion
+You are building a chatbot that will use natural language processing (NLP) to perform the following actions based on the text input of a user.
+• Accept customer orders.
+• Retrieve support documents.
+• Retrieve order status updates.
+Which type of NLP should you use?
+A. sentiment analysis
+B. named entity recognition
+C. translation
+D. language modeling
+
+Highly Voted comment found!
+I got in exam 5/9/23.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 198 discussion
+An app that analyzes social media posts to identify their tone is an example of which type of natural language processing (NLP) workload?
+A. sentiment analysis
+B. speech recognition
+C. key phrase extraction
+D. entity recognition
+
+Highly Voted comment found!
+An app that analyzes social media posts to identify their tone is an example of a sentiment analysis natural language processing (NLP) workload.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 197 discussion
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image243.png
+
+Highly Voted comment found!
+N | Y | Y
+******************************
+Highly Voted comment found!
+I got in exam 5/9/23.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 196 discussion
+You plan to develop a bot that will enable users to query a knowledge base by using natural language processing.
+Which two services should you include in the solution? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Language Service
+B. Azure Bot Service
+C. Form Recognizer
+D. Anomaly Detector
+
+Highly Voted comment found!
+A, B - Correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 195 discussion
+Natural language processing can be used to __________.
+Select the answer that correctly completes the sentence.
+A. Analyze video content
+B. Generate speech
+C. Classify email messages as work-related or personal.
+D. Classify images
+
+Highly Voted comment found!
+I got in exam 5/9/23.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 194 discussion
+You need to implement a pre-built solution that will identify well-known brands in digital photographs.
+Which Azure Cognitive Services service should you use?
+A. Custom Vision
+B. Form Recognizer
+C. Face
+D. Computer Vision
+
+Highly Voted comment found!
+D is correct
+******************************
+Highly Voted comment found!
+D is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 193 discussion
+DRAG DROP
+-
+Match the Azure Cognitive Services to the appropriate AI workloads.
+To answer, drag the appropriate service from the column on the left to its workload on the right. Each service may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/ai-900/image241.png
+
+Highly Voted comment found!
+Correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 192 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+https://img.examtopics.com/ai-900/image239.png
+
+Highly Voted comment found!
+Analysis
+******************************
+Highly Voted comment found!
+Analysys
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 191 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image237.png
+
+Highly Voted comment found!
+Custom vision
+******************************
+Highly Voted comment found!
+Right answer is Custom vision!
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 190 discussion
+You need to develop a mobile app for employees to scan and store their expenses while travelling.
+Which type of computer vision should you use?
+A. face detection
+B. image classification
+C. object detection
+D. optical character recognition (OCR)
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 189 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image235.png
+
+Highly Voted comment found!
+Yes, object detection can be used to identify multiple types of items in one image.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 188 discussion
+You need to convert handwritten notes into digital text.
+Which type of computer vision should you use?
+A. facial detection
+B. optical character recognition (OCR)
+C. image classification
+D. object detection
+
+Highly Voted comment found!
+B correct answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 187 discussion
+Your company manufactures widgets.
+You have 1,000 digital photos of the widgets.
+You need to identify the location of the widgets within the photos.
+What should you use?
+A. Computer Vision Spatial Analysis
+B. Custom Vision object detection
+C. Computer Vision Image Analysis
+D. Custom Vision classification
+
+Highly Voted comment found!
+B correct answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 186 discussion
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image233.png
+
+Highly Voted comment found!
+Analysis. Used in computer vision
+******************************
+Highly Voted comment found!
+Analysis is correct answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 185 discussion
+DRAG DROP
+-
+Match the Azure Cognitive Services to the appropriate actions.
+To answer, drag the appropriate service from the column on the left to its action on the right. Each service may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image231.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 184 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image229.png
+
+Highly Voted comment found!
+Correct, facial analysis: infer the emotional state of the kiosk users
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 183 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image227.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 182 discussion
+You need to create a model that labels a collection of your personal digital photographs.
+Which Azure Cognitive Services service should you use?
+A. Form Recognizer
+B. Custom Vision
+C. Language
+D. Computer Vision
+
+Highly Voted comment found!
+According to Microsoft's documentation, you can use Custom Vision to label a collection of your personal digital photographs ¹. With Custom Vision, you can upload your own images and labels, and train a model to recognize specific objects or patterns [^web page^]. You can also use Smart Labeler to generate suggested tags for images, which lets you label a large number of images more quickly when you're training a Custom Vision model ¹.
+
+Source: Conversation with Bing, 4/26/2023
+(1) Label images faster with Smart Labeler - Azure Cognitive Services .... https://learn.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/suggested-tags Accessed 4/26/2023.
+******************************
+Highly Voted comment found!
+I think the correct answer is b
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 181 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image225.png
+
+Highly Voted comment found!
+Should this be YYY?
+
+With Azure Custom Vision, you can create and train a custom object detection model that is specific to your needs. This means that you can train the model to identify multiple types of damaged products in an image, and the model can be refined and improved over time as more data becomes available.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 180 discussion
+A historian can use ________ to digitize newspaper articles.
+Select the answer that correctly completes the sentence.
+A. Object detection
+B. Facial recognition
+C. Image classification
+D. Optical character recognition (OCR)
+
+Highly Voted comment found!
+I got in exam 5/9/23.
+******************************
+Highly Voted comment found!
+D. Optical character recognition (OCR)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 179 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image223.png
+
+Highly Voted comment found!
+sale price = numeric value = regression
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 178 discussion
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image221.png
+
+Highly Voted comment found!
+Classification is the correct answer
+******************************
+Highly Voted comment found!
+Classification
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 177 discussion
+You need to identify groups of rows with similar numeric values in a dataset.
+Which type of machine learning should you use?
+A. clustering
+B. regression
+C. classification
+
+Highly Voted comment found!
+Anytime you see GROUP whether it says Identify which usually is Classification, it is ALWAYS Cluster. Think of Cluster like saying "A Cluster of things" or "Group of things" essentially. 
+
+Cluster = Group
+Identify/Classify = Classification
+Prediction = Regression
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 176 discussion
+You need to track multiple versions of a model that was trained by using Azure Machine Learning.
+What should you do?
+A. Explain the model.
+B. Register the model.
+C. Register the training data.
+D. Provision an inference cluster.
+
+Highly Voted comment found!
+Model registration allows you to store and version your models in the Azure cloud, in your workspace. The model registry helps you organize and keep track of your trained models.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 175 discussion
+You have a dataset that contains the columns shown in the following table.
+https://img.examtopics.com/ai-900/image220.png
+You have a machine learning model that predicts the value of ColumnE based on the other numeric columns.
+Which type of model is this?
+A. analysis
+B. clustering
+C. regression
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 174 discussion
+You need to create a clustering model and evaluate the model by using Azure Machine Learning designer.
+What should you do?
+A. Split the original dataset into a dataset for training and a dataset for testing. Use the testing dataset for evaluation.
+B. Use the original dataset for training and evaluation.
+C. Split the original dataset into a dataset for features and a dataset for labels. Use the features dataset for evaluation.
+D. Split the original dataset into a dataset for training and a dataset for testing. Use the training dataset for evaluation.
+
+Highly Voted comment found!
+Correct answer. You must always use testing data to evaluate the model.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 173 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image218.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 172 discussion
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image216.png
+
+Highly Voted comment found!
+correct answer. unsupervised, unsupervised and supervised learning. That is Clustering, Clustering and Classification
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 171 discussion
+DRAG DROP
+-
+You plan to deploy an Azure Machine Learning model by using the Machine Learning designer.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+https://img.examtopics.com/ai-900/image214.png
+
+Highly Voted comment found!
+correct
+******************************
+Highly Voted comment found!
+Given answers are correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 170 discussion
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image212.png
+
+Highly Voted comment found!
+RFM ( Recency, Frequency, Monetary) analysis is a proven marketing model for behavior based customer segmentation. It groups customers based on their transaction history - CORRECT ANSWER IS CLUSTERING
+******************************
+Highly Voted comment found!
+Clustering as per Bing AI
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 169 discussion
+In a machine learning model, the data that is used as inputs are called ________.
+Select the answer that correctly completes the sentence.
+A. dataset
+B. labels
+C. variables
+
+Highly Voted comment found!
+variables or features
+
+correct ans is C
+please update the ans.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 168 discussion
+Predicting how many vehicles will travel across a bridge on a give day is an example of _______.
+Select the answer that correctly completes the sentence.
+A. regression
+B. translation
+C. classification
+D. clustering
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 167 discussion
+DRAG DROP
+-
+Match the types of AI workloads to the appropriate scenarios.
+To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image210.png
+
+Highly Voted comment found!
+Correct as per Bing AI
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 166 discussion
+You need to create a customer support solution to help customers access information. The solution must support email, phone, and live chat channels.
+Which type of Al solution should you use?
+A. machine learning
+B. computer vision
+C. chatbot
+D. natural language processing (NLP)
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 165 discussion
+DRAG DROP
+-
+Match the tool to the Azure Machine Learning task.
+To answer, drag the appropriate tool from the column on the left to its tasks on the right. Each tool may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image208.png
+
+Highly Voted comment found!
+Given answers are correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 164 discussion
+You use Azure Machine Learning designer to build a model pipeline.
+What should you create before you can run the pipeline?
+A. a registered model
+B. a compute resource
+C. a Jupyter notebook
+
+Highly Voted comment found!
+correct answer. You need a compute resource in order to run the model
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 163 discussion
+You have a dataset.
+You need to build an Azure Machine Learning classification model that will identify defective products.
+What should you do first?
+A. Load the dataset.
+B. Create a clustering model.
+C. Split the data into training and testing datasets.
+D. Create a classification model.
+
+Highly Voted comment found!
+First at all you need to load the dataset, no?
+******************************
+Highly Voted comment found!
+Correct answer is A... A is the first step
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 162 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image206.png
+
+Highly Voted comment found!
+Given answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 161 discussion
+You are developing a system to predict the prices of insurance for drivers in the United Kingdom.
+You need to minimize bias in the system.
+What should you do?
+A. Remove information about protected characteristics from the data before sampling.
+B. Take a training sample that is representative of the population in the United Kingdom.
+C. Create a training dataset that uses data from global insurers.
+D. Take a completely random training sample.
+
+Highly Voted comment found!
+B. Take a training sample that is representative of the population in the United Kingdom.
+
+To minimize bias in the system, it's important that your training data is representative of the population you're modeling. This helps ensure that the model's predictions are valid for the full range of drivers in the United Kingdom.
+
+While option A (Remove information about protected characteristics from the data before sampling) could help in some cases to reduce direct discrimination, it might not be sufficient to minimize all types of biases, as some of these characteristics might be indirectly encoded in the remaining features.
+
+Option C (Create a training dataset that uses data from global insurers) may introduce more bias since driving conditions, laws, and demographics vary greatly by country.
+
+Option D (Take a completely random training sample) could still introduce bias if the original data pool is not representative of the population you're interested in.
+******************************
+Highly Voted comment found!
+I think correct answer is B.
+To minimize bias in the system, it is important to ensure that the training sample used is representative of the population in the United Kingdom. By including a diverse range of data that accurately reflects the population, you can reduce bias that may arise from underrepresentation or overrepresentation of certain groups. This approach helps to ensure fairness and avoids discriminatory practices in the prediction of insurance prices. Removing information about protected characteristics (option A) may help in some cases, but it is not sufficient on its own to address bias. Options C and D do not specifically address the need for representative sampling. (Chat GPT)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 160 discussion
+You have an AI-based loan approval system.
+During testing, you discover that the system has a gender bias.
+Which responsible Al principle does this violate?
+A. accountability
+B. reliability and safety
+C. transparency
+D. fairness
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 159 discussion
+Which machine learning technique can be used for anomaly detection?
+A. A machine learning technique that classifies objects based on user supplied images.
+B. A machine learning technique that understands written and spoken language.
+C. A machine learning technique that classifies images based on their contents.
+D. A machine learning technique that analyzes data over time and identifies unusual changes.
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 158 discussion
+DRAG DROP -
+Match the services to the appropriate descriptions.
+To answer, drag the appropriate service from the column on the left to its description on the right. Each service may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image204.png
+
+Highly Voted comment found!
+For me the first answer is Language Service
+******************************
+Highly Voted comment found!
+Language service is QnA Maker, no?
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 157 discussion
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image202.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 156 discussion
+You have a natural language processing (NLP) model that was created by using data obtained without permission.
+Which Microsoft principle for responsible AI does this breach?
+A. reliability and safety
+B. privacy and security
+C. inclusiveness
+D. transparency
+
+Highly Voted comment found!
+B for me also is the right answer
+******************************
+Highly Voted comment found!
+Breach of the Microsoft principle for responsible AI known as Privacy, Security, and Compliance
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 155 discussion
+During the process of Machine Learning, when should you review evaluation metrics.
+A. Before you train a model.
+B. After you clean the data.
+C. Before you choose the type of model.
+D. After you test a model on the validation data.
+
+Highly Voted comment found!
+D is the answer.
+
+https://learn.microsoft.com/en-us/training/modules/use-automated-machine-learning/5-machine-learning-steps
+You can think of the steps in a machine learning process as:
+- Prepare data: Identify the features and label in a dataset. Pre-process, or clean and transform, the data as needed.
+- Train model: Split the data into two groups, a training and a validation set. Train a machine learning model using the training data set. Test the machine learning model for performance using the validation data set.
+- Evaluate performance: Compare how close the model's predictions are to the known labels.
+- Deploy a predictive service: After you train a machine learning model, you can deploy the model as an application on a server or device so that others can use it.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 154 discussion
+DRAG DROP
+-
+Match the principles of responsible AI to the appropriate descriptions.
+To answer, drag the appropriate principle from the column on the left to its description on the right. Each principle may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/ai-900/image200.png
+
+Highly Voted comment found!
+the answers are correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 153 discussion
+You need to reduce the load on telephone operators by implementing a chatbot to answer simple questions with predefined answers.
+Which two AI services should you use to achieve the goal? Each correct answers presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Azure Machine Learning
+B. Azure Bot Service
+C. Language Service
+D. Translator
+
+Highly Voted comment found!
+As mentioned before, QnA Maker has been replaced by Language Service so B and C are correct.
+******************************
+Highly Voted comment found!
+B and C are correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 152 discussion
+DRAG DROP -
+Match the types of natural language processing workloads to the appropriate scenarios.
+To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0015600001.png
+
+Highly Voted comment found!
+Correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 151 discussion
+Which statement is an example of a Microsoft responsible AI principle?
+A. AI systems must use only publicly available data
+B. AI systems must be transparent and inclusive
+C. AI systems must keep personal details public
+D. AI systems must protect the interests of the company
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 150 discussion
+You have an Azure Machine Learning pipeline that contains a Split Data module.
+The Split Data module outputs to a Train Model module and a Score Model module.
+What is the function of the Split Data module?
+A. scaling numeric variables so that they are within a consistent numeric range
+B. creating training and validation datasets
+C. diverting records that have missing data
+D. selecting columns that must be included in the model
+
+Highly Voted comment found!
+Shouldn't it be  "creating training and testing datasets"?
+******************************
+Highly Voted comment found!
+correct answer. The test data are used to validate the model
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 149 discussion
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04234/0015400001.png
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 148 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0015300001.jpg
+
+Highly Voted comment found!
+I think it is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 147 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0015100001.jpg
+
+Highly Voted comment found!
+It is a duplicate question, only the previous one had answers Y/Y/N. Please be consistent with your answers, if you want money for subscription (and also be taken seriously as a website).
+******************************
+Highly Voted comment found!
+N/Y/N is the answer. Cortana's support was dropped, as per zellck's answer.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 146 discussion
+You have a knowledge base of frequently asked questions (FAQ).
+You create a bot that uses the knowledge base to respond to customer requests.
+You need to identify what the bot can perform without adding additional skills.
+What should you identify?
+A. Register customer purchases.
+B. Register customer complaints.
+C. Answer questions from multiple users simultaneously.
+D. Provide customers with return materials authorization (RMA) numbers.
+
+Highly Voted comment found!
+C. Answer questions from multiple users simultaneously.
+
+The tasks like A (Register customer purchases), B (Register customer complaints), and D (Provide customers with return materials authorization (RMA) numbers) would typically require transactional capabilities and potentially integration with the company's back-end systems. The bot would need additional skills or APIs to interact with these systems and execute these tasks effectively. On the other hand, answering questions from multiple users simultaneously is a task that can be accomplished with a bot built on a knowledge base, as it simply entails retrieving and providing information already contained within the knowledge base.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 145 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0014900001.png
+
+Highly Voted comment found!
+yes, no, yes
+******************************
+Highly Voted comment found!
+2nd is SPEECH service. good luck to me tomorrow.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 144 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0014800001.png
+
+Highly Voted comment found!
+Isn't the QnA Maker part of the Azure Bot Services? My answer would be Y/Y/Y based on: https://azure.microsoft.com/en-us/services/bot-services/#features
+******************************
+Highly Voted comment found!
+On critical reasoning, I think the given answer is correct, YES, YES and NO respectively since the BOT has to be pointed to the QnA maker
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 143 discussion
+Which two scenarios are examples of a conversational AI workload? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. a telephone answering service that has a pre-recorder message
+B. a chatbot that provides users with the ability to find answers on a website by themselves
+C. telephone voice menus to reduce the load on human resources
+D. a service that creates frequently asked questions (FAQ) documents by crawling public websites
+
+Highly Voted comment found!
+ans is correct
+******************************
+Highly Voted comment found!
+BC talks about conversational AI.
+A is just prerecorded message while D is not conversational AI.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 142 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0014600001.png
+
+Highly Voted comment found!
+Correct answer would be Y-Y-N
+******************************
+Highly Voted comment found!
+Correct Answer is YYN. for 3rd point it needs to gauge sentiment and respond accordingly.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 141 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0014400001.jpg
+
+Highly Voted comment found!
+You can connect a bot via:
+Alexa, Office 365 email, Facebook, Kik, LINE, Teams, Skype for Business, Slack, Telegram, WeChat, Webex
+******************************
+Highly Voted comment found!
+Answer should be N/Y/Y.  As of August 2023 Cortana has also been deprecated.  Cortana is also not mentioned as a supported channel here https://learn.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 140 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0014300001.png
+
+Highly Voted comment found!
+Language Understanding (LUIS) and QnA Maker solve different issues. LUIS determines the intent of a user's text (known as an utterance), while QnA Maker determines the answer to a user's text (known as a query).
+******************************
+Highly Voted comment found!
+No, Yes, No
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 139 discussion
+Which scenario is an example of a webchat bot?
+A. Determine whether reviews entered on a website for a concert are positive or negative, and then add a thumbs up or thumbs down emoji to the reviews.
+B. Translate into English questions entered by customers at a kiosk so that the appropriate person can call the customers back.
+C. Accept questions through email, and then route the email messages to the correct person based on the content of the message.
+D. From a website interface, answer common questions about scheduled events and ticket purchases for a music festival.
+
+Highly Voted comment found!
+Very correct answer
+******************************
+Highly Voted comment found!
+D is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 138 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0014100001.png
+
+Highly Voted comment found!
+answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 137 discussion
+Which AI service should you use to create a bot from a frequently asked questions (FAQ) document?
+A. QnA Maker
+B. Language Understanding (LUIS)
+C. Text Analytics
+D. Speech
+
+Highly Voted comment found!
+A is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 136 discussion
+You need to develop a web-based AI solution for a customer support system. Users must be able to interact with a web app that will guide them to the best resource or answer.
+Which service should you use?
+A. Custom Vision
+B. QnA Maker
+C. Translator Text
+D. Face
+
+Highly Voted comment found!
+Correct
+******************************
+Highly Voted comment found!
+"QnA Maker" is the correct answer.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 135 discussion
+You have the process shown in the following exhibit.
+/assets/media/exam-media/04234/0013900001.jpg
+Which type of AI solution is shown in the diagram?
+A. a sentiment analysis solution
+B. a chatbot
+C. a machine learning model
+D. a computer vision application
+
+Highly Voted comment found!
+You can see chatbot on the question in the left top corner
+******************************
+Highly Voted comment found!
+B is correct.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 134 discussion
+Which two scenarios are examples of a conversational AI workload? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. a smart device in the home that responds to questions such as ג€What will the weather be like today?ג€
+B. a website that uses a knowledge base to interactively respond to users' questions
+C. assembly line machinery that autonomously inserts headlamps into cars
+D. monitoring the temperature of machinery to turn on a fan when the temperature reaches a specific threshold
+
+Highly Voted comment found!
+the given answer is correct
+******************************
+Highly Voted comment found!
+I just took the exam today 8/19/2022.
+
+The Conversational AI workload has replaced by "Language Service" on this exact same question.
+
+I passed the exam with score of 916/1000.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 133 discussion
+You need to reduce the load on telephone operators by implementing a chatbot to answer simple questions with predefined answers.
+Which two AI service should you use to achieve the goal? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Text Analytics
+B. QnA Maker
+C. Azure Bot Service
+D. Translator
+
+Highly Voted comment found!
+Correct but ill posed. Azure BOT is a way to distribute conversational AI models to make final interaction easy.. But it is not an AI service by itself, it is more like a connector/interface
+******************************
+Highly Voted comment found!
+Answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 132 discussion
+You have a frequently asked questions (FAQ) PDF file.
+You need to create a conversational support system based on the FAQ.
+Which service should you use?
+A. QnA Maker
+B. Text Analytics
+C. Computer Vision
+D. Language Understanding (LUIS)
+
+Highly Voted comment found!
+A is correct
+******************************
+Highly Voted comment found!
+A is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 131 discussion
+You need to provide content for a business chatbot that will help answer simple user queries.
+What are three ways to create question and answer text by using QnA Maker? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Generate the questions and answers from an existing webpage.
+B. Use automated machine learning to train a model based on a file that contains the questions.
+C. Manually enter the questions and answers.
+D. Connect the bot to the Cortana channel and ask questions by using Cortana.
+E. Import chit-chat content from a predefined data source.
+
+Highly Voted comment found!
+ACE are correct answers.
+******************************
+Highly Voted comment found!
+After provisioning a QnA Maker resource, you can use the QnA Maker portal to create a knowledge base that consists of question-and-answer pairs. These questions and answers can be:
+
+Generated from an existing FAQ document or web page.
+
+Imported from a pre-defined chit-chat data source.
+
+Entered and edited manually.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 130 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0013500001.jpg
+
+Highly Voted comment found!
+I think this should be y/n/n
+******************************
+Highly Voted comment found!
+My answer is Y-N-N
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 129 discussion
+You are developing a conversational AI solution that will communicate with users through multiple channels including email, Microsoft Teams, and webchat.
+Which service should you use?
+A. Text Analytics
+B. Azure Bot Service
+C. Translator
+D. Form Recognizer
+
+Highly Voted comment found!
+B. Azure Bot Service
+******************************
+Highly Voted comment found!
+Undoubtedly Azure Bot service
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 128 discussion
+You have a webchat bot that provides responses from a QnA Maker knowledge base.
+You need to ensure that the bot uses user feedback to improve the relevance of the responses over time.
+What should you use?
+A. key phrase extraction
+B. sentiment analysis
+C. business logic
+D. active learning
+
+Highly Voted comment found!
+Active learning.
+1.Bot gets the answer from the knowledge base with the GenerateAnswer API, using the top property to get a number of answers.
+2.Bot determines explicit feedback: Using your own custom business logic, filter out low scores. In the bot or client-application, display list of possible answers to the user and get user's selected answer.
+3.Bot sends selected answer back to QnA Maker with the Train API.
+******************************
+Highly Voted comment found!
+Yes Active learning
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 127 discussion
+You need to build an app that will read recipe instructions aloud to support users who have reduced vision.
+Which version service should you use?
+A. Language service
+B. Translator
+C. Speech
+D. Personalizer
+
+Highly Voted comment found!
+correct, here the service needed is text-to-speech
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 126 discussion
+You have insurance claim reports that are stored as text.
+You need to extract key terms from the reports to generate summaries.
+Which type of AI workload should you use?
+A. anomaly detection
+B. natural language processing
+C. computer vision
+D. knowledge mining
+
+Highly Voted comment found!
+correct answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 125 discussion
+You need to make the written press releases of your company available in a range of languages.
+Which service should you use?
+A. Speech
+B. Language
+C. Translator
+D. Personalizer
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 124 discussion
+DRAG DROP -
+You plan to use Azure Cognitive Services to develop a voice controlled personal assistant app.
+Match the Azure Cognitive Services to the appropriate tasks.
+To answer, drag the appropriate service from the column on the left to its description on the right. Each service may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0013100001.png
+
+Highly Voted comment found!
+Speech service do both "Speech to Text" & "Text to Speech".
+******************************
+Highly Voted comment found!
+correct answer and explanation
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 123 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0012900001.jpg
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 122 discussion
+You have an AI solution that provides users with the ability to control smart devices by using verbal commands.
+Which two types of natural language processing (NLP) workloads does the solution use? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. text-to-speech
+B. key phrase extraction
+C. speech-to-text
+D. language modeling
+E. translation
+
+Highly Voted comment found!
+This should be speech-to-text and language modeling. You need to use language modeling to determine the intent of the utterance and to perform an action based on that intent.
+******************************
+Highly Voted comment found!
+For me the answer is Speech to Text and Language Modeling
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 121 discussion
+Which two scenarios are examples of a natural language processing workload? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. monitoring the temperature of machinery to turn on a fan when the temperature reaches a specific threshold
+B. a smart device in the home that responds to questions such as, "What will the weather be like today?"
+C. a website that uses a knowledge base to interactively respond to users' questions
+D. assembly line machinery that autonomously inserts headlamps into cars
+
+Highly Voted comment found!
+Correct answers are B&C
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 120 discussion
+You are building a Language Understanding model for an e-commerce business.
+You need to ensure that the model detects when utterances are outside the intended scope of the model.
+What should you do?
+A. Test the model by using new utterances
+B. Add utterances to the None intent
+C. Create a prebuilt task entity
+D. Create a new model
+
+Highly Voted comment found!
+B is correct answer. You cannot only rely on using score thresholds to determine out of domain utterances with an undertrained None intent.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 119 discussion
+You need to develop a chatbot for a website. The chatbot must answer users' questions based on the information in the following documents:
+✑ A product troubleshooting guide in a Microsoft Word document
+✑ A frequently asked questions (FAQ) list on a webpage
+Which service should you use to process the documents?
+A. Azure Bot Service
+B. Language Understanding
+C. Text Analytics
+D. QnA Maker
+
+Highly Voted comment found!
+QnA maker FOR THE WIN
+******************************
+Highly Voted comment found!
+Correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 118 discussion
+You build a QnA Maker bot by using a frequently asked questions (FAQ) page.
+You need to add professional greetings and other responses to make the bot more user friendly.
+What should you do?
+A. Increase the confidence threshold of responses
+B. Enable active learning
+C. Create multi-turn questions
+D. Add chit-chat
+
+Highly Voted comment found!
+Chitchat is correct. You can choose between different personas.
+******************************
+Highly Voted comment found!
+Correct answer. Adding chit-chat functionality to the bot involves including pre-built conversational responses for general small talk or non-FAQ related interactions. Chit-chat responses can enhance the user experience by providing friendly greetings, acknowledgments, and appropriate responses to casual or non-specific queries.
+
+Options A and B are not directly related to adding greetings and other user-friendly responses. Option C, creating multi-turn questions, refers to handling conversations with multiple interrelated questions and responses. While it can contribute to a more interactive experience, it does not address the specific requirement of adding professional greetings and other user-friendly responses
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 117 discussion
+You are authoring a Language Understanding (LUIS) application to support a music festival.
+You want users to be able to ask questions about scheduled shows, such as: `Which act is playing on the main stage?`
+The question `Which act is playing on the main stage?` is an example of which type of element?
+A. an intent
+B. an utterance
+C. a domain
+D. an entity
+
+Highly Voted comment found!
+Correct answer. In the context of a Language Understanding (LUIS) application, an utterance refers to a specific user input or query. It represents a single sentence or phrase that users provide to interact with the application.
+In this case, the utterance "Which act is playing on the main stage?" represents a user's question about the scheduled shows at the music festival. By collecting and annotating a variety of utterances like this, the LUIS application can learn to understand user intents and extract relevant entities from the input.
+To further clarify the other options:
+
+- An intent represents the purpose or goal behind a user's utterance. It captures the user's intention or desired action.
+- A domain refers to a specific area or topic of knowledge, such as music, sports, or weather.
+- An entity represents a specific piece of information or data within an utterance. In this case, an entity could be "main stage," which refers to a specific stage at the music festival.
+
+Therefore, the correct answer is B. an utterance.
+******************************
+Highly Voted comment found!
+Answer is B
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 116 discussion
+DRAG DROP -
+You plan to apply Text Analytics API features to a technical support ticketing system.
+Match the Text Analytics API features to the appropriate natural language processing scenarios.
+To answer, drag the appropriate feature from the column on the left to its scenario on the right. Each feature may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0012400001.png
+
+Highly Voted comment found!
+it is correct
+******************************
+Highly Voted comment found!
+Box 2 and 3 seems exchanged ?
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 115 discussion
+You use natural language processing to process text from a Microsoft news story.
+You receive the output shown in the following exhibit.
+/assets/media/exam-media/04234/0012300001.png
+Which type of natural languages processing was performed?
+A. entity recognition
+B. key phrase extraction
+C. sentiment analysis
+D. translation
+
+Highly Voted comment found!
+This is entity recognition
+******************************
+Highly Voted comment found!
+Entity recognition has category classification, key phrase extraction does not. Take a look at Key Phrase extraction results: [https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction] with NER results: [https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-entity-linking?tabs=version-3-preview]
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 114 discussion
+You are developing a natural language processing solution in Azure. The solution will analyze customer reviews and determine how positive or negative each review is.
+This is an example of which type of natural language processing workload?
+A. language detection
+B. sentiment analysis
+C. key phrase extraction
+D. entity recognition
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 113 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0012100001.png
+
+Highly Voted comment found!
+The answer is correct.
+******************************
+Highly Voted comment found!
+on exam 22 october, answer is 'Y/N/Y' (passed with 1000/1000)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 112 discussion
+DRAG DROP -
+Match the types of natural languages processing workloads to the appropriate scenarios.
+To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0011900001.jpg
+
+Highly Voted comment found!
+The given answers are correct
+******************************
+Highly Voted comment found!
+correct answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 111 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0011700001.png
+
+Highly Voted comment found!
+Given answers are correct. Ink service identifies handwritten.
+******************************
+Highly Voted comment found!
+Text Analytics replaced by Language Service based on my actual exam today 8/19/2022. Exact same questions but replaced by Language Service instead of Text Analytics.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 110 discussion
+You need to make the written press releases of your company available in a range of languages.
+Which service should you use?
+A. Translator
+B. Text Analytics
+C. Speech
+D. Language Understanding (LUIS)
+
+Highly Voted comment found!
+Correct, this is a no-brainer :-)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 109 discussion
+You are developing a chatbot solution in Azure.
+Which service should you use to determine a user's intent?
+A. Translator
+B. QnA Maker
+C. Speech
+D. Language Understanding (LUIS)
+
+Highly Voted comment found!
+I just took the exam today. 8/19/2022.
+
+LUIS is not even on the list of answers. It's now replaced by "Language Service". To my understanding based on the actual exam I took today. Language Service covers as a whole (LUIS, Speech recognition, Speech, Text analytics, NLP, entity recognition,).
+
+I passed the exam with score of 916/1000.
+******************************
+Highly Voted comment found!
+correct but now LUIS has been replaced by CLU
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 108 discussion
+Which AI service can you use to interpret the meaning of a user input such as `Call me back later?`
+A. Translator
+B. Text Analytics
+C. Speech
+D. Language Understanding (LUIS)
+
+Highly Voted comment found!
+correct but now LUIS has been replaced by CLU (Conversational Language Understanding)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 107 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0011400001.png
+
+Highly Voted comment found!
+Classify Email messages is correct answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 106 discussion
+You have insurance claim reports that are stored as text.
+You need to extract key terms from the reports to generate summaries.
+Which type of AI workload should you use?
+A. natural language processing
+B. conversational AI
+C. anomaly detection
+D. computer vision
+
+Highly Voted comment found!
+Key phrase extraction is probably best, but NLP gets the job done.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 105 discussion
+In which scenario should you use key phrase extraction?
+A. identifying whether reviews of a restaurant are positive or negative
+B. generating captions for a video based on the audio track
+C. identifying which documents provide information about the same topics
+D. translating a set of documents from English to German
+
+Highly Voted comment found!
+C - "Use key phrase extraction to quickly identify the main concepts in text. For example, in the text "The food was delicious and the staff were wonderful.", key phrase extraction will return the main topics: "food" and "wonderful staff"."
+******************************
+Highly Voted comment found!
+C correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 104 discussion
+You are building a knowledge base by using QnA Maker.
+Which file format can you use to populate the knowledge base?
+A. PPTX
+B. XML
+C. ZIP
+D. PDF
+
+Highly Voted comment found!
+QnA Maker is now know as Azure Cognitive Service for Language
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 103 discussion
+DRAG DROP -
+You need to scan the news for articles about your customers and alert employees when there is a negative article. Positive articles must be added to a press book.
+Which natural language processing tasks should you use to complete the process? To answer, drag the appropriate tasks to the correct locations. Each task may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0011100001.jpg
+
+Highly Voted comment found!
+entity recognition - to get the key phrases talks about by the customers
+Sentiment analysis to analyze if the comment is positive or negative
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 102 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0010900001.jpg
+
+Highly Voted comment found!
+correct
+******************************
+Highly Voted comment found!
+I just took the exam today 8/19/2022.
+
+The main keywords here Translator service are now replaced by "Language Service". So I got confused on the last question and to my understanding based on the exam, the "language service" covers as a whole (NLP, Speech, QnA Maker, Text service) all related past questions from exam topics. So for this particular question. I answered YYY. 
+
+I still managed to pass the exam with the score of 916/1000.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 101 discussion
+In which two scenarios can you use a speech synthesis solution? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. an automated voice that reads back a credit card number entered into a telephone by using a numeric keypad
+B. generating live captions for a news broadcast
+C. extracting key phrases from the audio recording of a meeting
+D. an AI character in a computer game that speaks audibly to a player
+
+Highly Voted comment found!
+Speech recognition - the ability to detect and interpret spoken input.
+Speech synthesis - the ability to generate spoken output.
+******************************
+Highly Voted comment found!
+A and D is correct
+--> https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/text-to-speech
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 100 discussion
+You plan to develop a bot that will enable users to query a knowledge base by using natural language processing.
+Which two services should you include in the solution? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. QnA Maker
+B. Azure Bot Service
+C. Form Recognizer
+D. Anomaly Detector
+
+Highly Voted comment found!
+I took the exam today 8/19/2022.
+
+The QnA has been replaced by "Language Service". I managed to pass the exam with the score of 916/1000.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 99 discussion
+Your website has a chatbot to assist customers.
+You need to detect when a customer is upset based on what the customer types in the chatbot.
+Which type of AI workload should you use?
+A. anomaly detection
+B. computer vision
+C. regression
+D. natural language processing
+
+Highly Voted comment found!
+D. Natural Language Processing
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 98 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0010600001.png
+
+Highly Voted comment found!
+on exam 22 october, answer is Y/Y/Y (passed with 1000/1000)
+******************************
+Highly Voted comment found!
+Transcribe a call to  text  -Speech Service:  Speech to Text Service
+Extract call Transcription to find key entity -  Text Analytic : Entity Recognition
+Translate a call to different langauge : Speech Service : Speech Translations
+
+Thus  Y/ Y /Y
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 97 discussion
+You need to build an app that will read recipe instructions aloud to support users who have reduced vision.
+Which version service should you use?
+A. Text Analytics
+B. Translator
+C. Speech
+D. Language Understanding (LUIS)
+
+Highly Voted comment found!
+Correct answer!
+
+Speech is actually Text-to-Speach
+Speech Recognition is actually Speach-to-Text.
+******************************
+Highly Voted comment found!
+ans is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 96 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0010400001.png
+
+Highly Voted comment found!
+Speech recognition = speech to text
+Speech synthesis = text to speech
+
+May the force be with you
+******************************
+Highly Voted comment found!
+Option B is Correct!!... because Speech Synthese is more of "text to speech"
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 95 discussion
+In which two scenarios can you use speech recognition? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. an in-car system that reads text messages aloud
+B. providing closed captions for recorded or live videos
+C. creating an automated public address system for a train station
+D. creating a transcript of a telephone call or meeting
+
+Highly Voted comment found!
+I think this question should be put more clear that it is Speech to Text recognition.
+******************************
+Highly Voted comment found!
+This question came in the April 2023 exam.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 94 discussion
+You are developing a solution that uses the Text Analytics service.
+You need to identify the main talking points in a collection of documents.
+Which type of natural language processing should you use?
+A. entity recognition
+B. key phrase extraction
+C. sentiment analysis
+D. language detection
+
+Highly Voted comment found!
+The answer given is correct, the key to understanding key phrase extraction is looking for "key" (for lack of a better word) words like "main", "important", "summary", even "broad" etc..as per previous questions.
+******************************
+Highly Voted comment found!
+The answer is key phrase extraction. The emphasis should be "main talking points"
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 93 discussion
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04234/0010200001.jpg
+
+Highly Voted comment found!
+OCR is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 92 discussion
+Which service should you use to extract text, key/value pairs, and table data automatically from scanned documents?
+A. Custom Vision
+B. Face
+C. Form Recognizer
+D. Language
+
+Highly Voted comment found!
+Remember Form Recognizer is now Azure AI Document Intelligence
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 91 discussion
+Which Computer Vision feature can you use to generate automatic captions for digital photographs?
+A. Recognize text.
+B. Identify the areas of interest.
+C. Detect objects.
+D. Describe the images.
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 90 discussion
+DRAG DROP -
+Match the facial recognition tasks to the appropriate questions.
+To answer, drag the appropriate task from the column on the left to its question on the right. Each task may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0009900001.jpg
+
+Highly Voted comment found!
+Duiplicate of Question #80
+Given and answers are correct.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 89 discussion
+In which two scenarios can you use the Form Recognizer service? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Identify the retailer from a receipt
+B. Translate from French to English
+C. Extract the invoice number from an invoice
+D. Find images of products in a catalog
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 88 discussion
+You need to build an image tagging solution for social media that tags images of your friends automatically.
+Which Azure Cognitive Services service should you use?
+A. Face
+B. Form Recognizer
+C. Text Analytics
+D. Computer Vision
+
+Highly Voted comment found!
+More aligned towards face
+******************************
+Highly Voted comment found!
+Key word is "image tagging".
+Source: https://learn.fotoware.com/On-Premises/Color_Factory/Color_Factory_Reference_Guide/Managing_Metadata/Automatic_tagging_using_Azure_Computer_Vision_image_recognition
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 87 discussion
+What are two tasks that can be performed by using computer vision? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Predict stock prices.
+B. Detect brands in an image.
+C. Detect the color scheme in an image
+D. Translate text between languages.
+E. Extract key phrases.
+
+Highly Voted comment found!
+B&C are correct answers
+******************************
+Highly Voted comment found!
+Detech Color scheme and Brand images are correct based on
+
+Detect the color scheme
+Analyze color usage within an image. Computer Vision can determine whether an image is black & white or color and, for color images, identify the dominant and accent colors. Detect the color scheme
+
+and 
+
+Azure's Computer Vision service gives you access to advanced algorithms that process images and return information based on the visual features you're interested in. For example, Computer Vision can determine whether an image contains adult content, find specific brands or objects, or find human faces.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 86 discussion
+What is a use case for classification?
+A. predicting how many cups of coffee a person will drink based on how many hours the person slept the previous night.
+B. analyzing the contents of images and grouping images that have similar colors
+C. predicting whether someone uses a bicycle to travel to work based on the distance from home to work
+D. predicting how many minutes it will take someone to run a race based on past race times
+
+Highly Voted comment found!
+this sis wrong again. Grouping of objects with similar colors is clustering and not classification. Classification is point 3 where we will predict whether the person will go to office by cycle  (answer - yes or no - hence clasification) depending on the distance
+******************************
+Highly Voted comment found!
+Incorrect answer, correct answer is C.
+
+A refers to regression.
+B refers to Clustering
+C refers to Classification
+D refers to Regression
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 85 discussion
+What are two tasks that can be performed by using the Computer Vision service? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Train a custom image classification model.
+B. Detect faces in an image.
+C. Recognize handwritten text.
+D. Translate the text in an image between languages.
+
+Highly Voted comment found!
+BC is correct
+******************************
+Highly Voted comment found!
+BC correct as given.
+---------------
+Microsoft Azure provides multiple cognitive services that you can use to detect and analyze faces, including:
+
+    **Computer Vision, which offers face detection and some basic face analysis, such as determining age.
+    **Video Indexer, which you can use to detect and identify faces in a video.
+    **Face, which offers pre-built algorithms that can detect, recognize, and analyze faces.
+
+Of these, Face offers the widest range of facial analysis capabilities, so we'll focus on that service in this module.
+
+------------------
+The ability to extract text from images is handled by the Computer Vision service, which also provides image analysis capabilities.
+The Computer Vision service provides two application programming interfaces (APIs) that you can use to read text in images: the OCR API and the Read API.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 84 discussion
+You send an image to a Computer Vision API and receive back the annotated image shown in the exhibit.
+/assets/media/exam-media/04234/0009500001.jpg
+Which type of computer vision was used?
+A. object detection
+B. face detection
+C. optical character recognition (OCR)
+D. image classification
+
+Highly Voted comment found!
+Object detection vs. image classification
+Image classification is a machine learning based form of computer vision in which a model is trained to categorize images based on the primary subject matter they contain. Object detection goes further than this to classify individual objects within the image, and to return the coordinates of a bounding box that indicates the object's location.
+
+Notice that an object detection model returns the following information:
+•	The class of each object identified in the image.
+•	The probability score of the object classification (which you can interpret as the confidence of the predicted class being correct)
+•	The coordinates of a bounding box for each object.
+******************************
+Highly Voted comment found!
+correct. to detect objects in a image you need to use Object Detection
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 83 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0009400001.png
+
+Highly Voted comment found!
+Custom vision is correct 
+
+https://docs.microsoft.com/en-gb/learn/modules/detect-objects-images-custom-vision/2-object-detection-azure
+******************************
+Highly Voted comment found!
+Custom Vision is correct since we are using our own images.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 82 discussion
+You need to determine the location of cars in an image so that you can estimate the distance between the cars.
+Which type of computer vision should you use?
+A. optical character recognition (OCR)
+B. object detection
+C. image classification
+D. face detection
+
+Highly Voted comment found!
+correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 81 discussion
+DRAG DROP -
+Match the types of computer vision workloads to the appropriate scenarios.
+To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0009100001.jpg
+
+Highly Voted comment found!
+this question came today...Answer is correct
+******************************
+Highly Voted comment found!
+Answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 80 discussion
+DRAG DROP -
+Match the facial recognition tasks to the appropriate questions.
+To answer, drag the appropriate task from the column on the left to its question on the right. Each task may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0009000001.png
+
+Highly Voted comment found!
+For me to remember :)
+
+verification = same person?
+similarity = look like?
+grouping = belong together?
+identification = who is this person?
+******************************
+Highly Voted comment found!
+~Face verification:
+The Verify API does an authentication against two detected faces or from one detected face to one person object. Practically, it evaluates whether two faces belong to the same person.
+
+~Person identification:
+The Identify API is used to identify a detected face against a database of people (facial recognition search). This feature might be useful for automatic image tagging in photo management software. You create the database in advance, and you can edit it over time.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 79 discussion
+You use drones to identify where weeds grow between rows of crops to send an instruction for the removal of the weeds.
+This is an example of which type of computer vision?
+A. object detection
+B. optical character recognition (OCR)
+C. scene segmentation
+
+Highly Voted comment found!
+A for sure
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 78 discussion
+DRAG DROP -
+Match the types of machine learning to the appropriate scenarios.
+To answer, drag the appropriate machine learning type from the column on the left to its scenario on the right. Each machine learning type may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0008800001.png
+
+Highly Voted comment found!
+Answers are correct
+******************************
+Highly Voted comment found!
+Answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 77 discussion
+You are processing photos of runners in a race.
+You need to read the numbers on the runners' shirts to identity the runners in the photos.
+Which type of computer vision should you use?
+A. facial recognition
+B. optical character recognition (OCR)
+C. image classification
+D. object detection
+
+Highly Voted comment found!
+OCR is the answer
+******************************
+Highly Voted comment found!
+Gotten this in Jun 2023 exam.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 76 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0008500001.png
+
+Highly Voted comment found!
+Y/Y/N is correct
+******************************
+Highly Voted comment found!
+technically analyzing video is possible. but we can't use only the Custom Vision Service to achieve that. so the answer I think Y/Y/N is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 75 discussion
+You need to develop a mobile app for employees to scan and store their expenses while travelling.
+Which type of computer vision should you use?
+A. semantic segmentation
+B. image classification
+C. object detection
+D. optical character recognition (OCR)
+
+Highly Voted comment found!
+They should add "Form Recognizer" as option as this is perfect for receipt reading: https://azure.microsoft.com/en-us/services/cognitive-services/form-recognizer/
+******************************
+Highly Voted comment found!
+Correct Answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 74 discussion
+HOTSPOT -
+You have a database that contains a list of employees and their photos.
+You are tagging new photos of the employees.
+For each of the following statements select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0008300001.png
+
+Highly Voted comment found!
+There is no answer. But the correct answer should beY/Y/N
+******************************
+Highly Voted comment found!
+O-O-N pour moi aussi
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 73 discussion
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04234/0008200001.jpg
+
+Highly Voted comment found!
+Counting the number of animals based on a video feed is an example of an AI service called object detection, which is a type of computer vision technology.
+******************************
+Highly Voted comment found!
+correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 72 discussion
+In which two scenarios can you use the Form Recognizer service? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Extract the invoice number from an invoice.
+B. Translate a form from French to English.
+C. Find image of product in a catalog.
+D. Identify the retailer from a receipt.
+
+Highly Voted comment found!
+answer is ok
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 71 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0008000001.png
+
+Highly Voted comment found!
+on exam 22 october, answer is 'N/Y/Y' (passed with 1000/1000)
+******************************
+Highly Voted comment found!
+For Q1, Object Deteciton has no further types to choose from. 
+             Classification has 2 classification types to choose - MultiClass & MultiLabel.
+
+[Object Detection] https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/get-started-build-detector
+
+[Classification] https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/getting-started-build-a-classifier
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 70 discussion
+Your company wants to build a recycling machine for bottles. The recycling machine must automatically identify bottles of the correct shape and reject all other items.
+Which type of AI workload should the company use?
+A. anomaly detection
+B. conversational AI
+C. computer vision
+D. natural language processing
+
+Highly Voted comment found!
+C is correct. Anomaly detection is unsupervised learning that detect "deviation" from norm. To correctly identify the "correct" plastic bottle, computer vision should be used.
+******************************
+Highly Voted comment found!
+answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 69 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0007800001.jpg
+
+Highly Voted comment found!
+Y - must be numeric for regression
+N - labels are not required
+N - may or may not be numeric, not must
+******************************
+Highly Voted comment found!
+C) For the classification, labels must be numeric. Why No? Labels must be a number, even if it's just categorical values  0,1,2. If we have classified labels like YES/ NO, we still have to convert them into numbers, it's called label encoding, right?
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 68 discussion
+Which two languages can you use to write custom code for Azure Machine Learning designer? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Python
+B. R
+C. C#
+D. Scala
+
+Highly Voted comment found!
+correct ans. It was there in 8.5.2023 exam
+******************************
+Highly Voted comment found!
+Only Python and R are actually supported
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 67 discussion
+You need to predict the animal population of an area.
+Which Azure Machine Learning type should you use?
+A. regression
+B. clustering
+C. classification
+
+Highly Voted comment found!
+Correct, it was there is in 8.5.2023 exam
+******************************
+Highly Voted comment found!
+Prediction model = regression
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 66 discussion
+Which two actions are performed during the data ingestion and data preparation stage of an Azure Machine Learning process? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Calculate the accuracy of the model.
+B. Score test data by using the model.
+C. Combine multiple datasets.
+D. Use the model for real-time predictions.
+E. Remove records that have missing values.
+
+Highly Voted comment found!
+C & E are correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 65 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0007500001.jpg
+
+Highly Voted comment found!
+Answer is correct and it was there in my todays exam
+******************************
+Highly Voted comment found!
+No, No, Yes
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 64 discussion
+HOTSPOT -
+You have an Azure Machine Learning model that predicts product quality. The model has a training dataset that contains 50,000 records. A sample of the data is shown in the following table.
+/assets/media/exam-media/04234/0007300002.png
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0007400001.jpg
+
+Highly Voted comment found!
+Variables or measurements = Features
+Classifications/True/Falses= Labels
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 63 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0007200002.png
+
+Highly Voted comment found!
+labelling
+******************************
+Highly Voted comment found!
+Answer labelling is correct
+https://docs.microsoft.com/en-us/azure/machine-learning/how-to-label-data
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 62 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0007100002.png
+
+Highly Voted comment found!
+I think it should be feature engineering.
+******************************
+Highly Voted comment found!
+Based on this statement from the referenced article: Feature selection: The process of selecting the key subset of features to reduce the dimensionality of the training problem.
+Feature selection is the answer since feature engineering is the creation of NEW features from raw data to capture additional information not easily apparent in the original feature set.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 61 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0007000002.png
+
+Highly Voted comment found!
+Appeared on exam: 03/31/2022. Answer is correct!
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 60 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0006900001.png
+
+Highly Voted comment found!
+Confidence is the right answer bitches
+******************************
+Highly Voted comment found!
+Given answer is wrong. The calculated probability of a correct image classification is typically referred to as "confidence."
+
+Confidence represents the level of certainty or probability assigned to a specific classification prediction made by a machine learning model. It indicates the model's belief in the accuracy of its prediction. For example, if a model classifies an image as a dog with a confidence of 0.85, it means the model is 85% confident that the image is correctly classified as a dog.
+
+On the other hand, accuracy is a metric that measures the overall correctness of the model's predictions. It represents the ratio of correct predictions to the total number of predictions made by the model. Accuracy alone does not provide information about the level of confidence or certainty for individual predictions.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 59 discussion
+DRAG DROP -
+Match the types of machine learning to the appropriate scenarios.
+To answer, drag the appropriate machine learning type from the column on the left to its scenario on the right. Each machine learning type may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0006800001.jpg
+
+Highly Voted comment found!
+The answer is wrong for point no 2 and 3. 
+It is clear in the comments provided below: 
+
+Clustering is unsupervised learning technique about grouping similar variables together. the answer should be clustering.
+third, predict whether  -- this is clear classification problem.
+******************************
+Highly Voted comment found!
+2nd one should be clustering, 3rd one should be classification
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 58 discussion
+You need to create a training dataset and validation dataset from an existing dataset.
+Which module in the Azure Machine Learning designer should you use?
+A. Select Columns in Dataset
+B. Add Rows
+C. Split Data
+D. Join Data
+
+Highly Voted comment found!
+C. Split Data
+******************************
+Highly Voted comment found!
+C is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 57 discussion
+Which two components can you drag onto a canvas in Azure Machine Learning designer? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. dataset
+B. compute
+C. pipeline
+D. module
+
+Highly Voted comment found!
+Azure Machine Learning designer lets you visually connect datasets and modules on an interactive canvas to create machine learning models.
+******************************
+Highly Voted comment found!
+Answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 56 discussion
+Which metric can you use to evaluate a classification model?
+A. true positive rate
+B. mean absolute error (MAE)
+C. coefficient of determination (R2)
+D. root mean squared error (RMSE)
+
+Highly Voted comment found!
+MAE, RMSE and R2 are metris for regression:
+
+https://docs.microsoft.com/en-us/azure/machine-learning/algorithm-module-reference/evaluate-model
+
+So answer is correct.
+******************************
+Highly Voted comment found!
+FYI: the concept Receiver Operating Characteristic (ROC) was developed during World War II for the analysis of radar receivers.
+Reference: https://stats.stackexchange.com/questions/341043/what-is-the-origin-of-the-receiver-operating-characteristic-roc-terminology
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 55 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0006500001.jpg
+
+Highly Voted comment found!
+Sale price is numeric , hence regression is the correct answer
+******************************
+Highly Voted comment found!
+Regression is the correct answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 54 discussion
+Which type of machine learning should you use to identify groups of people who have similar purchasing habits?
+A. classification
+B. regression
+C. clustering
+
+Highly Voted comment found!
+it's official- whenever the questions involves groups, it's about clustering
+******************************
+Highly Voted comment found!
+Was there in my todays exam
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 53 discussion
+DRAG DROP -
+You need to use Azure Machine Learning designer to build a model that will predict automobile prices.
+Which type of modules should you use to complete the model? To answer, drag the appropriate modules to the correct locations. Each module may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0006200001.png
+
+Highly Voted comment found!
+Select Column in the dataset - 1st right
+Split Data - 2nd right
+Linear Regression - Left
+******************************
+Highly Voted comment found!
+see https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-designer-automobile-price-deploy
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 52 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0006100001.jpg
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 51 discussion
+What are two metrics that you can use to evaluate a regression model? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. coefficient of determination (R2)
+B. F1 score
+C. root mean squared error (RMSE)
+D. area under curve (AUC)
+E. balanced accuracy
+
+Highly Voted comment found!
+Small hack: If its Regression model then remembers 'R' and the corresponding answer will be R2 and RMSE.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 50 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0005800001.jpg
+
+Highly Voted comment found!
+Answers are : 
+
+1 = N (By essence validation set is different from test set. Not difficult : the answer is No).
+2 = Y (This is the purpose of validation set : to validate (or not) the model).
+3 = N (validation test doesn't test if all the train split of dataset has been used to train the model. That's out of the scope).
+******************************
+Highly Voted comment found!
+Answers looks correct If we assume validation set - means test data set
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 49 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0005700001.jpg
+
+Highly Voted comment found!
+For me to remember again haha xD
+
+Clustering = similar/similarities = Yes
+******************************
+Highly Voted comment found!
+3 : No - Classification : it has predefined labels (mild. moderate, sever) and it is supervised
+see e.g. https://www.geeksforgeeks.org/ml-classification-vs-clustering/
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 48 discussion
+You are building a tool that will process images from retail stores and identify the products of competitors.
+The solution will use a custom model.
+Which Azure Cognitive Services service should you use?
+A. Custom Vision
+B. Form Recognizer
+C. Face
+D. Computer Vision
+
+Highly Voted comment found!
+Azure Custom Vision is an image recognition service that lets you build, deploy, and improve your own image identifier models. An image identifier applies labels (which represent classifications or objects) to images, according to their detected visual characteristics. Unlike the Computer Vision service, Custom Vision allows you to specify your own labels and train custom models to detect them.
+******************************
+Highly Voted comment found!
+Custom Model = Custom Vision ;)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 47 discussion
+You need to predict the income range of a given customer by using the following dataset.
+/assets/media/exam-media/04234/0005500001.png
+Which two fields should you use as features? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Education Level
+B. Last Name
+C. Age
+D. Income Range
+E. First Name
+
+Highly Voted comment found!
+If you miss this question, you'd better postpone your exam
+******************************
+Highly Voted comment found!
+Think of Features as the Clues to the mystery and the Label as the Solution to that mystery. First and Last Name won't tell you anything when it comes to predicting the income. You already know what the label is because it is what your trying to solve for. The clues (Features) to the mystery is Age + Education Level = Income Range Solution to the Mystery (Label).
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 46 discussion
+You are evaluating whether to use a basic workspace or an enterprise workspace in Azure Machine Learning.
+What are two tasks that require an enterprise workspace? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Use a graphical user interface (GUI) to run automated machine learning experiments.
+B. Create a compute instance to use as a workstation.
+C. Use a graphical user interface (GUI) to define and run machine learning experiments from Azure Machine Learning designer.
+D. Create a dataset from a comma-separated value (CSV) file.
+
+Highly Voted comment found!
+This question should not be present in future exams as Enterprise workspace is now fused with Basic. Someone please follow up on this.
+******************************
+Highly Voted comment found!
+I passed the exam yesterday, I found this question
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 45 discussion
+When training a model, why should you randomly split the rows into separate subsets?
+A. to train the model twice to attain better accuracy
+B. to train multiple models simultaneously to attain better performance
+C. to test the model by using data that was not used to train the model
+
+Highly Voted comment found!
+this is the famous 70% & 30%?
+******************************
+Highly Voted comment found!
+answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 44 discussion
+A medical research project uses a large anonymized dataset of brain scan images that are categorized into predefined brain haemorrhage types.
+You need to use machine learning to support early detection of the different brain haemorrhage types in the images before the images are reviewed by a person.
+This is an example of which type of machine learning?
+A. clustering
+B. regression
+C. classification
+
+Highly Voted comment found!
+the brain haemorrhage types are predefined (labeled), so it's classification
+******************************
+Highly Voted comment found!
+This is classification. There are multiple reasons it's classification
+- The training data is already tagged as with the correct type of hemorrhage
+- Classification can be done for more than two classes (which people seem to not realize based on the comments)
+- You do clustering on a group of inputs. For example, the scans of 10 people. You can't cluster a single input. Clearly you get a new scan of a new patient and you want to know what that scan shows, you don't have a group of scans to cluster.
+- Clustering gives NO labels. You just get groups and don't know what the label is, but in this question it's very clear they want to know the label that belongs to the new scan -> classification
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 43 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0005200001.png
+
+Highly Voted comment found!
+Answer is No/Yes/No.
+ 
+Came out in my exam on 20-July-2021. Scored 1000/1000. Hope this helps
+******************************
+Highly Voted comment found!
+The Answer should be No/Yes/No. 
+A) In Automated ML , you cannot insert Python code.
+C) in Automated ML, though you can select Data but not modules... No Canvas is used in Auto ML.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 42 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0005100001.png
+
+Highly Voted comment found!
+Adding and connecting modules on visual canvas is correct answer.
+******************************
+Highly Voted comment found!
+Although the service is called 'Auto' ML, it is still up to the user to pick the tasks to be automated. Hence, "Adding and connecting modules on visual canvas"  is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 41 discussion
+HOTSPOT -
+You have the following dataset.
+/assets/media/exam-media/04234/0004900001.png
+You plan to use the dataset to train a model that will predict the house price categories of houses.
+What are Household Income and House Price Category? To answer, select the appropriate option in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0004900002.png
+
+Highly Voted comment found!
+correct. Feature = Input. Label = Output.
+******************************
+Highly Voted comment found!
+answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 40 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0004700003.png
+
+Highly Voted comment found!
+It's correct, you can customize but only using Python and R code.
+******************************
+Highly Voted comment found!
+A similar question come:
+Azure Machine Learning Designer enables you to include custom Python functions. (YES)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 39 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0004600001.png
+
+Highly Voted comment found!
+correct
+******************************
+Highly Voted comment found!
+For me to remember haha xD
+
+Regression = predict time (days, months, year)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 38 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0004400003.png
+
+Highly Voted comment found!
+Correct. For Prod - AKS and for Dev/Test - use Azure Container Service
+******************************
+Highly Voted comment found!
+Correct:
+To perform real-time inferencing, you must deploy a pipeline as a real-time endpoint. The real-time endpoint creates an interface between an external application and your scoring model. A call to a real-time endpoint returns prediction results to the application in real-time. To make a call to a real-time endpoint, you pass the API key that was created when you deployed the endpoint. The endpoint is based on REST, a popular architecture choice for web programming projects.
+
+Real-time endpoints must be deployed to an Azure Kubernetes Service cluster.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 37 discussion
+You use Azure Machine Learning designer to publish an inference pipeline.
+Which two parameters should you use to access the web service? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. the model name
+B. the training endpoint
+C. the authentication key
+D. the REST endpoint
+
+Highly Voted comment found!
+Since the service is exposed as a REST API, you need a REST endpoint and an API key to authenticate requests.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 36 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0004200001.png
+
+Highly Voted comment found!
+answer is correct
+******************************
+Highly Voted comment found!
+This used to be correct, but now it is called AI Document Intelligence.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 35 discussion
+Which service should you use to extract text, key/value pairs, and table data automatically from scanned documents?
+A. Form Recognizer
+B. Text Analytics
+C. Language Understanding
+D. Custom Vision
+
+Highly Voted comment found!
+Just FYI:
+Form Recognizer is now Azure AI Document Intelligence!
+******************************
+Highly Voted comment found!
+Table, receipts, invoice - answer is always form recognizer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 34 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0004000001.png
+
+Highly Voted comment found!
+Answer is correct.
+
+Note points: 
+--'labels' are the outputs(ie we map each set of features to a 'label')
+
+--recall and precision are other imp metrics in a classification problem(other than Accuracy)
+******************************
+Highly Voted comment found!
+I think the first would be FEATURING (feature is input, label is output)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 33 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0003900001.png
+
+Highly Voted comment found!
+this is wrong. the answer should be C- classification as the the prediction whether the loan will be repaid or not  -- whether means class - categorical asnwer as yes or no - hence clasification
+******************************
+Highly Voted comment found!
+Correct answer is "A" I am a data Scientist & 100% sure
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 32 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0003700001.png
+
+Highly Voted comment found!
+Came in exam Feb 28 AS-IS
+******************************
+Highly Voted comment found!
+Answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 31 discussion
+You need to predict the sea level in meters for the next 10 years.
+Which type of machine learning should you use?
+A. classification
+B. regression
+C. clustering
+
+Highly Voted comment found!
+Predicting numerical values without a yes or no is regression
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 30 discussion
+You have a dataset that contains information about taxi journeys that occurred during a given period.
+You need to train a model to predict the fare of a taxi journey.
+What should you use as a feature?
+A. the number of taxi journeys in the dataset
+B. the trip distance of individual taxi journeys
+C. the fare of individual taxi journeys
+D. the trip ID of individual taxi journeys
+
+Highly Voted comment found!
+C is label and B is the feature.
+******************************
+Highly Voted comment found!
+B is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 29 discussion
+Which type of machine learning should you use to predict the number of gift cards that will be sold next month?
+A. classification
+B. regression
+C. clustering
+
+Highly Voted comment found!
+Answer should be B.
+******************************
+Highly Voted comment found!
+Answer is B
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 28 discussion
+You have the Predicted vs. True chart shown in the following exhibit.
+/assets/media/exam-media/04234/0003400001.jpg
+Which type of model is the chart used to evaluate?
+A. classification
+B. regression
+C. clustering
+
+Highly Voted comment found!
+Correct answer is provided
+******************************
+Highly Voted comment found!
+B is the answer.
+
+https://learn.microsoft.com/en-us/training/modules/create-regression-model-azure-machine-learning-designer/2-regression-scenarios
+Regression is a form of machine learning used to understand the relationships between variables to predict a desired outcome. Regression predicts a numeric label or outcome based on variables, or features. For example, an automobile sales company might use the characteristics of a car (such as engine size, number of seats, mileage, and so on) to predict its likely selling price. In this case, the characteristics of the car are the features, and the selling price is the label.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 27 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0003300001.png
+
+Highly Voted comment found!
+Answer is Features
+******************************
+Highly Voted comment found!
+Features is right answer
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 26 discussion
+DRAG DROP -
+Match the machine learning tasks to the appropriate scenarios.
+To answer, drag the appropriate task from the column on the left to its scenario on the right. Each task may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0003100001.png
+
+Highly Voted comment found!
+For me to remember again xD
+
+Model Evalution = values
+Feature engineering = splitting
+Feature selection = picking
+******************************
+Highly Voted comment found!
+answer is correct
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 25 discussion
+DRAG DROP -
+Match the types of AI workloads to the appropriate scenarios.
+To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0003000001.jpg
+
+Highly Voted comment found!
+knowledge mining is not chatbot. it's Natural Language Processing.
+******************************
+Highly Voted comment found!
+Shouldn't the 1st one be Conversational AI? Altho bots can be built to explore the indexed data from Knowledge Mining.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 24 discussion
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04234/0002800002.jpg
+
+Highly Voted comment found!
+dup of #23
+******************************
+Highly Voted comment found!
+it's repeated
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 23 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0002700001.png
+
+Highly Voted comment found!
+key > bais = fairness
+******************************
+Highly Voted comment found!
+Inclusiveness = accessible to all
+Fairness = treat all without prejudice or bias
+Answer has to be fairness
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 22 discussion
+You are building an AI-based app.
+You need to ensure that the app uses the principles for responsible AI.
+Which two principles should you follow? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Implement an Agile software development methodology
+B. Implement a process of AI model validation as part of the software review process
+C. Establish a risk governance committee that includes members of the legal team, members of the risk management team, and a privacy officer
+D. Prevent the disclosure of the use of AI-based algorithms for automated decision making
+
+Highly Voted comment found!
+B and C are correct. B ensures reliability and safety principle and C ensures privacy and security principle of AI.
+******************************
+Highly Voted comment found!
+In test on 20/01/2023
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 21 discussion
+DRAG DROP -
+You plan to deploy an Azure Machine Learning model as a service that will be used by client applications.
+Which three processes should you perform in sequence before you deploy the model? To answer, move the appropriate processes from the list of processes to the answer area and arrange them in the correct order.
+Select and Place:
+/assets/media/exam-media/04234/0002500001.png
+
+Highly Voted comment found!
+Answer is correct
+Data Prep
+Train Model
+Evaluate Model
+******************************
+Highly Voted comment found!
+1. data preparation
+2. model training
+3. model evaluation
+
+1. Ingest and prepare dataset
+2. Split data randomly into training and validation data
+3. Train model.
+4. Evaluate model against validation dataset
+
+https://learn.microsoft.com/en-us/training/modules/use-automated-machine-learning/5-machine-learning-steps
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 20 discussion
+DRAG DROP -
+Match the principles of responsible AI to appropriate requirements.
+To answer, drag the appropriate principles from the column on the left to its requirement on the right. Each principle may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0002300001.jpg
+
+Highly Voted comment found!
+Ans is correct
+******************************
+Highly Voted comment found!
+For me to remember xD.
+
+Fairness = discriminate
+Privacy & Security = personal data
+Transparency = decision-making
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 19 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0002200001.jpg
+
+Highly Voted comment found!
+I can argue the answer to the 3rd question is "yes" as well. By having different pricing, Microsoft can make its services more accessible or affordable to all types of users, like poor/developed countries
+******************************
+Highly Voted comment found!
+1 Yes 
+2 No it should be related to "privacy and security" ( see e.g. https://azure.microsoft.com/en-us/services/bot-services/health-bot/#overview )
+3 No it should be related to "fairness"
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 18 discussion
+When you design an AI system to assess whether loans should be approved, the factors used to make the decision should be explainable.
+This is an example of which Microsoft guiding principle for responsible AI?
+A. transparency
+B. inclusiveness
+C. fairness
+D. privacy and security
+
+Highly Voted comment found!
+Explainability is all about transparency
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 17 discussion
+You run a charity event that involves posting photos of people wearing sunglasses on Twitter.
+You need to ensure that you only retweet photos that meet the following requirements:
+✑ Include one or more faces.
+✑ Contain at least one person wearing sunglasses.
+What should you use to analyze the images?
+A. the Verify operation in the Face service
+B. the Detect operation in the Face service
+C. the Describe Image operation in the Computer Vision service
+D. the Analyze Image operation in the Computer Vision service
+
+Highly Voted comment found!
+answer si correct
+
+https://docs.microsoft.com/en-us/azure/cognitive-services/face/concepts/face-detection
+
+Face detect can be requested to detect also glasses attribute
+******************************
+Highly Voted comment found!
+"Optionally, face detection can extract a set of face-related attributes, such as head pose, age, emotion, facial hair, and glasses." 
+https://docs.microsoft.com/en-us/azure/cognitive-services/face/overview
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 16 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0001900001.png
+
+Highly Voted comment found!
+Answer is Feature Engineering.
+Explaination - feature engineering is applied first to generate additional features, and then feature selection is done to eliminate irrelevant, redundant, or highly correlated features.
+Reference - https://docs.microsoft.com/en-us/azure/architecture/data-science-process/create-features
+******************************
+Highly Voted comment found!
+Feature engineering
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 15 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0001800001.png
+
+Highly Voted comment found!
+1. object detection
+
+https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-object-detection
+Object detection is similar to tagging, but the API returns the bounding box coordinates (in pixels) for each object found in the image. For example, if an image contains a dog, cat and person, the Detect operation will list those objects with their coordinates in the image. You can use this functionality to process the relationships between the objects in an image. It also lets you determine whether there are multiple instances of the same object in an image.
+******************************
+Highly Voted comment found!
+object detection
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 14 discussion
+What are three Microsoft guiding principles for responsible AI? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. knowledgeability
+B. decisiveness
+C. inclusiveness
+D. fairness
+E. opinionatedness
+F. reliability and safety
+
+Highly Voted comment found!
+The six guiding principles are:
+1. Fairness
+2. Inclusiveness
+3. Transparency
+4. Privacy and Security
+5. Reliability and Safety
+6. Accountability
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 13 discussion
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/ai-900/image291.png
+
+Highly Voted comment found!
+The NER feature can identify and categorize entities in unstructured text. For example: people, places, organizations, and quantities.
+
+https://learn.microsoft.com/en-us/azure/ai-services/language-service/named-entity-recognition/overview
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 12 discussion
+DRAG DROP -
+Match the types of AI workloads to the appropriate scenarios.
+To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0001500001.png
+
+Highly Voted comment found!
+For me to remember haha xD
+
+Computer vision = identify (object) letters
+NLP = sentiment
+Anomaly Detection = fraud
+Maching Learning (regression) = predict
+******************************
+Highly Voted comment found!
+1. Computer vision
+2. Natural language processing
+3. Anomaly detection
+4. ML (Regression)
+
+https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview-ocr
+OCR or Optical Character Recognition is also referred to as text recognition or text extraction. Machine-learning based OCR techniques allow you to extract printed or handwritten text from images, such as posters, street signs and product labels, as well as from documents like articles, reports, forms, and invoices. The text is typically extracted as words, text lines, and paragraphs or text blocks, enabling access to digital version of the scanned text. This eliminates or significantly reduces the need for manual data entry.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 11 discussion
+You are building an AI system.
+Which task should you include to ensure that the service meets the Microsoft transparency principle for responsible AI?
+A. Ensure that all visuals have an associated text that can be read by a screen reader.
+B. Enable autoscaling to ensure that a service scales based on demand.
+C. Provide documentation to help developers debug code.
+D. Ensure that a training dataset is representative of the population.
+
+Highly Voted comment found!
+C is correct.
+https://docs.microsoft.com/en-us/learn/modules/get-started-ai-fundamentals/7-understand-responsible-ai
+******************************
+Highly Voted comment found!
+The Microsoft transparency principle for responsible AI requires that AI systems are understandable by users and operators. Therefore, the task that directly aligns with this principle is:
+
+D. Ensure that a training dataset is representative of the population. This helps to ensure that the AI system’s decisions are fair and unbiased, which is a key aspect of transparency.
+Option A, while important for accessibility, does not directly relate to the transparency of an AI system. Option B is more about the performance and scalability of the system, and option C, while important for maintainability, does not directly contribute to the transparency of the AI system from the user’s perspective. Therefore, the most appropriate answer is D.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 10 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0001400001.jpg
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 9 discussion
+DRAG DROP -
+Match the Microsoft guiding principles for responsible AI to the appropriate descriptions.
+To answer, drag the appropriate principle from the column on the left to its description on the right. Each principle may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0001200001.png
+
+Highly Voted comment found!
+Accountability
+The people who design and deploy AI systems must be accountable for how their systems operate. Organizations should draw upon industry standards to develop accountability norms. These norms can ensure that AI systems are not the final authority on any decision that impacts people's lives and that humans maintain meaningful control over otherwise highly autonomous AI systems.
+******************************
+Highly Voted comment found!
+for me to easy remember xD
+
+Reliability & Safety = resist harmful
+Accountability = overridden by humans
+Privacy & Security = information and controls
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 8 discussion
+You are designing an AI system that empowers everyone, including people who have hearing, visual, and other impairments.
+This is an example of which Microsoft guiding principle for responsible AI?
+A. fairness
+B. inclusiveness
+C. reliability and safety
+D. accountability
+
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 7 discussion
+DRAG DROP -
+Match the types of AI workloads to the appropriate scenarios.
+To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04234/0001000001.png
+
+Highly Voted comment found!
+Answer is correct.
+
+What is Natural Language Processing?
+Natural language processing (NLP) is the area of AI that deals with creating software that understands written and spoken language.
+
+NLP enables you to create software that can:
+
+-Analyze text documents to extract key phrases and recognize entities (such as places, dates, or people).  ie Text Analystics service
+
+-Perform sentiment analysis to determine how positive or negative the language used in a document is. ie Text Analytics service
+
+-Interpret spoken language, and synthesize speech responses. ie Speech service(speech to text and text to speech)
+
+-Automatically translate spoken or written phrases between languages. ie Text service(for text to text translation)/Speech service(for speech to text/speech translation)
+
+Interpret commands and determine appropriate actions. ie Language Understanding(LUIS) service
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 6 discussion
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04234/0000900001.png
+
+Highly Voted comment found!
+I think “Reliability and safety” is correct option as per the following:
+
+“To build trust, it's critical that AI systems operate reliably, safely, and consistently under normal circumstances and in unexpected conditions. These systems should be able to operate as they were originally designed, respond safely to unanticipated conditions, and resist harmful manipulation. It's also important to be able to verify that these systems are behaving as intended under actual operating conditions. How they behave and the variety of conditions they can handle reliably and safely largely reflects the range of situations and circumstances that developers anticipate during design and testing.
+We believe that rigorous testing is essential during system development and deployment to ensure AI systems can respond safely in unanticipated situations and edge cases, don't have unexpected performance failures, and don't evolve in ways that are inconsistent with original expectations”
+******************************
+Highly Voted comment found!
+Answer is Reliability and Safety
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 5 discussion
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0000700001.png
+
+Highly Voted comment found!
+N/Y/N ?
+******************************
+Highly Voted comment found!
+even i feel answer shld be N-Y-N
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 4 discussion
+You build a machine learning model by using the automated machine learning user interface (UI).
+You need to ensure that the model meets the Microsoft transparency principle for responsible AI.
+What should you do?
+A. Set Validation type to Auto.
+B. Enable Explain best model.
+C. Set Primary metric to accuracy.
+D. Set Max concurrent iterations to 0.
+
+Highly Voted comment found!
+Answer is B:
+MS AI responsibilities 
+
+•	Fairness – Limit Biases
+•	Reliability ad Safely – ops, resist manipulating, use of regresses testing
+•	Privacy and security- secure data provide security controls 
+•	Inclusiveness- AI available to everyone i.e., disabled ppl 
+•	Transparency- fully aware of the limitations over AII in use 
+•	Accountability- follow governments and frameworks meet legal and ethical standards
+******************************
+Highly Voted comment found!
+There are 6 Responsible AI principles
+https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6
+
+'Transparency' is one of them - which means AI systems should be understandable
+
+So 'B' is the answer here, As AutoML internally try all models, so it should explain the best model (i.e. should be transparent - How and Why) which helps the developers to debug  and their system and should understand the behaviour
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 3 discussion
+HOTSPOT -
+You are developing a model to predict events by using classification.
+You have a confusion matrix for the model scored on test data as shown in the following exhibit.
+/assets/media/exam-media/04234/0000300001.png
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04234/0000400001.png
+
+Highly Voted comment found!
+Answer 2 is also correct please refer the https://docs.microsoft.com/en-us/azure/machine-learning/classic/evaluate-model-performance
+******************************
+Highly Voted comment found!
+Answer 2 is correct.  The grid used in the question is reversed to the MS documentation.  A false negative would imply that a 0 was predicted but 1 was the actual outcome, of which there were 1033 occurrences according to the grid used in the question.
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 2 discussion
+For a machine learning progress, how should you split data for training and evaluation?
+A. Use features for training and labels for evaluation.
+B. Randomly split the data into rows for training and rows for evaluation.
+C. Use labels for training and features for evaluation.
+D. Randomly split the data into columns for training and columns for evaluation.
+
+Highly Voted comment found!
+Vote for 'B'
+
+A. Use features for training and labels for evaluation.  ==> Wrong (Training need both features and labels)
+B. Randomly split the data into rows for training and rows for evaluation. ==> Correct (few data used for training and on few data we can evaluate performance of model) , (so split in rows)
+C. Use labels for training and features for evaluation. ==> Wrong (for training we need both features and labels)
+D. Randomly split the data into columns for training and columns for evaluation. ==> Wrong (Data will be split  row -wise)
+******************************
+
+
+======================================================================================
+
+Exam AI-900 topic 1 question 1 discussion
+A company employs a team of customer service agents to provide telephone and email support to customers.
+The company develops a webchat bot to provide automated answers to common customer queries.
+Which business benefit should the company expect as a result of creating the webchat bot solution?
+A. increased sales
+B. a reduced workload for the customer service agents
+C. improved product reliability
+
+Highly Voted comment found!
+B is correct
+******************************
+Highly Voted comment found!
+B is correct
+******************************
+
+
+======================================================================================
+
