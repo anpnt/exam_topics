@@ -1,0 +1,4956 @@
+Exam DP-900 topic 1 question 1 discussion - Oct. 14, 2020, 4:02 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0000200001.png
+
+Highly Voted comment found!
+Descriptive analytics tells "What happened in the past". So B is the right choice.
+******************************
+Highly Voted comment found!
+Correct Answer: B 
+A is "Predictive"
+C is "Prescriptive" 
+D is "Diagnostic"
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 2 discussion - Sept. 25, 2020, 8:02 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0000300001.png
+
+Highly Voted comment found!
+no yes yes
+******************************
+Highly Voted comment found!
+Normalization is the process of organizing data in a database. This includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.
+
+https://docs.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description#:~:text=Normalization%20is%20the%20process%20of,eliminating%20redundancy%20and%20inconsistent%20dependency
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 3 discussion - April 20, 2022, 5:28 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0000400001.jpg
+
+Highly Voted comment found!
+For ETL it should be C, for ELT it will be B.
+******************************
+Highly Voted comment found!
+I am confused for the answer why it is C instead of B
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 4 discussion - Sept. 1, 2022, 7:53 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0000500001.png
+
+Highly Voted comment found!
+Hi everyone! I just passed exam, my score is more then 900. 
+1. Exam 80-90% consisted from questions from this site. 
+2. Answers on this site for this questions are not always correct, and comments with answers are not always correct. 
+3. If you are reading in comments "I passed exam and this question was on exam, the answers is __ (gives you some answer)"  - dont trust it blindly! They just tells their opinion about the answer. Because when you recieve you certification, your score, you do not recieve informations on what questions exactly you answered right or wrong! You just know your score and your score on every section. You dont know the answer and you no longer have access to question that you answered. 
+4) Everyone good luck!  You can do it.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 5 discussion - Sept. 5, 2020, 5:18 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0000700001.png
+
+Highly Voted comment found!
+Transcribe means converting from Audio to Text. This is similar to Alexa, Alexa is a Cognitive device. Cognitive is the correct answer.
+******************************
+Highly Voted comment found!
+I agree with cognitive
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 6 discussion - Oct. 9, 2021, 5:33 a.m.
+DRAG DROP -
+Match the types of analytics that can be used to answer the business questions.
+To answer, drag the appropriate analytics type from the column on the left to its question on the right. Each analytics type may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0000800001.jpg
+
+Highly Voted comment found!
+The last must be "Cognitivive".
+That's what about Azure Cognitive Services
+******************************
+Highly Voted comment found!
+1 diagnostic : it answers the question "why did it happen?"
+2 prescritive : it answers the question "how can we make it happen?"
+3 descriptive: it answers the question "what happened'"
+ref: Microsoft Azure Data Fundamentals - page 23-24
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 7 discussion - Oct. 9, 2020, 4:44 a.m.
+HOTSPOT -
+You have the following JSON document.
+/assets/media/exam-media/04277/0001000001.png
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the JSON document.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0001100001.png
+
+Highly Voted comment found!
+Correct Answer
+******************************
+Highly Voted comment found!
+Root Object, Nested Root Object, and Array because of [ ]
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 8 discussion - April 9, 2021, 4:05 p.m.
+HOTSPOT -
+You are reviewing the data model shown in the following exhibit.
+/assets/media/exam-media/04277/0001300001.png
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point
+Hot Area:
+/assets/media/exam-media/04277/0001400001.png
+
+Highly Voted comment found!
+Seems like this question is outside the scope of DP-900 exam. It is not covered in Azure training for DP-900 exam.
+******************************
+Highly Voted comment found!
+Star Schema in data warehouse, in which the center of the star can have one fact table and a number of associated dimension tables. It is known as star schema as its structure resembles a star.
+
+Dimension tables describe business entities—the things you model. Entities can include products, people, places, and concepts including time itself. 
+Fact tables store observations or events, and can be sales orders, stock balances, exchange rates, temperatures, etc. A fact table contains dimension key columns that relate to dimension tables, and numeric measure columns.
+
+https://docs.microsoft.com/en-us/power-bi/guidance/star-schema
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 9 discussion - Oct. 12, 2020, 4:41 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0001700001.png
+
+Highly Voted comment found!
+It's A.
+******************************
+Highly Voted comment found!
+The correct answer is "across compute nodes". Distributions map to Compute nodes for processing. As you pay for more compute resources, distributions are remapped to available Compute nodes.
+
+Reference: https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/massively-parallel-processing-mpp-architecture [see the architecture diagram]
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 10 discussion - Oct. 12, 2020, 4:43 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0001800001.jpg
+
+Highly Voted comment found!
+Cluster Index.
+******************************
+Highly Voted comment found!
+Clustered indexes sort and store the data rows in the table or view based on their key values. These are the columns included in the index definition. There can be only one clustered index per table, because the data rows themselves can be stored in only one order.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 11 discussion - April 5, 2021, 9:35 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0001900001.jpg
+
+Highly Voted comment found!
+Correct Answer: C     (Transaction Writes)
+******************************
+Highly Voted comment found!
+correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 12 discussion - April 1, 2021, 8:33 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0002000001.jpg
+
+Highly Voted comment found!
+All 3 are Yes. This is not just a big data question.
+******************************
+Highly Voted comment found!
+YES, YES, YES
+Batch processing can have output to SQL Database, Hive, HBase, Spark SQL. Look at the link and the diagram there
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/batch-processing
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 13 discussion - April 2, 2021, 3:08 p.m.
+DRAG DROP -
+Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process.
+Where does data processing occur for each stage of the ELT process? To answer, drag the appropriate locations to the correct stages. Each location may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0002200001.png
+
+Highly Voted comment found!
+The answer is CRM - DWH - DWH. 
+I got all the questions on analytics answered correctly in the exam.
+******************************
+Highly Voted comment found!
+This question is related to ELT(Extract-Load-Transform) not ETL (Extract-Transform-Load). In ELT, transformation happens on Target. So, Load and Transform should happen on 'Data Warehouse'.
+The answer given here is for ETL not for ELT.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 14 discussion - April 6, 2021, 11:57 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0002400001.jpg
+
+Highly Voted comment found!
+Descriptive
+******************************
+Highly Voted comment found!
+Descriptive is 100% correct.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 15 discussion - April 9, 2021, 3:47 a.m.
+DRAG DROP -
+Match the types of visualizations to the appropriate descriptions.
+To answer, drag the appropriate visualization type from the column on the left to its description on the right. Each visualization type may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0002500001.png
+
+Highly Voted comment found!
+Treemap : Are charts of colored rectangles, with size representing value. They can be hierarchical, with rectangles nested within the main rectangles.
+
+Key Influencer : A key influencer chart displays the major contributors to a selected result or value.
+scatter : Display relationships between 2 (scatter) or 3 (bubble) quantitative measures -- whether or not, in which order, etc.
+******************************
+Highly Voted comment found!
+https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 16 discussion - Feb. 24, 2021, 11:37 a.m.
+You need to create an Azure Storage account.
+Data in the account must replicate outside the Azure region automatically.
+Which two types of replication can you use for the storage account? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. zone-redundant storage (ZRS)
+B. read-access geo-redundant storage (RA-GRS)
+C. locally-redundant storage (LRS)
+D. geo-redundant storage (GRS)
+
+Highly Voted comment found!
+The chosen option is correct given the requirements in the question.
+******************************
+Highly Voted comment found!
+Careful with this one. If we are talking about "outside replication", the options will be GRS and RA-GRS (particular case that gives active-active between regions with reading accessible in the second one). However, GRS does NOT allow to read in the secondary region in an active-active way. It only happens when the first region fails. Bear this in mind. The option is correct given the requirements in the question.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 17 discussion - April 21, 2022, 9:50 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0002700003.jpg
+
+Highly Voted comment found!
+correct
+******************************
+Highly Voted comment found!
+YES, NO, YES
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 18 discussion - Sept. 1, 2022, 10:17 a.m.
+Which statement is an example of Data Manipulation Language (DML)?
+A. REVOKE
+B. DISABLE
+C. INSERT
+D. GRANT
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 19 discussion - Oct. 6, 2021, 2:25 p.m.
+You have a SQL query that combines customer data and order data. The query includes calculated columns.
+You need to create a database object that would allow other users to rerun the same SQL query.
+What should you create?
+A. an index
+B. a view
+C. a scalar function
+D. a table
+
+Highly Voted comment found!
+Answer is correct
+******************************
+Highly Voted comment found!
+In exam 21 April 2022
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 20 discussion - April 7, 2021, 3:42 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0003100001.jpg
+
+Highly Voted comment found!
+according to the link in description: The Answer is: simple lookups.
+
+Key/value stores are highly optimized for applications performing simple lookups, but are less suitable if you need to query data across different key/value stores. Key/value stores are also not optimized for querying by value.
+
+the reference:
+https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview#keyvalue-stores
+******************************
+Highly Voted comment found!
+The answer given is correct. From the trainer handbook: A key-value store is the simplest (and often quickest) type of NoSQL database for inserting and querying data. Each data item in a key-value store has two elements, a key and a value. The key uniquely identifies the item, and the value holds the data for the item. The value is opaque to the database management system. Items are stored in key order.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 21 discussion - April 1, 2021, 4:42 p.m.
+DRAG DROP -
+Match the types of data to the appropriate Azure data services.
+To answer, drag the appropriate data type from the column on the left to its service on the right. Each data type may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0003200001.png
+
+Highly Voted comment found!
+1. Image files = Azure Blob storage
+2. Relationship between employyes = Azure Cosmos DB Gremlin API
+3. Key/value pairs = Azure Table Storage
+******************************
+Highly Voted comment found!
+Did the person who prepared these answers even pass the test themselves? This isn't even an accidental swap, just a clear misunderstanding from the person who wrote the answer. The Azure Table storage module on MS Learn EXPLICITLY STATES that a weakness of Table storage is its inability to document relationships between rows/entities in the table.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 22 discussion - April 3, 2021, 3:28 p.m.
+DRAG DROP -
+Match the Azure Data Lake Storage Gen2 terms to the appropriate levels in the hierarchy.
+To answer, drag the appropriate term from the column on the left to its level on the right. Each term may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0003300001.png
+
+Highly Voted comment found!
+The question says this is an ADL, in which case you would create a container not a file share... you can have folders and files in the container
+******************************
+Highly Voted comment found!
+Azure storage account and container make more sense.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 23 discussion - April 7, 2021, 2:37 p.m.
+What are two characteristics of real-time data processing? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Data is processed periodically
+B. Low latency is expected
+C. High latency is acceptable
+D. Data is processed as it is created
+
+Highly Voted comment found!
+B&D is the answer
+******************************
+Highly Voted comment found!
+Correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 24 discussion - April 5, 2021, 3:45 a.m.
+DRAG DROP -
+Match the Azure Data Factory components to the appropriate descriptions.
+To answer, drag the appropriate component from the column on the left to its description on the right. Each component may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0003500001.jpg
+
+Highly Voted comment found!
+Correct answer, although a trick question.
+******************************
+Highly Voted comment found!
+Dataset
+Linked Service
+Pipeline
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 25 discussion - Sept. 27, 2021, 11:33 p.m.
+DRAG DROP -
+Match the types of workloads to the appropriate scenarios.
+To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0003700001.jpg
+
+Highly Voted comment found!
+Batch, Streaming,Batch
+******************************
+Highly Voted comment found!
+Batch
+Streaming
+Batch
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 26 discussion - Sept. 30, 2021, 4:54 p.m.
+DRAG DROP -
+Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process.
+Where does data processing occur for each stage of the ELT process? To answer, drag the appropriate locations to the correct stages. Each location may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0003800001.jpg
+
+Highly Voted comment found!
+I think is CRM - DW -DW ¿is this de correct answer?
+******************************
+Highly Voted comment found!
+CRM-DW-DW, same question as 13
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 27 discussion - Oct. 9, 2021, 5:52 a.m.
+Your company recently reported sales from the third quarter.
+You have the chart shown in the following exhibit.
+/assets/media/exam-media/04277/0004100001.png
+Which type of analysis is shown in the fourth quarter?
+A. predictive
+B. prescriptive
+C. descriptive
+D. diagnostic
+
+Highly Voted comment found!
+If just Q1-Q3 -> Descriptive 
+Include Q3-Q4 -> become Predictive
+******************************
+Highly Voted comment found!
+Predictive seems appropriate
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 28 discussion - Oct. 8, 2021, 7:38 p.m.
+Which statement is an example of Data Manipulation Language (DML)?
+A. REVOKE
+B. DISABLE
+C. CREATE
+D. UPDATE
+
+Highly Voted comment found!
+There's 3 type of Relational data SQL:
+DDL (Data Definition Language) CREATE, DROP, ALTER, RENAME, COMMENT AND TRUNCATE.
+DML (Data Manipulación Language) SELECT, INSERT INTO, DELETE, UPDATE.
+DCL (Data Control Language) REVOKE & GRANT.
+TCL (Transaccional Control Language) COMMIT & ROLLBACK
+
+(Comment from a previous question.)
+******************************
+Highly Voted comment found!
+Answer is D' Update
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 29 discussion - April 21, 2022, 6:58 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0004300001.jpg
+
+Highly Voted comment found!
+I'm almost certain this is Cognitive.
+******************************
+Highly Voted comment found!
+COGNITIVE
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 30 discussion - Oct. 24, 2021, 4:01 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0004500001.jpg
+
+Highly Voted comment found!
+Yes, it's descriptive
+******************************
+Highly Voted comment found!
+Yes. Descriptive
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 32 discussion - Oct. 25, 2021, 7:42 p.m.
+You need to create an Azure resource to store data in Azure Table storage.
+Which command should you run?
+A. az storage share create
+B. az storage account create
+C. az cosmosdb create
+D. az storage container create
+
+Highly Voted comment found!
+Ans is B for me. Due to no az storage table create in the selection. The best answer is B create storage account (first)
+******************************
+Highly Voted comment found!
+It could be "az storage table create"
+
+https://docs.microsoft.com/en-us/cli/azure/storage/table?view=azure-cli-latest
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 33 discussion - Oct. 26, 2021, 1:04 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0004800001.png
+
+Highly Voted comment found!
+Core(SQL)
+******************************
+Highly Voted comment found!
+I took the exam 12.04.2023 and got 1000, 100% score; this question appeared, correct answer:
+Core (SQL)
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 34 discussion - Oct. 25, 2021, 12:08 p.m.
+You need to modify a view in a relational database by adding a new column.
+Which statement should you use?
+A. MERGE
+B. ALTER
+C. INSERT
+D. UPDATE
+
+Highly Voted comment found!
+to add a column in a view Alter (https://docs.microsoft.com/en-us/sql/relational-databases/tables/add-columns-to-a-table-database-engine?view=sql-server-ver15)
+Insert adds one or more rows to a table (https://docs.microsoft.com/en-us/sql/t-sql/statements/insert-transact-sql?view=sql-server-ver15)
+******************************
+Highly Voted comment found!
+"Modify a View" = Alter View ....
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 35 discussion - Oct. 24, 2021, 9:06 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0005000001.png
+
+Highly Voted comment found!
+If you to think logically, 
+Sentence one is yes - You can reduce transfer sensitive data with transformations on data source.
+Sentence two is No - ELT use the compute resource from destination system.
+And for last Yes. ELT minimizes time with transformations are going realizaded on target data destination systems.
+******************************
+Highly Voted comment found!
+Y/N/Y 
+ETL: ...data transformation that takes place usually involves various operations, such as filtering...
+ELT: ...This approach skips the data copy step present in ETL, which can be a time consuming operation for large data sets...
+Load and Trasformation are on the same target
+(https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl)
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 36 discussion - Oct. 24, 2021, 9:14 p.m.
+HOTSPOT -
+You plan to deploy a PostgreSQL database to Azure.
+Which hosting model corresponds to the available deployment options? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0005200001.png
+
+Highly Voted comment found!
+The correct answer is iaas and paas. 
+https://docs.microsoft.com/en-us/azure/postgresql/overview-postgres-choose-server-options
+******************************
+Highly Voted comment found!
+Iaas and Paas
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 38 discussion - Oct. 27, 2021, 7:50 p.m.
+Which Azure storage solution provides native support for POSIX-compliant access control lists (ACLs)?
+A. Azure Table storage
+B. Azure Data Lake Storage
+C. Azure Queue storage
+D. Azure Files
+
+Highly Voted comment found!
+Azure Data Lake Storage Gen2 is the correct Answer.
+******************************
+Highly Voted comment found!
+Azure Data Lake Storage
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 39 discussion - Oct. 27, 2021, 8:42 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0005500001.png
+
+Highly Voted comment found!
+Aswer is C.
+A relational database stores data in tables. Tables are organized into columns and row.
+******************************
+Highly Voted comment found!
+I took the exam 12.04.2023 and got 1000, 100% score; this question appeared, correct answer:
+a tabular form of rows and columns
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 41 discussion - Oct. 27, 2021, 7:55 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0005700001.png
+
+Highly Voted comment found!
+Stored Procedure is correct
+******************************
+Highly Voted comment found!
+Stored Procedure!
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 42 discussion - April 24, 2022, 5:23 p.m.
+DRAG DROP -
+Match the types of analytics that can be used to answer the business questions.
+To answer, drag the appropriate analytics type from the column on the left to its question on the right. Each analytics type may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0005800001.png
+
+Highly Voted comment found!
+The answers for this question are correct.
+******************************
+Highly Voted comment found!
+Diagnostic
+Predictive
+Cognitive
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 44 discussion - April 24, 2022, 5:25 p.m.
+Which type of database is Azure Database for PostgreSQL?
+A. Platform as a service (PaaS)
+B. Infrastructure as a service (IaaS)
+C. Microsoft SQL Server
+D. on-premises
+
+Highly Voted comment found!
+Correct answer: A, PAAS
+******************************
+Highly Voted comment found!
+The answer is correct - A
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 45 discussion - April 23, 2022, 10:52 a.m.
+Which storage solution supports access control lists (ACLs) at the file and folder level?
+A. Azure Data Lake Storage
+B. Azure Queue storage
+C. Azure Blob storage
+D. Azure Cosmos DB
+
+Highly Voted comment found!
+Correct Answer is A. Azure Data Lake Storage
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 46 discussion - April 25, 2022, 11:31 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0006200001.png
+
+Highly Voted comment found!
+treemap
+******************************
+Highly Voted comment found!
+I took the exam 12.04.2023 and got 1000, 100% score; this question appeared, correct answer:
+treemap
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 47 discussion - April 20, 2022, 3:11 p.m.
+What is a characteristic of batch processing?
+A. The data ingested during batch processing must be processed as soon as the data is received.
+B. Large datasets must be split into batches of less than 1 GB before the data can be processed.
+C. There is a noticeable time delay between ingesting data and obtaining the data processing results.
+D. Batch processing can only process data that is structured.
+
+Highly Voted comment found!
+Answer should be C
+******************************
+Highly Voted comment found!
+The answer is C
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 48 discussion - April 21, 2022, 9:55 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0006400001.png
+
+Highly Voted comment found!
+Max and Min
+******************************
+Highly Voted comment found!
+I took the exam 12.04.2023 and got 1000, 100% score; this question appeared, correct answer:
+MAX and MIN
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 49 discussion - April 21, 2022, 9:56 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0006500010.jpg
+
+Highly Voted comment found!
+Yes, Yes, No
+******************************
+Highly Voted comment found!
+In exam 21 April 2022
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 50 discussion - Sept. 1, 2022, 10:17 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0006700001.png
+
+Highly Voted comment found!
+correct
+******************************
+Highly Voted comment found!
+on exam 10 Oct 2022
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 51 discussion - Sept. 1, 2022, 12:52 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0006800001.png
+
+Highly Voted comment found!
+YES, NO, YES
+Normalizing decreases throughput for reading (need to make joins), but increases for writing (Less to write, since there are no duplicates)
+******************************
+Highly Voted comment found!
+NO
+NO
+YES
+
+Answers are correct
+
+Normalizing a Database increases the throughput for reading but reduces for writing.
+
+A normalized database is advantageous when operations are write-intensive or ACID compliance is required. Some advantages include:
+
+Updates run quickly due to no data being duplicated in multiple locations.
+Inserts run quickly since there is only a single insertion point for a piece of data, and no duplication is required.
+Tables are typically smaller than the tables found in non-normalized databases. This usually allows the tables to fit into the buffer, thus offering faster performance.
+Data integrity and consistency are an absolute must if the database must be ACID compliant. A normalized database helps immensely with such an undertaking.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 52 discussion - Sept. 3, 2022, 4:51 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0007000001.png
+
+Highly Voted comment found!
+It means question 37 should be graph.
+******************************
+Highly Voted comment found!
+I don't see a question 37 which others are discussing about here. Is this visible only for contributor access??
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 53 discussion - Sept. 1, 2022, 10:10 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0007100001.png
+
+Highly Voted comment found!
+Simple Lookup is correct.
+******************************
+Highly Voted comment found!
+on exam 10 Oct 2022
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 54 discussion - Sept. 3, 2022, 4:55 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0007200001.png
+
+Highly Voted comment found!
+Said VM, said IAAS.
+******************************
+Highly Voted comment found!
+d is correct. In Iaas, you need to manage the VM and OS.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 55 discussion - Sept. 9, 2022, 10:31 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0007300001.png
+
+Highly Voted comment found!
+Semi-structured is correct. Semi-structured is supported via JSON, XML.
+******************************
+Highly Voted comment found!
+Correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 56 discussion - Sept. 8, 2022, 4:08 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0007400001.png
+
+Highly Voted comment found!
+Semi-structured in correct. JSON allows varying no. of key-values in each object.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 57 discussion - Sept. 1, 2022, 10:12 a.m.
+Which property of a transactional workload guarantees that each transaction is treated as a single unit that either succeeds completely or fails completely?
+A. atomicity
+B. isolation
+C. durability
+D. consistency
+
+Highly Voted comment found!
+A is correct. 
+
+https://www.databricks.com/glossary/acid-transactions
+
+A.C.I.D. properties: Atomicity, Consistency, Isolation, and Durability
+Atomicity - each statement in a transaction (to read, write, update or delete data) is treated as a single unit. Either the entire statement is executed, or none of it is executed. This property prevents data loss and corruption from occurring if, for example, if your streaming data source fails mid-stream.
+******************************
+Highly Voted comment found!
+On exam March 9, 2023.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 58 discussion - Sept. 1, 2022, 1:06 a.m.
+You have a data store that has the structure shown in the following exhibit.
+/assets/media/exam-media/04277/0007600001.png
+Which type of data store is this?
+A. key/value
+B. object data
+C. graph
+D. time series
+
+Highly Voted comment found!
+Yes C is the correct answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 59 discussion - Sept. 3, 2022, 5:04 a.m.
+Which type of database contains nodes and edges?
+A. graph
+B. key/value
+C. columnar
+D. time series
+
+Highly Voted comment found!
+A graph database shows two types of information, nodes and edges. The edges specify the relationships between nodes. Both nodes and edges own properties that provide details about that node or edge. This is similar to columns in a table. The edges can also have a direction to indicate the relationship's nature.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 60 discussion - Sept. 3, 2022, 5:04 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0007800001.png
+
+Highly Voted comment found!
+DATA ENGINEER: Data engineers manage infrastructure and processes for data integration across the organization, applying data cleaning routines, identifying data governance RULES, and implementing pipelines to transfer and transform data between systems.
+******************************
+Highly Voted comment found!
+Data Analyst analyzes numeric data and uses it to help companies make better decisions. Data Engineer involves in preparing data. They develop, constructs, tests & maintain complete architecture. A data scientist analyzes and interpret complex data.
+Source: Google
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 62 discussion - Oct. 12, 2020, 4:53 p.m.
+You have an inventory management database that contains the following table.
+/assets/media/exam-media/04277/0008000001.png
+Which statement should you use in a SQL query to change the inventory quantity of Product1 to 270?
+A. INSERT
+B. MERGE
+C. UPDATE
+D. CREATE
+
+Highly Voted comment found!
+Update is the SIMPLEST way, but a MERGE can also do the update... I think the question should be a little bit more specific.
+******************************
+Highly Voted comment found!
+The answer is UPDATE since we want to change something within a column.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 63 discussion - Nov. 2, 2020, 11:25 p.m.
+Your company needs to implement a relational database in Azure. The solution must minimize ongoing maintenance.
+Which Azure service should you use?
+A. Azure HDInsight
+B. Azure SQL Database
+C. Azure Cosmos DB
+D. SQL Server on Azure Virtual Machines
+
+Highly Voted comment found!
+Correct Answer: B
+
+Minimize maintenance: so it should a PaaS + Relational Database = Azure SQL Database
+******************************
+Highly Voted comment found!
+Correct Answer: B
+Was in the exam (18/03/2022)
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 64 discussion - Sept. 9, 2020, 9:24 a.m.
+You are writing a set of SQL queries that administrators will use to troubleshoot an Azure SQL database.
+You need to embed documents and query results into a SQL notebook.
+What should you use?
+A. Microsoft SQL Server Management Studio (SSMS)
+B. Azure Data Studio
+C. Azure CLI
+D. Azure PowerShell
+
+Highly Voted comment found!
+B its OK , https://docs.microsoft.com/en-us/sql/azure-data-studio/notebooks/notebooks-sql-kernel?view=sql-server-ver15
+******************************
+Highly Voted comment found!
+Answer is B
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 65 discussion - Dec. 7, 2020, 6:14 a.m.
+DRAG DROP -
+Match the terms to the appropriate descriptions.
+To answer, drag the appropriate term from the column on the left to its description on the right. Each term may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0008200001.png
+
+Highly Voted comment found!
+correct answer!
+******************************
+Highly Voted comment found!
+Yep, all correct!
+
+Table
+View
+Index
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 66 discussion - Feb. 2, 2021, 10:47 p.m.
+You have an e-commerce application that reads and writes data to an Azure SQL database.
+Which type of processing does the application use?
+A. stream processing
+B. batch processing
+C. Online Analytical Processing (OLAP)
+D. Online Transaction Processing (OLTP)
+
+Highly Voted comment found!
+Correct! It's a transactional process.
+******************************
+Highly Voted comment found!
+Correct answer - OLTP
+
+OLTP or Online Transaction Processing is a type of data processing that consists of executing a number of transactions occurring concurrently
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 67 discussion - Feb. 24, 2021, 11:35 a.m.
+When can you use an Azure Resource Manager template?
+A. to automate the creation of an interdependent group of Azure resources in a repeatable way
+B. to apply Azure policies for multi-tenant deployments
+C. to provision Azure subscriptions
+D. to control which services and feature administrators and developers can deploy from the Azure portal
+
+Highly Voted comment found!
+This one is correct as well. ARM allows you to automate the creation of resources by specifying in a JSON document the resources you want to generate. The process can be replicated (if needed) to deploy resources to a different region.
+******************************
+Highly Voted comment found!
+Correct! Similar question in AZ and AI 900 as well
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 68 discussion - April 23, 2022, 11:54 a.m.
+You have an Azure SQL database that you access directly from the Internet.
+You recently changed the public IP address of your computer.
+After changing the IP address, you can no longer access the database. You can connect to other resources in Azure.
+What is a possible cause of the issue?
+A. role-based access control (RBAC)
+B. Dynamic Host Configuration Protocol (DHCP)
+C. Domain Name Service (DNS)
+D. a database-level firewall
+
+Highly Voted comment found!
+Correct. Answer is D
+******************************
+Highly Voted comment found!
+D is correct. But this question shouldn't be in scope of this exam!
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 69 discussion - Sept. 3, 2022, 5:07 a.m.
+DRAG DROP -
+Match the tools to the appropriate descriptions.
+To answer, drag the appropriate tool from the column on the left to its description on the right. Each tool may be used once, more than once, or not at all.
+Select and Place:
+/assets/media/exam-media/04277/0008400001.png
+
+Highly Voted comment found!
+SSDT for database projects is normally what people talk about when they say "why should I use ssdt over ssms", what I normally say is that ssms is an administration tool, and ssdt is the developer tool. If you have a simple database and it is not very complex then ssdt is probably an overhead you don't need.
+https://stackoverflow.com/questions/36370135/i-do-not-understand-what-ssdt-do-as-opposed-to-or-not-ssms-and-sql-server-obj#:~:text=SSDT%20for%20database%20projects%20is,overhead%20you%20don't%20need.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 70 discussion - April 7, 2021, 3:09 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0008600001.jpg
+
+Highly Voted comment found!
+Correct
+******************************
+Highly Voted comment found!
+YES, NO, YES
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 71 discussion - Sept. 6, 2020, 7:28 a.m.
+Which command-line tool can you use to query Azure SQL databases?
+A. sqlcmd
+B. bcp
+C. azdata
+D. Azure CLI
+
+Highly Voted comment found!
+I think 90% the answer is A
+https://docs.microsoft.com/en-us/sql/ssms/scripting/sqlcmd-use-the-utility?view=sql-server-ver15
+Az cli is perfect to create and manage the DB but to query sqlcmd is the tool
+******************************
+Highly Voted comment found!
+Correct answer: A
+
+Azure CLI page: https://docs.microsoft.com/en-us/azure/azure-sql/database/az-cli-script-samples-content-guide?tabs=single-database
+"You can configure Azure SQL Database and SQL Managed Instance by using the Azure CLI."
+You cannot execute queries though.
+
+sqlcmd: https://docs.microsoft.com/en-us/sql/tools/sqlcmd-utility?view=sql-server-ver15
+It is clearly mentioned that Azure SQL is supported, and Query examples are provided in the link above.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 72 discussion - Sept. 28, 2021, 12:05 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0008800001.jpg
+
+Highly Voted comment found!
+Yes, Yes. Yes
+******************************
+Highly Voted comment found!
+Yes to all ... "come use this service, it has it all".
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 73 discussion - Sept. 6, 2020, 7:44 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0009000001.png
+
+Highly Voted comment found!
+A) Yes from https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is?view=sql-server-ver15 
+Use Azure Data Studio if you: Are connecting to a SQL Server 2019 big data cluster
+B) Yes from https://docs.microsoft.com/en-us/learn/modules/query-azure-sql-data-warehouse/4-query-dw-using-ssms
+C) Yes from https://docs.microsoft.com/en-us/azure/mariadb/connect-workbench
+******************************
+Highly Voted comment found!
+Hey guys,
+passed the exam today.
+41 questions, 45 min, 700 points for passing.
+Many questions were same like here in forum. Tq guys, you are gorgeous!
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 74 discussion - Dec. 18, 2020, 9:08 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0009200001.png
+
+Highly Voted comment found!
+Yes Answer is correct
+******************************
+Highly Voted comment found!
+Perfect Marketing LOL
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 75 discussion - Dec. 18, 2020, 9:10 p.m.
+HOTSPOT -
+You have the following SQL query.
+/assets/media/exam-media/04277/0009300001.png
+What are dbo.Products and ProductName? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0009300002.png
+
+Highly Voted comment found!
+Table, column
+******************************
+Highly Voted comment found!
+Correct
+Was in the exam (18/03/2022)
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 76 discussion - Sept. 28, 2021, 12:10 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0009500001.jpg
+
+Highly Voted comment found!
+No, No,Yes
+******************************
+Highly Voted comment found!
+3rd one is Yes. https://azure.microsoft.com/en-us/pricing/hybrid-benefit/faq/
+
+Azure Hybrid Benefit allows you to use SQL Server licenses with Software Assurance or qualifying subscription licenses to pay a reduced base rate* for these products and services for SQL Server on Azure:
+
+vCPU-based service tiers of Azure SQL Database (excluding serverless).
+Azure SQL Managed Instance.
+SQL Server in Azure Virtual Machines.
+SQL Server Integration Services.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 77 discussion - Sept. 28, 2021, 12:11 a.m.
+Which statement is an example of Data Definition Language (DDL)?
+A. SELECT
+B. JOIN
+C. UPDATE
+D. CREATE
+
+Highly Voted comment found!
+Create is correct D
+******************************
+Highly Voted comment found!
+Answer lists (explanation) INSERT as one. That is DML
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 78 discussion - April 9, 2021, 12:50 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0009700001.jpg
+
+Highly Voted comment found!
+1. Yes
+2.No
+3.Yes
+******************************
+Highly Voted comment found!
+I was not sure with option 3 , but the answer is correct, and the source:
+https://docs.microsoft.com/en-us/sql/azure-data-studio/what-is-azure-data-studio?view=sql-server-ver15#database-administration
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 79 discussion - April 12, 2021, 9:21 p.m.
+You are deploying a software as a service (SaaS) application that requires a relational database for Online Transaction Processing (OLTP).
+Which Azure service should you use to support the application?
+A. Azure Cosmos DB
+B. Azure HDInsight
+C. Azure SQL Database
+D. Azure Synapse Analytics
+
+Highly Voted comment found!
+Correct answer and explanation
+******************************
+Highly Voted comment found!
+Azure SQL Database is correct answer for OLTP
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 80 discussion - April 12, 2021, 9:21 p.m.
+What are two benefits of platform as a service (PaaS) relational database offerings in Azure, such as Azure SQL Database? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. access to the latest features
+B. complete control over backup and restore processes
+C. in-database machine learning services
+D. reduced administrative effort for managing the server infrastructure
+
+Highly Voted comment found!
+AD - Correct
+******************************
+Highly Voted comment found!
+the exam on 07/03/2023
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 81 discussion - April 23, 2022, 12:12 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0010000001.jpg
+
+Highly Voted comment found!
+Correct. No, Yes, No
+******************************
+Highly Voted comment found!
+Confirmed, the answer is No, Yes, No
+It was in 26/09/2022 exam and I scored 1000.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 82 discussion - April 7, 2021, 4:58 p.m.
+DRAG DROP -
+You have a table named Sales that contains the following data.
+/assets/media/exam-media/04277/0010100001.png
+You need to query the table to return the average sales amount per day. The output must produce the following results.
+/assets/media/exam-media/04277/0010100002.png
+How should you complete the query? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all.
+You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0010200001.png
+
+Highly Voted comment found!
+LOL! It's real this question?
+Anyway the answer is CORRECT... but.... LOOOOOOLLLLL
+******************************
+Highly Voted comment found!
+correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 83 discussion - April 7, 2021, 6:50 a.m.
+When you create an Azure SQL database, which account can always connect to the database?
+A. the Azure Active Directory (Azure AD) account that created the database
+B. the server admin login account of the logical server
+C. the Azure Active Directory (Azure AD) administrator account
+D. the sa account
+
+Highly Voted comment found!
+Answer is B. When you first deploy Azure SQL, you specify an admin login and an associated password for that login. This administrative account is called Server admin. Link :https://docs.microsoft.com/en-us/azure/azure-sql/database/logins-create-manage
+******************************
+Highly Voted comment found!
+B. Verified in AZ portal.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 84 discussion - Oct. 7, 2021, 12:07 p.m.
+Which statement is an example of Data Definition Language (DDL)?
+A. SELECT
+B. INSERT
+C. DELETE
+D. DROP
+
+Highly Voted comment found!
+correct answer option D
+******************************
+Highly Voted comment found!
+Remove UPDATE from your asnwer explanation area as its not DDL
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 85 discussion - Sept. 28, 2021, 12:24 a.m.
+A team of developers has computers that run Windows 10 and Ubuntu Desktop.
+The developers need to connect to and query an Azure SQL database from each of their computers. The developers require code assistance features such as
+IntelliSense.
+What should the developers use?
+A. sqlcmd
+B. Microsoft SQL Server Management Studio (SSMS)
+C. Azure Data Studio
+D. Azure Data Explorer
+
+Highly Voted comment found!
+Correct Azure Data Studio
+******************************
+Highly Voted comment found!
+It is not Microsoft SQL Server Management Studio (SSMS) because it would not be supported on Ubuntu.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 86 discussion - Nov. 27, 2020, 10:52 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0010500001.png
+
+Highly Voted comment found!
+Answer is correct
+
+Transparent data encryption (TDE) helps protect Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics against the threat of malicious offline activity by encrypting data at rest.
+******************************
+Highly Voted comment found!
+Database. Always.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 87 discussion - Oct. 12, 2020, 5:27 p.m.
+You need to ensure that users use multi-factor authentication (MFA) when connecting to an Azure SQL database.
+Which type of authentication should you use?
+A. service principal authentication
+B. Azure Active Directory (Azure AD) authentication
+C. SQL authentication
+D. certificate authentication
+
+Highly Voted comment found!
+Azure AD is correct
+******************************
+Highly Voted comment found!
+B- AD , AZ900 is that you?
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 88 discussion - Sept. 9, 2020, 10:45 a.m.
+What is a benefit of hosting a database on Azure SQL managed instance as compared to an Azure SQL database?
+A. built-in high availability
+B. native support for cross-database queries and transactions
+C. system-initiated automatic backups
+D. support for encryption at rest
+
+Highly Voted comment found!
+Reference document https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison
+******************************
+Highly Voted comment found!
+B is the correct answer "native support for cross-database queries and transactions"
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 89 discussion - Sept. 6, 2020, 7:48 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0010700001.png
+
+Highly Voted comment found!
+Correct answer:  "a server level firewall"
+Azure SQL has it's own Firewall and firewall rules options
+
+It is not "Azure Firewall" though:
+"Azure Firewall is a managed, cloud-based network security service that protects your Azure Virtual Network resources. It's a fully stateful firewall as a service with built-in high availability and unrestricted cloud scalability."
+******************************
+Highly Voted comment found!
+Correct Answer is B
+https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-create-server-level-portal-quickstart#:~:text=A%20server%2Dlevel%20IP%20firewall%20rule%20can%20open%20port%201433,a%20range%20of%20IP%20addresses.&text=By%20default%2C%20access%20through%20the,disabled%20for%20all%20Azure%20services.&text=A%20server%2Dlevel%20IP%20firewall%20rule%20is%20created%20for%20your,port%201433%20on%20the%20server.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 90 discussion - Sept. 6, 2020, 8:05 a.m.
+You need to design and model a database by using a graphical tool that supports project-oriented offline database development.
+What should you use?
+A. Microsoft SQL Server Data Tools (SSDT)
+B. Microsoft SQL Server Management Studio (SSMS)
+C. Azure Databricks
+D. Azure Data Studio
+
+Highly Voted comment found!
+I agree with answer and link
+******************************
+Highly Voted comment found!
+This question came up on the exam today
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 91 discussion - Sept. 6, 2020, 8:06 a.m.
+DRAG DROP -
+Match the security components to the appropriate scenarios.
+To answer, drag the appropriate component from the column on the left to its scenario on the right. Each component may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0010800001.png
+
+Highly Voted comment found!
+I agree with answers
+******************************
+Highly Voted comment found!
+Agreed
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 92 discussion - Sept. 3, 2020, 8:46 p.m.
+You have a transactional application that stores data in an Azure SQL managed instance.
+When should you implement a read-only database replica?
+A. You need to generate reports without affecting the transactional workload.
+B. You need to audit the transactional application.
+C. You need to implement high availability in the event of a regional outage.
+D. You need to improve the recovery point objective (RPO).
+
+Highly Voted comment found!
+Why C? It is not High Availability if you cannot write to the database. If your primary database goes down, HA means that users would continue to work as normal, but they cannot commit changes in this case (Read-Only). Answer should be only: A.
+******************************
+Highly Voted comment found!
+I would go for A, read only replica is created to offload part of transactions (backup, reporting...) in order to free up resources on DB.
+If you want to achieve High availability use Geo redundancy
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 93 discussion - Sept. 9, 2020, 8:42 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0011000001.png
+
+Highly Voted comment found!
+correct
+******************************
+Highly Voted comment found!
+Reference Reading: https://docs.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15#:~:text=Clustered%20indexes%20sort%20and%20store,stored%20in%20only%20one%20order.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 94 discussion - Oct. 12, 2020, 4:45 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0011100001.png
+
+Highly Voted comment found!
+Again RDBMS concepts primary key, unique key & foreign key concepts
+******************************
+Highly Voted comment found!
+💯 correct answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 95 discussion - Oct. 12, 2020, 4:46 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0011200001.png
+
+Highly Voted comment found!
+heap: tables: without a clustered index.
+Stored procedure: a sub-routine available to access application in RDBMS
+A view: is a table that is being created based on a user query
+An index: a data structure that improves the speed of data retrieval operations
+
+
+
+The answer is obvious, A View
+******************************
+Highly Voted comment found!
+Correct Answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 96 discussion - April 23, 2022, 9:40 p.m.
+You need to query a table named Products in an Azure SQL database.
+Which three requirements must be met to query the table from the internet? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. You must be assigned the Reader role for the resource group that contains the database.
+B. You must have SELECT access to the Products table.
+C. You must have a user in the database.
+D. You must be assigned the Contributor role for the resource group that contains the database.
+E. Your IP address must be allowed to connect to the database.
+
+Highly Voted comment found!
+BCE is correct
+******************************
+Highly Voted comment found!
+Correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 97 discussion - April 23, 2022, 2:38 p.m.
+Which clause should you use in a SELECT statement to combine rows in one table with rows in another table?
+A. SET
+B. VALUES
+C. KEY
+D. JOIN
+
+Highly Voted comment found!
+Correct.
+******************************
+Highly Voted comment found!
+Join is Correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 98 discussion - April 23, 2022, 2:40 p.m.
+Your company needs to ensure that an Azure virtual machine can connect to Azure SQL databases without exposing the databases to the internet.
+What should you use?
+A. Azure Application Gateway
+B. Azure Traffic Manager
+C. Azure DNS
+D. Azure Private Link
+
+Highly Voted comment found!
+Answer: D
+******************************
+Highly Voted comment found!
+Azure Private Link
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 99 discussion - Sept. 1, 2022, 10:31 a.m.
+DRAG DROP -
+Match the Azure SQL services to the appropriate use cases.
+To answer, drag the appropriate service from the column on the left to its use case on the right. Each service may be used once, more than once, or not at all.
+NOTE: Each correct match its worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0011400001.png
+
+Highly Voted comment found!
+Correct answer should be single, MI, single. Elastic Pool uses a server, and is thus not serverless, and the third point refers to 'a database' while Elastic Pool is for scaling multiple databases.
+******************************
+Highly Voted comment found!
+Shouldn't it be Elastic Pool, MI then Single Db?
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 100 discussion - Sept. 1, 2022, 10:34 a.m.
+Which T-SQL statement should be used to instruct a database management system to use an index instead of performing a full table scan?
+A. SELECT
+B. WHERE
+C. JOIN
+
+Highly Voted comment found!
+This is quite tricky WHERE is a clause but SELECT is the statement so answer A is correct
+******************************
+Highly Voted comment found!
+Not a trick question, just how much you understand database.
+
+Select * From Countries where CountryName = "USA"
+This is a full table scan because CountryName is not a key, the engine need to compare every row.
+
+Select * From Countries where CountryID = 33
+This is not a full table scan, it become a index scan because CountryID is a key so the engine know it can skip to that ID
+
+Select * From Countries
+This is a full table scan but with no criteria, so it extract everything out
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 101 discussion - Sept. 1, 2022, 10:35 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0011700001.png
+
+Highly Voted comment found!
+Answer: B
+
+https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/massively-parallel-processing-mpp-architecture
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 102 discussion - Sept. 1, 2022, 10:36 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0011800001.png
+
+Highly Voted comment found!
+Answer is correct.
+Clustered indexes sort and store the data rows in the table or view based on their key values. These are the columns included in the index definition.
+Ref: https://learn.microsoft.com/en-us/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver16
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 104 discussion - Sept. 1, 2022, 10:36 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0012200001.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 105 discussion - Sept. 1, 2022, 10:37 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0012300001.png
+
+Highly Voted comment found!
+View is correct.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 106 discussion - Sept. 1, 2022, 10:37 a.m.
+Which Azure service provides the highest compatibility for databases migrated from Microsoft SQL Server 2019 Enterprise edition?
+A. Azure SQL Database
+B. Azure Database for MySQL
+C. Azure SQL Managed Instance
+D. an Azure SQL Database elastic pool
+
+Highly Voted comment found!
+i am with C
+******************************
+Highly Voted comment found!
+I took the exam 12.04.2023; this question appeared, correct answer:
+Azure SQL Managed Instance
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 107 discussion - Oct. 28, 2021, 4:28 p.m.
+Which setting can only be configured during the creation of an Azure Cosmos DB account?
+A. geo-redundancy
+B. multi-region writes
+C. production or non-production account type
+D. API
+
+Highly Voted comment found!
+D is the answer. Verified on the portal
+******************************
+Highly Voted comment found!
+You must choose the API so you can't switch this within the creation process. 
+
+Got this description from the creation page:
+Create Azure Cosmos DB Account - Core (SQL)
+Global Distribution
+"Configure global distribution and regional settings for your account. You can also change these settings after the account is created."
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 108 discussion - Sept. 28, 2022, 5:09 p.m.
+DRAG DROP -
+Match the types of data stores to the appropriate scenarios.
+To answer, drag the appropriate data store type from the column on the left to its scenario on the right. Each data store type may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0012500001.jpg
+
+Highly Voted comment found!
+Correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 109 discussion - April 23, 2022, 2:45 p.m.
+You have an Azure Cosmos DB account that uses the Core (SQL) API.
+Which two settings can you configure at the container level? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. the throughput
+B. the read region
+C. the partition key
+D. the API
+
+Highly Voted comment found!
+A and C are correct : https://www.sqlshack.com/wp-content/uploads/2020/04/create-database-container.png
+******************************
+Highly Voted comment found!
+Please note that the Azure Cosmos DB set-up screens have changed, making this question non-relevant. The link referenced in the answer was a screenshot taken in 2020.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 110 discussion - Aug. 30, 2020, 2:39 p.m.
+Your company is designing a data store that will contain student data. The data has the following format.
+/assets/media/exam-media/04277/0012700001.png
+Which type of data store should you use?
+A. graph
+B. key/value
+C. object
+D. columnar
+
+Highly Voted comment found!
+https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview#column-family-databases
+******************************
+Highly Voted comment found!
+Am I the only one, who is confused by the first three students having the same number? :-D
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 111 discussion - Sept. 10, 2020, 2:40 a.m.
+Which storage solution supports role-based access control (RBAC) at the file and folder level?
+A. Azure Disk Storage
+B. Azure Data Lake Storage
+C. Azure Blob storage
+D. Azure Queue storage
+
+Highly Voted comment found!
+The given answer is correct
+******************************
+Highly Voted comment found!
+Azure Data Lake Storage Gen2 implements an access control model that supports both Azure role-based access control (Azure RBAC) and POSIX-like access control lists (ACLs). This article summarizes the basics of the access control model for Data Lake Storage Gen2.
+
+ACLs are applied on the file and folder level. The key thing to remember is that you are always going to need RBAC Control Plane permissions in combination with ACLs. Best practice is to assign your security principals RBAC Reader role on the Storage Account/Container level and continue with more restrictive ACLs on the file and folder level.
+
+There are two types of ACLs:
+
+Access ACLs: They control access to an object. An object can be a file or a folder.
+
+Default ACLs: These are ACLs assigned on the folder level only which get inherited as Access ACLs by the child file or folder.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 112 discussion - Sept. 10, 2020, 2:41 a.m.
+You need to store data in Azure Blob storage for seven years to meet your company's compliance requirements. The retrieval time of the data is unimportant. The solution must minimize storage costs.
+Which storage tier should you use?
+A. Archive
+B. Hot
+C. Cool
+
+Highly Voted comment found!
+The answer is correct
+
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers?tabs=azure-portal
+******************************
+Highly Voted comment found!
+Answer  is correct Hot - Optimized for storing data that is accessed frequently.
+Cool - Optimized for storing data that is infrequently accessed and stored for at least 30 days.
+Archive - Optimized for storing data that is rarely accessed and stored for at least 180 days with flexible latency requirements (on the order of hours).
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 113 discussion - Sept. 18, 2020, 9:47 a.m.
+Which type of non-relational data store supports a flexible schema, stores data as JSON files, and stores the all the data for an entity in the same document?
+A. document
+B. columnar
+C. graph
+D. time series
+
+Highly Voted comment found!
+The given answer is correct!!
+******************************
+Highly Voted comment found!
+Yes it is correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 114 discussion - Sept. 10, 2020, 2:49 a.m.
+DRAG DROP -
+Match the Azure Cosmos DB APIs to the appropriate data structures.
+To answer, drag the appropriate API from the column on the left to its data structure on the right. Each API may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0012900001.png
+
+Highly Voted comment found!
+GRemlin
+GRaph
+******************************
+Highly Voted comment found!
+Yes, I got this question in exam
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 115 discussion - Sept. 25, 2020, 3:03 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0013000002.png
+
+Highly Voted comment found!
+Answer is correct and able to understand with given reference article.
+https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace
+******************************
+Highly Voted comment found!
+Security at the folder level: With hierarchical namespace enabled, you can set different security permissions (e.g. read, write, delete) on different folders within the storage account, allowing you to better control access to your data.
+
+Atomic directory manipulation: With hierarchical namespace enabled, you can perform atomic operations on directories, such as renaming or moving a directory and all its contents in one single operation. This ensures that the entire operation is completed or rolled back as a whole, avoiding partial changes to the data.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 116 discussion - Sept. 1, 2020, 8:01 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0013100002.png
+
+Highly Voted comment found!
+Wrong answer is given. It should be Gremlin API.  https://docs.microsoft.com/en-us/azure/cosmos-db/graph-introduction
+******************************
+Highly Voted comment found!
+Atention folks. The question is how you query and not what is needed to connect Graph to Cosmos DB. Once is connected, you use Cosmos DB to perform queries. In my HUMBLE opinion, the given answer is right
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 117 discussion - April 9, 2021, 6:59 p.m.
+When provisioning an Azure Cosmos DB account, which feature provides redundancy within an Azure region?
+A. multi-master replication
+B. Availability Zones
+C. the strong consistency level
+D. automatic failover
+
+Highly Voted comment found!
+AZ-900 is it you?)
+******************************
+Highly Voted comment found!
+right answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 118 discussion - April 6, 2021, 3:30 a.m.
+What is a benefit of the Azure Cosmos DB Table API as compared to Azure Table storage?
+A. provides resiliency if an Azure region fails
+B. supports partitioning
+C. provides a higher storage capacity
+D. supports a multi-master model
+
+Highly Voted comment found!
+Just passed the exam with a 1000 score. The multi-master is the correst answer
+******************************
+Highly Voted comment found!
+To all of you who wonder what multi-master support actually is: 
+
+'Till now, all the distributed system architecture works like one Write data server and multiple Read data servers. Data are replicated to all data servers from Write data server.
+
+With the multi-master feature, we can choose all data servers to act as Write server data will be replicated with other data servers. The big challenge of multi-master, avoid the data duplication in data replication.'
+
+https://www.c-sharpcorner.com/article/utilize-multi-master-support-in-azure-cosmos-db/
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 119 discussion - April 9, 2021, 7:30 p.m.
+Your company needs to design a database that shows how changes in network traffic in one area of a network affect network traffic in other areas of the network.
+Which type of data store should you use?
+A. graph
+B. key/value
+C. document
+D. columnar
+
+Highly Voted comment found!
+right answer
+******************************
+Highly Voted comment found!
+Graph:  Taking about relationship between one area with the other, so it makes sense that it's Graph
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 120 discussion - April 9, 2021, 1:02 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0013400001.jpg
+
+Highly Voted comment found!
+marketing level 100
+******************************
+Highly Voted comment found!
+correct answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 121 discussion - April 7, 2021, 5:19 p.m.
+DRAG DROP -
+Match the datastore services to the appropriate descriptions.
+To answer, drag the appropriate service from the column on the left to its description on the right. Each service may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0013600001.png
+
+Highly Voted comment found!
+answer correct
+******************************
+Highly Voted comment found!
+right answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 122 discussion - Sept. 28, 2021, 10:20 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0013700001.png
+
+Highly Voted comment found!
+Account is correct.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 123 discussion - Oct. 3, 2021, 10:27 p.m.
+You need to store data by using Azure Table storage.
+What should you create first?
+A. an Azure Cosmos DB instance
+B. a storage account
+C. a blob container
+D. a table
+
+Highly Voted comment found!
+Correct
+******************************
+Highly Voted comment found!
+08/25/22 exam. I answered exactly like this. I passed.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 124 discussion - Oct. 24, 2021, 3:55 p.m.
+You need to recommend a data store service that meets the following requirements:
+✑ Native SQL API access
+✑ Configurable indexes
+What should you recommend?
+A. Azure Files
+B. Azure Blob storage
+C. Azure Table storage
+D. Azure Cosmos DB
+
+Highly Voted comment found!
+I took the exam 12.04.2023; this question appeared, correct answer:
+Azure Cosmos DB
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 125 discussion - Oct. 20, 2021, 10:29 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0014000001.jpg
+
+Highly Voted comment found!
+Similar question to 76, same answer too. Discussion was around the 2nd statement. When defined with concurrent it would be 'no', when not specified it could be yes. Seeing it's specified here, I would tend to agree on the answer being Y, N, Y, Y.
+******************************
+Highly Voted comment found!
+YNYY
+Ref: https://docs.microsoft.com/en-au/azure/storage/common/storage-redundancy#read-access-to-data-in-the-secondary-region
+Geo-redundant storage (with GRS or GZRS) replicates your data to another physical location in the secondary region to protect against regional outages. However, that data is available to be read only if the customer or Microsoft initiates a failover from the primary to secondary region. When you enable read access to the secondary region, your data is available to be read ****** at all times ******, including in a situation where the primary region becomes unavailable. For read access to the secondary region, enable read-access geo-redundant storage (RA-GRS) or read-access geo-zone-redundant storage (RA-GZRS).
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 126 discussion - Oct. 28, 2021, 12:58 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0014200001.jpg
+
+Highly Voted comment found!
+Shown on test 15/04/2022
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 127 discussion - Sept. 30, 2021, 3:16 a.m.
+Your company needs to design a database that illustrates the relationships between utilization levels of individual network devices across a local area network.
+Which type of data store should you use?
+A. graph
+B. key/value
+C. document
+D. columnar
+
+Highly Voted comment found!
+You use graphical DB's to show relationships between data: 
+https://docs.microsoft.com/en-us/azure/cosmos-db/graph/graph-modeling#when-do-i-need-a-graph-database
+******************************
+Highly Voted comment found!
+Keyword: Relationship = Graph
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 128 discussion - Sept. 3, 2020, 9:01 p.m.
+You manage an application that stores data in a shared folder on a Windows server.
+You need to move the shared folder to Azure Storage.
+Which type of Azure Storage should you use?
+A. queue
+B. blob
+C. file
+D. table
+
+Highly Voted comment found!
+Answer is C
+******************************
+Highly Voted comment found!
+I agree with C answer this is the exact use case
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 129 discussion - Sept. 9, 2020, 3:17 p.m.
+Your company is designing a database that will contain session data for a website. The data will include notifications, personalization attributes, and products that are added to a shopping cart.
+Which type of data store will provide the lowest latency to retrieve the data?
+A. key/value
+B. graph
+C. columnar
+D. document
+
+Highly Voted comment found!
+Column-family database is the low latency store type. 
+
+Examples
+•	Recommendations
+•	Personalization
+•	Sensor data
+•	Telemetry
+•	Messaging
+•	Social media analytics
+•	Web analytics
+•	Activity monitoring
+•	Weather and other time-series data
+******************************
+Highly Voted comment found!
+Answer may be A. Key/Value stores have fast response time, i.e. low latency.
+Columnar is good for Analytical. Here question is for Low Latency of a Web User's session data. Not analytical.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 130 discussion - Feb. 18, 2021, 9:50 a.m.
+You have an application that runs on Windows and requires access to a mapped drive.
+Which Azure service should you use?
+A. Azure Files
+B. Azure Blob storage
+C. Azure Cosmos DB
+D. Azure Table storage
+
+Highly Voted comment found!
+It's correct answer but misleading, correct name of the resource under Storage Account is "File shares" and not "Azure files"
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 131 discussion - April 7, 2021, 5:02 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0014600001.jpg
+
+Highly Voted comment found!
+Appeared on the exam on 27/11/2021. Correct answer NYN
+******************************
+Highly Voted comment found!
+Answer should be Yes-Yes-No
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 132 discussion - Feb. 1, 2021, 11:50 p.m.
+Your company is designing an application that will write a high volume of JSON data and will have an application-defined schema.
+Which type of data store should you use?
+A. columnar
+B. key/value
+C. document
+D. graph
+
+Highly Voted comment found!
+large volume of JASON Documents? document DB...
+******************************
+Highly Voted comment found!
+C is the answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 133 discussion - Feb. 13, 2021, 3:12 a.m.
+You need to recommend a non-relational data store that is optimized for storing and retrieving text files, videos, audio streams, and virtual disk images. The data store must store data, some metadata, and a unique ID for each file.
+Which type of data store should you recommend?
+A. key/value
+B. columnar
+C. object
+D. document
+
+Highly Voted comment found!
+correct answer is C
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 134 discussion - Feb. 2, 2021, 10:42 p.m.
+Your company is designing a data store for internet-connected temperature sensors.
+The collected data will be used to analyze temperature trends.
+Which type of data store should you use?
+A. relational
+B. time series
+C. graph
+D. columnar
+
+Highly Voted comment found!
+I never come across time series in any of the modules.
+******************************
+Highly Voted comment found!
+Link for time series 
+
+https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/analytical-data-stores
+
+
+Telemetry and time series databases are an append-only collection of objects. Telemetry databases efficiently index data in a variety of column stores and in-memory structures, making them the optimal choice for storing and analyzing vast quantities of telemetry and time series data.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 135 discussion - Nov. 10, 2021, 2:33 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0014900001.png
+
+Highly Voted comment found!
+Correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 136 discussion - Oct. 15, 2020, 5:31 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0015100001.png
+
+Highly Voted comment found!
+GRaph
+GRemlin
+******************************
+Highly Voted comment found!
+Reference : https://azure.microsoft.com/en-us/blog/a-technical-overview-of-azure-cosmos-db/
+API - Gremlin // Container is projected as -Graph // Item is projected as -Nodes and Edges
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 137 discussion - April 25, 2022, 1:37 p.m.
+At which two levels can you set the throughput for an Azure Cosmos DB account? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. database
+B. item
+C. container
+D. partition
+
+Highly Voted comment found!
+database and container
+******************************
+Highly Voted comment found!
+AC correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 138 discussion - Sept. 6, 2020, 9:20 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0015200001.png
+
+Highly Voted comment found!
+A) Yes from https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+B) Yes from https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy Geo-zone-redundant storage support block blobs, page blobs (except for VHD disks), files, tables, and queues.
+C) Yes
+D) Yes from https://manojchoudhari.wordpress.com/2019/12/16/azure-cosmos-db-enable-multi-region-writes/#:~:text=Login%20to%20Azure%20Portal%20and,clicking%20on%20Add%20regions%20hyperlink.
+Login to Azure Portal and navigate to the Cosmos DB account. Then select the Replicate data globally option from left side menu. Then you can enable Multi-region writes by toggling the button.
+******************************
+Highly Voted comment found!
+Yes-No-Yes-Yes
+Got this question in the test, 13 Jul 2021. And the options are all "multiple concurrent" read/write.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 139 discussion - Sept. 22, 2022, 8:55 p.m.
+What is a characteristic of non-relational data?
+A. no indexes
+B. self-describing entities
+C. a well-defined schema
+D. no unique key values
+
+Highly Voted comment found!
+"B" is the correct answer. 
+https://www.coursera.org/lecture/explore-core-data-concepts-microsoft-azure/explore-the-characteristics-of-non-relational-data-nP41V
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 140 discussion - April 25, 2022, 1:38 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0015400001.png
+
+Highly Voted comment found!
+Polybase
+Data virtualization using PolyBase feature is available in preview for Azure SQL Managed Instance, scoped to querying external data stored in files in Azure Data Lake Storage (ADLS) Gen2 and Azure Blob Storage. 
+https://learn.microsoft.com/en-us/sql/relational-databases/polybase/polybase-guide?view=sql-server-ver15
+******************************
+Highly Voted comment found!
+Polybase, Answer: C
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 141 discussion - Oct. 9, 2020, 11:40 a.m.
+You need to gather real-time telemetry data from a mobile application.
+Which type of workload describes this scenario?
+A. Online Transaction Processing (OLTP)
+B. batch
+C. massively parallel processing (MPP)
+D. streaming
+
+Highly Voted comment found!
+Answer is "D" as  real-time is always Straming.. OLTP is delayed upto 30 sec
+******************************
+Highly Voted comment found!
+D is correct - https://aws.amazon.com/streaming-data/
+Streaming can be from mobile devices also.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 142 discussion - April 25, 2022, 1:39 p.m.
+You have a dedicated SQL pool in Azure Synapse Analytics that is only used actively every night for eight hours.
+You need to minimize the cost of the dedicated SQL pool as much as possible during idle times. The solution must ensure that the data remains intact.
+What should you do on the dedicated SQL pool?
+A. Scale down the data warehouse units (DWUs).
+B. Pause the pool.
+C. Create a user-defined restore point.
+D. Delete the pool
+
+Highly Voted comment found!
+"B" is the correct answer.
+
+https://learn.microsoft.com/en-us/azure/synapse-analytics/plan-manage-costs
+
+Dedicated SQL pool
+
+You can control costs for a dedicated SQL pool by pausing the resource when it is not is use. For example, if you won't be using the database during the night and on weekends, you can pause it during those times, and resume it during the day. For more information, see Pause and resume compute in dedicated SQL pool via the Azure portal.
+******************************
+Highly Voted comment found!
+Pause the pool, answer: B
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 143 discussion - Sept. 24, 2020, 12:39 p.m.
+Which Azure Data Factory component initiates the execution of a pipeline?
+A. a control flow
+B. a trigger
+C. a parameter
+D. an activity
+
+Highly Voted comment found!
+Trigger.
+Pipeline runs are typically instantiated by passing arguments to parameters that you define in the pipeline. You can execute a pipeline either manually or by using a trigger.
+******************************
+Highly Voted comment found!
+Execute Pipeline in control flow can invoke another pipeline
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 144 discussion - Nov. 6, 2020, 9:33 a.m.
+Your company has a reporting solution that has paginated reports. The reports query a dimensional model in a data warehouse.
+Which type of processing does the reporting solution use?
+A. stream processing
+B. batch processing
+C. Online Analytical Processing (OLAP)
+D. Online Transaction Processing (OLTP)
+
+Highly Voted comment found!
+This is a poorly worded question. The reporting solution aspect of this is irrelevant. It has to be OLAP, but it's still a poor question.
+******************************
+Highly Voted comment found!
+data warehouse is key...
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 145 discussion - Oct. 21, 2021, 12:06 a.m.
+DRAG DROP -
+Match the types of activities to the appropriate Azure Data Factory activities.
+To answer, drag the appropriate activity type from the column on the left to its Data Factory activity on the right. Each activity type may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0015700001.jpg
+
+Highly Voted comment found!
+Correct: 
+Movement
+Transformation
+Control
+
+https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities
+******************************
+Highly Voted comment found!
+Box 1: Movement
+Data movement activities: Copy Activity in Data Factory copies data from a source data store to a sink data store. Data from any source can be written to any sink.
+
+Box 2: Transformation
+Mapping data flows are visually designed data transformations in Azure Data Factory. Data flows allow data engineers to develop data transformation logic without writing code. The resulting data flows are executed as activities within Azure Data Factory pipelines that use scaled-out Apache Spark clusters.
+
+Box 3: Control
+Lookup Activity is a control flow activity. Lookup Activity can be used to read or look up a record/ table name/ value from any external source. This output can further be referenced by succeeding activities.
+
+Reference
+Pipelines and activities in Azure Data Factory and Azure Synapse Analytics
+https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities
+
+Mapping data flows in Azure Data Factory
+https://learn.microsoft.com/en-us/azure/data-factory/concepts-data-flow-overview
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 146 discussion - April 25, 2022, 1:44 p.m.
+What are three characteristics of an Online Transaction Processing (OLTP) workload? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. denormalized data
+B. heavy writes and moderate reads
+C. light writes and heavy reads
+D. schema on write
+E. schema on read
+F. normalized data
+
+Highly Voted comment found!
+B: Transactional data tends to be heavy writes, moderate reads.
+
+D: Typical traits of transactional data include: schema on write, strongly enforced
+
+What is Schema On Write
+Schema on write is defined as creating a schema for data before writing into the database. If you have done any kind of development with a database you understand the structured nature of Relational Database(RDBMS) because you have used Structured Query Language (SQL) to read data from the database.
+
+F: Transactional data tends to be highly normalized.
+
+Reference
+Online transaction processing (OLTP)
+https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 147 discussion - April 25, 2022, 1:44 p.m.
+Which two activities can be performed entirely by using the Microsoft Power BI service without relying on Power BI Desktop? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. report and dashboard creation
+B. report sharing and distribution
+C. data modeling
+D. data acquisition and preparation
+
+Highly Voted comment found!
+A,B is correct
+******************************
+Highly Voted comment found!
+A, B,
+Sharing is only done in Power BI Service.
+You cannot create a Dashboard in Power BI Desktop as it's created from already existing Reports.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 148 discussion - Oct. 1, 2020, 10:13 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0015900001.png
+
+Highly Voted comment found!
+Answer is Control flow (https://docs.microsoft.com/en-us/azure/data-factory/introduction)
+Control flow is an orchestration of pipeline activities that includes chaining activities in a sequence, branching, defining parameters at the pipeline level, and passing arguments while invoking the pipeline on-demand or from a trigger. It also includes custom-state passing and looping containers, that is, For-each iterators.
+******************************
+Highly Voted comment found!
+My answer is control flow, you have to control the flow of the activities. with out this each activity acts isolated and its not much like a "pipeline" of events but could be done in parallel
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 149 discussion - April 25, 2022, 1:45 p.m.
+You need to develop a solution to provide data to executives. The solution must provide an interactive graphical interface, depict various key performance indicators, and support data exploration by using drill down.
+What should you use in Microsoft Power BI?
+A. a view
+B. a report
+C. a dataflow
+D. Microsoft Power Apps
+
+Highly Voted comment found!
+report, B is correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 150 discussion - April 20, 2022, 4:58 p.m.
+Which two Azure services can be used to provision Apache Spark clusters? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Azure Time Series Insights
+B. Azure HDInsight
+C. Azure Databricks
+D. Azure Log Analytics
+
+Highly Voted comment found!
+I took the exam 12.04.2023; this question appeared, i had to choose 
+three Azure services
+on the answer list there was additionally Azure Synaps Analytics
+correct answers:
+Azure Synaps Analytics
+Azure HDInsight
+Azure Databricks
+******************************
+Highly Voted comment found!
+B,C
+https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-overview
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 151 discussion - Sept. 2, 2020, 12:36 a.m.
+You have a quality assurance application that reads data from a data warehouse.
+Which type of processing does the application use?
+A. Online Transaction Processing (OLTP)
+B. batch processing
+C. Online Analytical Processing (OLAP)
+D. stream processing
+
+Highly Voted comment found!
+shouldn't this be OLAP?
+******************************
+Highly Voted comment found!
+OLAP make more sense
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 152 discussion - April 25, 2022, 1:51 p.m.
+Which three objects can be added to a Microsoft Power BI dashboard? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. a report page
+B. a Microsoft PowerPoint slide
+C. a visualization from a report
+D. a dataflow
+E. a text box
+
+Highly Voted comment found!
+A,C,E
+https://docs.microsoft.com/en-us/power-bi/create-reports/service-dashboard-pin-live-tile-from-report
+https://docs.microsoft.com/en-us/power-bi/create-reports/service-dashboard-add-widget
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 153 discussion - Sept. 4, 2020, 10:07 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0016300001.png
+
+Highly Voted comment found!
+Yes
+No
+Yes
+******************************
+Highly Voted comment found!
+Yes No Yes... this confirm first Yes answer.. 'one dashboard is associated to a single workspace' https://docs.microsoft.com/en-us/power-bi/fundamentals/service-basic-concepts
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 154 discussion - Oct. 28, 2021, 2:04 p.m.
+Which Azure Data Factory component provides the compute environment for activities?
+A. SSIS packages
+B. an integration runtime
+C. a control flow
+D. a pipeline
+
+Highly Voted comment found!
+Answer is correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 155 discussion - April 9, 2021, 1:13 a.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0016500001.jpg
+
+Highly Voted comment found!
+Correct!
+******************************
+Highly Voted comment found!
+Paginated 
+
+p as in printing
+a as in archiving 
+
+thank me later
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 156 discussion - Oct. 27, 2021, 3:50 p.m.
+What are two uses of data visualization? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Represent trends and patterns over time
+B. Implement machine learning to predict future values
+C. Communicate the significance of data
+D. Enforce business logic across reports
+
+Highly Voted comment found!
+Confirmed, the answer is A & C.
+It was in 26/09/2022 exam and I scored 1000.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 157 discussion - Nov. 21, 2020, 5:12 p.m.
+You need to use Transact-SQL to query files in Azure Data Lake Storage Gen 2 from an Azure Synapse Analytics data warehouse.
+What should you use to query the files?
+A. Azure Functions
+B. Microsoft SQL Server Integration Services (SSIS)
+C. PolyBase
+D. Azure Data Factory
+
+Highly Voted comment found!
+Polybase is the correct answerd, 
+https://docs.microsoft.com/en-gb/learn/modules/explore-data-storage-processing-azure/3-explore-azure-synapse-analytics
+
+"Use SQL pools in Synapse Analytics for the following scenarios:
+
+Complex reporting. You can use the full power of Transact-SQL to run complex SQL statements that summarize and aggregate data.
+
+Data ingestion. PolyBase enables you to retrieve data from many external sources and convert it into a tabular format. You can reformat this data and save it as tables and materialized views in Azure Synapse."
+******************************
+Highly Voted comment found!
+PolyBase enables your SQL Server instance to process Transact-SQL queries that read data from external data sources. SQL Server 2016 and higher can access external data in Hadoop and Azure Blob Storage. Starting in SQL Server 2019, you can now use PolyBase to access external data in SQL Server, Oracle, Teradata, and MongoDB.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 158 discussion - April 25, 2022, 1:56 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0016700001.png
+
+Highly Voted comment found!
+N,N,Y is correct
+******************************
+Highly Voted comment found!
+Now you can copy so, Y N Y
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 159 discussion - April 25, 2022, 1:57 p.m.
+What are three characteristics of an Online Transaction Processing (OLTP) workload? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. denormalized data
+B. heavy writes and moderate reads
+C. light writes and heavy reads
+D. schema defined in a database
+E. schema defined when reading unstructured data from a database
+F. normalized data
+
+Highly Voted comment found!
+Similar to Question #146
+******************************
+Highly Voted comment found!
+B,D,F correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 160 discussion - Sept. 28, 2021, 2:13 a.m.
+What is the primary purpose of a data warehouse?
+A. to provide answers to complex queries that rely on data from multiple sources
+B. to provide transformation services between source and target data stores
+C. to provide read-only storage of relational and non-relational historical data
+D. to provide storage for transactional line-of-business (LOB) applications
+
+Highly Voted comment found!
+A is more logical.
+******************************
+Highly Voted comment found!
+The ans should be A.
+In the textbook DP-900T00-A-Microsoft Azure Data Fundamentals Module 4 Describe modern data warehousing: 
+''A data warehouse gathers data from many different sources within an organization...The focus of a data warehouse is to provide answers to complex queries...''
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 161 discussion - April 7, 2021, 1:52 a.m.
+DRAG DROP -
+Match the Azure services to the appropriate locations in the architecture.
+To answer, drag the appropriate service from the column on the left to its location on the right. Each service may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0017000001.jpg
+
+Highly Voted comment found!
+Correct answer!
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 162 discussion - April 25, 2022, 1:58 p.m.
+DRAG DROP -
+Match the types of workloads to the appropriate scenarios.
+To answer, drag the appropriate workload type from the column on the left to its scenario on the right. Each workload type may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0017100001.jpg
+
+Highly Voted comment found!
+correct answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 163 discussion - Nov. 10, 2021, 2:50 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0017200001.jpg
+
+Highly Voted comment found!
+correct yes
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 164 discussion - April 9, 2021, 1:04 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0017300005.jpg
+
+Highly Voted comment found!
+Totally agree!
+******************************
+Highly Voted comment found!
+Correct Answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 165 discussion - April 20, 2022, 5:02 p.m.
+DRAG DROP -
+Match the Azure services to the appropriate requirements.
+To answer, drag the appropriate service from the column on the left to its requirement on the right. Each service may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0017500001.jpg
+
+Highly Voted comment found!
+Answer should be: 
+- Azure Synapse Analytics: Output data to parquet format
+- Azure Data Lake Storage: Store data that is in parquet format
+- Azure SQL Database: Persist a tabular representation of data that is stored in parquet format
+******************************
+Highly Voted comment found!
+Answer:
+Azure Synapse can convert CSV and other file types to Parquet files and query it
+ADLS - Store Parquet files produced by Azure Synapse Analytics
+Azure SQL Database - tabular representation of data
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 166 discussion - April 9, 2021, 7:56 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0017600001.jpg
+
+Highly Voted comment found!
+true/true/false  right!
+******************************
+Highly Voted comment found!
+correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 167 discussion - Feb. 7, 2021, 5:14 p.m.
+What should you use to build a Microsoft Power BI paginated report?
+A. Charticulator
+B. Power BI Desktop
+C. the Power BI service
+D. Power BI Report Builder
+
+Highly Voted comment found!
+Agree, you need Power BI Report Builder
+******************************
+Highly Voted comment found!
+Agree
+
+https://docs.microsoft.com/en-us/power-bi/paginated-reports/paginated-reports-quickstart-aw
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 168 discussion - April 7, 2021, 2:53 a.m.
+DRAG DROP -
+Match the Azure services to the appropriate locations in the architecture.
+To answer, drag the appropriate service from the column on the left to its location on the right. Each service may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0017800001.png
+
+Highly Voted comment found!
+At first I thought it could be both Cosmos and Synapse. But reading again; they're asking for a datawarehouse, not a database, so that leaves Synapse as the only suitable solution.
+******************************
+Highly Voted comment found!
+I took the exam 12.04.2023; this question appeared,correct answer
+Azure Data Factory / Azure Synapse Analytics
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 169 discussion - April 25, 2022, 2:07 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0018000001.jpg
+
+Highly Voted comment found!
+correct: y,n,y
+******************************
+Highly Voted comment found!
+Exam: 20/10/2022
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 170 discussion - Oct. 7, 2020, 9:13 p.m.
+Which scenario is an example of a streaming workload?
+A. sending transactions that are older than a month to an archive
+B. sending transactions daily from point of sale (POS) devices
+C. sending telemetry data from edge devices
+D. sending cloud infrastructure metadata every 30 minutes
+
+Highly Voted comment found!
+Correct
+******************************
+Highly Voted comment found!
+correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 171 discussion - Sept. 11, 2020, 1:59 p.m.
+HOTSPOT -
+To complete the sentence, select the appropriate option in the answer area.
+Hot Area:
+/assets/media/exam-media/04277/0018200001.png
+
+Highly Voted comment found!
+D is definitely correct. Batch data can be run weekly, monthly, or even yearly.
+******************************
+Highly Voted comment found!
+Don't get tricked with this one:
+A) doesn't make any sense as there is no data processing in the background. Batch means to process a big volume of data in a particular time of the day (e.g. in the night with idle VMs)
+B) You can once per day if you define it as such but in any case you are limited by "one day". So it's no.
+C) Nonsense. Batch data is not a design for RT/streaming data OTA. You would use a different solution as data bricks. Reason that data bricks service exists.
+D) Correct. You can define your condition. Once it's met, you can execute it.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 172 discussion - Sept. 29, 2020, 10:29 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0018300001.png
+
+Highly Voted comment found!
+Its yes Yes No
+******************************
+Highly Voted comment found!
+Option C says it sends the "readingS" once a day, which makes me think it has multiple readings and wait to send them all once a day.  So with given information I'm more inclined to Yes, Yes, No.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 173 discussion - Oct. 24, 2021, 6:15 p.m.
+A bar chart showing year-to-date sales by region is an example of which type of analytics?
+A. predictive
+B. prescriptive
+C. descriptive
+D. diagnostic
+
+Highly Voted comment found!
+You've asked me whether I am a robot 35 times, it seems as if a robot is you.
+******************************
+Highly Voted comment found!
+should be C
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 174 discussion - April 25, 2022, 2:11 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0018400001.jpg
+
+Highly Voted comment found!
+y,n,y is correct
+******************************
+Highly Voted comment found!
+https://docs.microsoft.com/en-us/learn/modules/explore-fundamentals-stream-processing/2-batch-stream
+Analysis: You typically use batch processing to perform complex analytics. Stream processing is used for simple response functions, aggregates, or calculations such as rolling averages.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 175 discussion - April 26, 2022, 4:06 p.m.
+You need to perform hybrid transactional and analytical processing (HTAP) queries against Azure Cosmos DB data sources by using Azure Synapse Analytics.
+What should you use?
+A. Synapse pipelines
+B. a Synapse SQL pool
+C. Synapse Link
+D. Synapse Studio
+
+Highly Voted comment found!
+Exam 26/09.. C is correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 176 discussion - April 25, 2022, 2:12 p.m.
+You need to create a visualization of running sales totals per quarter as shown in the following exhibit.
+/assets/media/exam-media/04277/0018600001.png
+What should you create in Power BI Desktop?
+A. a waterfall chart
+B. a ribbon chart
+C. a bar chart
+D. a decomposition tree
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 178 discussion - Sept. 1, 2022, 12:18 a.m.
+You have the following two tables of customer data.
+/assets/media/exam-media/04277/0018800002.jpg
+/assets/media/exam-media/04277/0018900001.jpg
+Which type of data do the tables contain?
+A. structured
+B. non-relational
+C. semi-structured
+D. unstructured
+
+Highly Voted comment found!
+Looks very much structured and normalized, with Pkeys and Fkeys.
+******************************
+Highly Voted comment found!
+It is very structured the two tables
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 179 discussion - Sept. 1, 2022, 12:23 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0019000001.png
+
+Highly Voted comment found!
+as nodes and edges by using the Gremlin Language
+
+https://docs.microsoft.com/en-us/azure/cosmos-db/graph/tutorial-query-graph?source=recommendations
+******************************
+Highly Voted comment found!
+should be Gremlin
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 180 discussion - Sept. 2, 2022, 4:25 a.m.
+Which Azure Blob Storage feature enables you to sync a Blob Storage account to an external cache?
+A. the Hot access tier
+B. change feed
+C. snapshots
+D. versioning
+
+Highly Voted comment found!
+Change feed
+
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-change-feed
+
+Change feed support is well-suited for scenarios that process data based on objects that have changed. For example, applications can:
+
+- Update a secondary index, synchronize with a cache, search-engine, or any other content-management scenarios.
+******************************
+Highly Voted comment found!
+Change Feed, https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-change-feed?tabs=azure-portal, ... change feed is well suited for ... sychronizing with a cache
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 181 discussion - Sept. 1, 2022, 12:21 a.m.
+You have an on-premises Microsoft SQL Server database.
+You need to migrate the database to the cloud. The solution must meet the following requirements:
+* Minimize maintenance effort.
+* Support the Database Mail and Service Broker features.
+What should you include in the solution?
+A. Azure SQL Database single database
+B. an Azure SQL Database elastic pool
+C. Azure SQL Managed instance
+D. SQL Server on Azure virtual machines
+
+Highly Voted comment found!
+Azure SQL Database does not support service broker and mail. You need the Managed Instance.
+
+https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison?view=azuresql
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 184 discussion - May 19, 2024, 12:54 p.m.
+Which two features distinguish Delta Lake from Azure Data Lake Storage? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. support for batch data
+B. schema enforcement
+C. support for an Apache Spark runtime
+D. transactional consistency
+E. support for streaming data
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 186 discussion - Sept. 6, 2022, 5:12 p.m.
+What is a function of a modern data warehouse?
+A. supports batch processing only
+B. supports real-time and batch processing
+C. provides built-in or native online analytical processing
+D. stores raw data only
+
+Highly Voted comment found!
+when its not clear here what to consider as correct answer? paying for dump is not worth in this type of question.
+******************************
+Highly Voted comment found!
+Personal preferrence goes to B. Key phrase is 'modern' data warehouse.
+
+From Microsoft learn:
+Large-scale data warehousing solutions combine conventional data warehousing used to support business intelligence (BI) with techniques used for so-called "big data" analytics. A conventional data warehousing solution typically involves copying data from transactional data stores into a relational database with a schema that's optimized for querying and building multidimensional models. Big Data processing solutions on the other hand, are used with large volumes of data in multiple formats, which is batch loaded or captured in real-time streams and stored in a data lake from which distributed processing engines like Apache Spark are used to process it.
+
+Answer C is functional of conventional data warehouse.
+
+Reference
+https://learn.microsoft.com/bs-latn-ba/training/modules/examine-components-of-modern-data-warehouse/1-introduction
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 187 discussion - Sept. 1, 2022, 12:16 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0019600001.png
+
+Highly Voted comment found!
+hierarchical namespace
+******************************
+Highly Voted comment found!
+hierarchical namespace
+https://docs.microsoft.com/en-us/azure/storage/blobs/create-data-lake-storage-account
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 188 discussion - Sept. 6, 2022, 5:15 p.m.
+What can be used with native notebook support to query and visualize data by using a web-based interface?
+A. Azure Databricks
+B. pgAdmin
+C. Microsoft Power BI
+
+Highly Voted comment found!
+Notebooks are a common tool in data science and machine learning for developing code and presenting results. In Azure Databricks, notebooks are the primary tool for creating data science and machine learning workflows and collaborating with colleagues. Databricks notebooks provide real-time coauthoring in multiple languages, automatic versioning, and built-in data visualizations.
+
+Reference
+Introduction to Databricks notebooks
+https://learn.microsoft.com/en-us/azure/databricks/notebooks/
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 189 discussion - Sept. 6, 2022, 5:15 p.m.
+You have data saved in the following format.
+/assets/media/exam-media/04277/0019800001.png
+Which format was used?
+A. XML
+B. HTML
+C. YAML
+D. JSON
+
+Highly Voted comment found!
+D JSON is correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 190 discussion - Sept. 6, 2022, 12:53 a.m.
+You have data saved in the following format.
+/assets/media/exam-media/04277/0019900001.png
+Which format was used?
+A. JSON
+B. YAML
+C. HTML
+D. XML
+
+Highly Voted comment found!
+I took the exam 12.04.2023; this question appeared,correct answer
+XML
+******************************
+Highly Voted comment found!
+agreed, 
+
+XML uses these tags <> and </>
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 191 discussion - Sept. 6, 2022, 5:20 p.m.
+Which database transaction property ensures that transactional changes to a database are preserved during unexpected operating system restarts?
+A. consistency
+B. atomicity
+C. durability
+D. isolation
+
+Highly Voted comment found!
+I took the exam 12.04.2023; this question appeared,correct answer
+durability
+******************************
+Highly Voted comment found!
+C durability
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 194 discussion - Sept. 1, 2022, 12:12 a.m.
+Which database transaction property ensures that individual transactions are executed only once and either succeed in their entirety or roll back?
+A. atomicity
+B. durability
+C. isolation
+D. consistency
+
+Highly Voted comment found!
+Atomicity is the right answer.  
+An atomic transaction is an indivisible and irreducible series of database operations such that either all occurs, or nothing occurs. A guarantee of atomicity prevents updates to the database occurring only partially, which can cause greater problems than rejecting the whole series outright. As a consequence, the transaction cannot be observed to be in progress by another database client.
+******************************
+Highly Voted comment found!
+atomicity
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 195 discussion - Sept. 1, 2022, 12:12 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0020200001.jpg
+
+Highly Voted comment found!
+clustered index
+******************************
+Highly Voted comment found!
+A - clustered index
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 196 discussion - Sept. 6, 2022, 5:23 p.m.
+Which Azure Storage service implements the key/value model?
+A. Azure Queue
+B. Azure Files
+C. Azure Table
+D. Azure Blob
+
+Highly Voted comment found!
+C Azure Table
+******************************
+Highly Voted comment found!
+C - https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview
+
+Azure Table storage is a service that stores non-relational structured data (also known as structured NoSQL data) in the cloud, providing a key/attribute store with a schemaless design.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 197 discussion - Sept. 2, 2022, 1:48 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0020400001.jpg
+
+Highly Voted comment found!
+Semi-structured
+******************************
+Highly Voted comment found!
+Semi Structured data should be the answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 200 discussion - Sept. 6, 2022, 5:31 p.m.
+You plan to deploy an app. The app requires a nonrelational data service that will provide latency guarantees of less than 10-ms for reads and writes.
+What should you include in the solution?
+A. Azure Blob storage
+B. Azure Files
+C. Azure Table storage
+D. Azure Cosmos DB
+
+Highly Voted comment found!
+D is correct answer
+******************************
+Highly Voted comment found!
+D. Azure Cosmos DB
+The read latency for all consistency levels is always guaranteed to be less than 10 milliseconds at the 99th percentile. The average read latency, at the 50th percentile, is typically 4 milliseconds or less.
+The write latency for all consistency levels is always guaranteed to be less than 10 milliseconds at the 99th percentile. The average write latency, at the 50th percentile, is usually 5 milliseconds or less. Azure Cosmos DB accounts that span several regions and are configured with strong consistency are an exception to this guarantee.
+https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 201 discussion - Sept. 2, 2022, 2:20 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0020700001.jpg
+
+Highly Voted comment found!
+Confirmed, the answer is stores data without a fixed schema.
+It was in 26/09/2022 exam and I scored 1000.
+******************************
+Highly Voted comment found!
+stores data without a fixed schema
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 202 discussion - Sept. 1, 2022, 12:03 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0020900001.jpg
+
+Highly Voted comment found!
+YNY
+What happened? There are some wrong answers of the new questions.
+******************************
+Highly Voted comment found!
+The first answer should be yes.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 203 discussion - Sept. 1, 2022, 12:05 a.m.
+You have data saved in the following format.
+/assets/media/exam-media/04277/0021000001.png
+Which format was used?
+A. YAML
+B. CSV
+C. JSON
+D. HTML
+
+Highly Voted comment found!
+that is obviously CSV, not YAML
+******************************
+Highly Voted comment found!
+I took the exam 12.04.2023; this question appeared,correct answer
+CSV
+however: in the exam the question was more precisly formulated:
+it listed that data is coma delimited with an rows terminated by newlines
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 204 discussion - Sept. 6, 2022, 6:01 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0021000002.jpg
+
+Highly Voted comment found!
+D is correct answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 205 discussion - Sept. 1, 2022, 12:06 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0021100002.jpg
+
+Highly Voted comment found!
+Database administrator
+******************************
+Highly Voted comment found!
+it is Database administrators.
+Database administrators manage databases, assigning permissions to users, storing backup copies of data and restore data in the event of a failure.
+https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/2-explore-job-roles
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 206 discussion - Sept. 1, 2022, 7:43 a.m.
+What is required to provision Azure Data Lake Storage in an Azure Storage account?
+A. Versioning must be disabled.
+B. Hierarchical namespace must be disabled.
+C. Versioning must be enabled.
+D. Hierarchical namespace must be enabled.
+
+Highly Voted comment found!
+Correct answer D:
+With a hierarchical namespace enabled, a storage account becomes capable of providing the scalability and cost-effectiveness of object storage, with file system semantics that are familiar to analytics engines and frameworks.
+https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-namespace
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 207 discussion - Sept. 1, 2022, 7:39 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0021300001.jpg
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 208 discussion - Sept. 1, 2022, 7:39 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0021400001.jpg
+
+Highly Voted comment found!
+B is correct answer. A SQL Server instance in a VM is basically nothing else than a SQL Server on-premises.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 209 discussion - Sept. 6, 2022, 6:07 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0021400003.png
+
+Highly Voted comment found!
+Answer should be C report. Reports are collections of visualizations on one or more pages.
+******************************
+Highly Voted comment found!
+The answer should be **Report** , the question mentioned more than "one page", and dashboard only use one page.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 210 discussion - Sept. 1, 2022, 7:36 a.m.
+DRAG DROP -
+Match the processes to the appropriate scenarios.
+To answer, drag the appropriate process from the column on the left to its scenario on the right. Each process may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+Select and Place:
+/assets/media/exam-media/04277/0021600001.png
+
+Highly Voted comment found!
+Should be ETL,ELT,Data ingest
+******************************
+Highly Voted comment found!
+Should be ETL, ELT and Data Ingestion
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 211 discussion - Sept. 1, 2022, 7:10 a.m.
+What is used to define a query in a stream processing jobs in Azure Stream Analytics?
+A. YAML
+B. KQL
+C. SQL
+D. XML
+
+Highly Voted comment found!
+C. https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction#programmer-productivity
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 212 discussion - Sept. 1, 2022, 7:07 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0021700001.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 213 discussion - Sept. 1, 2022, 5:38 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0021800001.jpg
+
+Highly Voted comment found!
+This is clearly semi
+******************************
+Highly Voted comment found!
+XML, CSV, JSON - Semi-structured data.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 214 discussion - Sept. 6, 2022, 6:12 p.m.
+In a fully normalized database, how is data read and written for a single entity?
+A. Data is read from multiple tables and written to multiple tables.
+B. Data is read from a single table and written to a single table.
+C. Data is read from a single table and written to multiple tables.
+D. Data is read from multiple tables and written to a single table.
+
+Highly Voted comment found!
+That's a strange question, to be honest. It depends on the data operation that needs to be performed. Data can be read from multiple tables and written to a single or multiple tables as well.
+******************************
+Highly Voted comment found!
+answer is D, you can only write to one table at a time, but can join select read from multiple tables
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 215 discussion - Sept. 1, 2022, 7:01 a.m.
+What is a primary characteristic of a relational database?
+A. a flexible data structure
+B. data is queried and manipulated by using a variant of the SQL language
+C. a lack of dependencies between tables
+D. a large amount of duplicate data
+
+Highly Voted comment found!
+what are we paying for ? the answer is incorrect......
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 216 discussion - Sept. 1, 2022, 6:53 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0021900001.jpg
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 217 discussion - Jan. 29, 2025, 11:04 a.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image130.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 218 discussion - Sept. 1, 2022, 6:52 a.m.
+What is a characteristic of a non-relational database?
+A. full support for Transact-SQL
+B. a fixed schema
+C. self-describing entities
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 219 discussion - Sept. 1, 2022, 5:59 a.m.
+What should you use to automatically delete blobs from Azure Blob Storage?
+A. archive storage
+B. the change feed
+C. soft delete
+D. a lifecycle management policy
+
+Highly Voted comment found!
+D is correct. https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 220 discussion - Sept. 1, 2022, 5:58 a.m.
+In Azure Table storage, each row in a table must be uniquely identified by which two components? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. a partition key
+B. a range
+C. a row key
+D. a timestamp
+
+Highly Voted comment found!
+Together the PartitionKey and RowKey uniquely identify every entity within a table.
+
+https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 221 discussion - Aug. 31, 2022, 9:55 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0022100001.jpg
+
+Highly Voted comment found!
+Data Analyst should be the answer.
+******************************
+Highly Voted comment found!
+I feel like wrong answers are added to keep people engaged.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 222 discussion - Sept. 19, 2022, 7:49 p.m.
+You need to store event log data that is semi-structured and received as the logs occur.
+What should you use?
+A. Azure Table storage
+B. Azure Queue storage
+C. Azure Files
+
+Highly Voted comment found!
+A. Azure Table storage - passed exam today with sore 1000 - and this question appeared (A was my answer)
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 223 discussion - Sept. 2, 2022, 4 p.m.
+Which Azure Cosmos DB API should you use for a graph database?
+A. Table
+B. Cassandra
+C. Core (SQL)
+D. Gremlin
+
+Highly Voted comment found!
+Correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 224 discussion - Sept. 17, 2022, 11:05 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+/assets/media/exam-media/04277/0022300001.jpg
+
+Highly Voted comment found!
+Y,N,N
+https://learn.microsoft.com/en-us/training/modules/intro-to-azure-data-lake-storage/1-introduction
+https://learn.microsoft.com/en-us/training/modules/intro-to-azure-data-factory/2-what-is-azure-data-factory
+https://learn.microsoft.com/en-us/training/modules/intro-to-azure-hdinsight/2-what-is-azure-hdinsight
+******************************
+Highly Voted comment found!
+Y - Azure Data Lake Storage can be used as a staging area for ingested data before the data is converted into a format suitable for performing analytics. It allows you to store and analyze large amounts of data, and it is optimized for big data analytics workloads.
+
+N - Azure Data Factory is a cloud-based data integration service that allows you to create, schedule, and manage data pipelines. It does not use a massively parallel processing architecture by default, but allows you to perform complex data integration and transformation tasks by integrating with other Azure services.
+
+N - Azure HDInsight is designed for big data analytics workloads and does not enable you to build tabular models from multiple data sources to support OLAP queries. Azure Analysis Services is a service that you can use to create and manage tabular models for OLAP.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 225 discussion - Sept. 6, 2022, 6:22 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+Hot Area:
+/assets/media/exam-media/04277/0022400001.jpg
+
+Highly Voted comment found!
+duplicate but correct answer
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 226 discussion - Sept. 6, 2022, 6:26 p.m.
+A bank has a system that manages financial transactions.
+When transferring money between accounts. the system must never retrieve a value for the source account that reflects the balance before the transfer and a value for the destination account that reflects the balance after the transfer.
+Of which ACID semantic is this an example?
+A. atomicity
+B. durability
+C. consistency
+D. isolation
+
+Highly Voted comment found!
+Confirmed is Isolation.
+It was in 26/09/2022 exam and I scored 1000.
+******************************
+Highly Voted comment found!
+Isn't that isolation?
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 227 discussion - Jan. 31, 2023, 9:31 a.m.
+DRAG DROP
+-
+Match the terms to the appropriate descriptions.
+To answer, drag the appropriate term from the column on the left to its description on the right. Each term may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/dp-900/image1.png
+
+Highly Voted comment found!
+Agree
+
+ETL
+https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl
+
+Fact table
+https://www.techtarget.com/searchdatamanagement/definition/fact-table#:~:text=A%20fact%20table%20stores%20quantitative,fact%20table%20can%20be%20analyzed.
+
+DW
+https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/data-warehousing
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 229 discussion - Jan. 19, 2023, 9:45 p.m.
+A data engineer is responsible for which task?
+A. Explore data to identify trends.
+B. Implement policies, tools, and processes for backup and recovery plans.
+C. Design and build analytical models.
+D. Design and implement data stores for analytical workloads.
+
+Highly Voted comment found!
+D
+
+A data engineer collaborates with stakeholders to design and implement data-related workloads, including data ingestion pipelines, cleansing and transformation activities, and data stores for analytical workloads. They use a wide range of data platform technologies, including relational and non-relational databases, file stores, and data streams.
+
+https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/2-explore-job-roles
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 231 discussion - Jan. 31, 2023, 12:48 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image7.png
+
+Highly Voted comment found!
+Correct answer: Cube
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 232 discussion - Jan. 30, 2023, 6:08 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image9.png
+
+Highly Voted comment found!
+Scatter Charts - A scatter chart (or scatter graph) uses dots to represent values for two different numeric variables. The position of each dot on the horizontal and vertical axis indicates values for an individual data point. Scatter plots are used to observe relationships between variables.
+
+so it's correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 234 discussion - Jan. 25, 2023, 8:47 a.m.
+Which file format has defined names and data types for each column and uses compressed columnar storage?
+A. HTML
+B. CSV
+C. Apache Parquet
+D. JSON
+
+Highly Voted comment found!
+Key phase is "compressed columnar storage". That is about Parquet
+******************************
+Highly Voted comment found!
+C - Correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 236 discussion - Jan. 19, 2023, 9:48 p.m.
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image15.png
+
+Highly Voted comment found!
+The answer should be YNY
+https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview
+The archive tier is an offline tier for storing data that is rarely accessed. The archive access tier has the lowest storage cost. However, this tier has higher data retrieval costs with a higher latency as compared to the hot and cool tiers.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 237 discussion - Feb. 8, 2023, 9:24 p.m.
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image17.png
+
+Highly Voted comment found!
+Y N Y
+Online Transaction Processing (OLTP) relies on a database system where data storage is optimized for both read and write operations.
+******************************
+Highly Voted comment found!
+I am going for NNY. 
+This brings back memories from over a decade ago, when M$ used to put hard numbers on their definitions for OLTP: 70% writes and 30% reads.
+Following your logic, then it should be YYY because we do insert a shitload of data into OLAP (TB-sized data). But it doesn't mean it is optimized for writes.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 238 discussion - Feb. 7, 2023, 4:21 p.m.
+A retail point of sale (POS) system is an example of which type of solution?
+A. a data warehouse
+B. online analytical processing (OLAP)
+C. extract, transform, and load (ETL)
+D. online transaction processing (OLTP)
+
+Highly Voted comment found!
+oltp is the correct answer
+******************************
+Highly Voted comment found!
+OLTP!!!
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 239 discussion - Feb. 12, 2023, 3:33 a.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image19.png
+
+Highly Voted comment found!
+This is correct. Node =Vertex
+******************************
+Highly Voted comment found!
+A graph database is a collection of nodes (or vertices) and edges (or relationships). 
+Therefore, the correct answer is Vertexes.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 240 discussion - Feb. 16, 2023, 9:44 a.m.
+You have structured data in tabular format.
+What represents an individual instance of a data entity?
+A. a column
+B. a table
+C. a cell
+D. a row
+
+Highly Voted comment found!
+An entity is a thing in which information needs to be known or held. A table is the object that stores a collection of entities. A row represents a single instance of an entity. A column defines a specific property of an entity.
+
+A row !!!
+******************************
+Highly Voted comment found!
+In a simple relational database implementation, each row of a table represents one instance of an entity type, and each field in a table represents an attribute type.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 241 discussion - Feb. 23, 2023, 6:30 a.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image21.png
+
+Highly Voted comment found!
+correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 242 discussion - Feb. 13, 2023, 7:18 p.m.
+Which Azure SQL offering provides near-100 percent compatibility with on-premises Microsoft SQL Server instances, while providing automated updates. backups, and maintenance tasks?
+A. Azure SQL Managed Instance
+B. SQL Server on Azure Virtual Machines
+C. Azure SQL Database
+D. Azure SQL Edge
+
+Highly Voted comment found!
+https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview?view=azuresql
+******************************
+Highly Voted comment found!
+I took the exam 12.04.2023; this question appeared,correct answer
+Azure SQL Managed Instance
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 243 discussion - Feb. 28, 2023, 2:40 a.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image23.png
+
+Highly Voted comment found!
+Correct answer!
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 244 discussion - Feb. 8, 2023, 9:32 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image25.png
+
+Highly Voted comment found!
+Duplicate of #32 and the answer for that question is "a target data store powerful enough to transform data"
+******************************
+Highly Voted comment found!
+Transformation engine is not needed because you will not transform the data before it is being loaded.
+I think the answer is "a target data store powerful enough to transform data", because there you will need power to perform a comples queries for business purposes.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 245 discussion - Feb. 26, 2023, 2:09 a.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image27.png
+
+Highly Voted comment found!
+Dimensions:- In a star schema, the entities by which you aggregate or slice measures are called dimensions. Dimensions are the descriptive attributes or perspectives of the data that provide the context for the measures (also known as facts) in the model.
+
+For example, in a sales data star schema, the dimensions could be time, product, store location, and customer. These dimensions provide context for the sales measures such as total sales, units sold, and revenue. By aggregating or slicing the measures by different dimensions, you can gain insights into the data from different perspectives.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 246 discussion - Feb. 8, 2023, 10:15 p.m.
+DRAG DROP
+-
+Match the data storage options to the appropriate types of data.
+To answer, drag the appropriate data storage option from the column on the left to its data type on the right. Each data storage option may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/dp-900/image29.png
+
+Highly Voted comment found!
+Answer is Blob, Cosmos DB for NoSQL and Azure SQL Database
+******************************
+Highly Voted comment found!
+Audio files - Azure Blob Storage
+JSON documents - Azure Cosmos DB for NoSQL
+Tabular datasets - Azure SQL Database
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 247 discussion - Feb. 12, 2023, 3:38 a.m.
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image31.png
+
+Highly Voted comment found!
+NNY
+The default access tier for a new general-purpose v2 storage account is set to the hot tier by default.
+
+An append blob is composed of blocks and is optimized for append operations. When you modify an append blob, blocks are added to the end of the blob only, via the Append Block operation. Updating or deleting of existing blocks is not supported.
+
+Rehydrating a blob from the Archive tier can take several hours to complete.
+******************************
+Highly Voted comment found!
+Optimized for random read and write - It's Page Blob
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 248 discussion - Feb. 8, 2023, 10:17 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image33.png
+
+Highly Voted comment found!
+The Azure Cosmos DB API for NoSQL supports querying documents using SQL. This article provides a sample document and two sample SQL queries and results / found in Microsoft tutorial
+******************************
+Highly Voted comment found!
+Azure Cosmos DB core API is the answer but this is not in the list. Closest thing to query documents would be MongoDB API
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 249 discussion - Feb. 16, 2023, 3:30 p.m.
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image35.png
+
+Highly Voted comment found!
+Yes. Azure File Storage can be created in a storage account in Azure.
+No. The Premium tier of Azure File Storage uses SSD-based hardware in a datacenter, not HDD-based.
+No. The Standard tier of Azure File Storage also uses HDD-based hardware in a datacenter, not SSD-based. However, it is worth noting that both tiers of Azure File Storage offer a combination of SSDs and HDDs to optimize performance and cost.
+******************************
+Highly Voted comment found!
+The answers are correct.
+YNN
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 250 discussion - March 15, 2023, 6:56 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image37.png
+
+Highly Voted comment found!
+correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 251 discussion - March 10, 2023, 4:51 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image39.png
+
+Highly Voted comment found!
+Correct
+https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-upload-desktop-files
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 252 discussion - Feb. 8, 2023, 9:41 p.m.
+Which type of Azure resource supports the serverless configuration of an Azure SQL database?
+A. SQL Server on Azure Virtual Machines
+B. an Azure SQL Database elastic pool
+C. a single database in Azure SQL Database
+D. Azure SQL Managed Instance
+
+Highly Voted comment found!
+Serverless is a compute tier for single databases in Azure SQL Database that automatically scales compute based on workload demand and bills for the amount of compute used per second. The serverless compute tier also automatically pauses databases during inactive periods when only storage is billed and automatically resumes databases when activity returns.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 253 discussion - March 26, 2023, 11:43 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image41.png
+
+Highly Voted comment found!
+In an OLAP system, data is typically organized in a multidimensional model so.. 'Pre-aggregated' makes more sense
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 254 discussion - Feb. 13, 2023, 5:16 p.m.
+DRAG DROP
+-
+Match the data processing languages to the appropriate real-time analytics services.
+To answer, drag the appropriate language from the column on the left to its service on the right. Each language may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/dp-900/image43.png
+
+Highly Voted comment found!
+Azure Data Explorer: KQL (Kusto Query Language), which is a proprietary query language specifically designed for Azure Data Explorer. It is used to analyze and query large volumes of structured and unstructured data in real-time.
+
+Azure Stream Analytics: SQL, which is a standard query language for relational databases. It is used to analyze and process high-velocity, real-time streaming data from various sources, such as IoT devices, social media platforms, and other real-time data streams.
+
+Azure Synapse Analytics: SQL and Python. SQL is used to query and analyze structured data stored in Azure Synapse Analytics, while Python can be used for data preprocessing, machine learning, and other data science tasks.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 255 discussion - March 26, 2023, 1:09 a.m.
+Which Azure Cosmos DB API should you use for a graph database?
+A. Table
+B. Cassandra
+C. NoSQL
+D. Gremlin
+
+Highly Voted comment found!
+Graph == Gramlin
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 257 discussion - Aug. 17, 2023, 12:25 p.m.
+What is a difference between structured data and semi-structured data?
+A. Structured data has a fixed schema and semi-structured data has a flexible schema.
+B. Only Structured data supports entities.
+C. Structured data has a flexible schema and semi-structured data has a fixed schema.
+D. Only Structured data supports attributes.
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 258 discussion - June 20, 2023, 6:52 a.m.
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image47.png
+
+Highly Voted comment found!
+correct!
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 259 discussion - Aug. 5, 2023, 1:59 p.m.
+A bank needs to ensure that after an account transfer transaction completes, the revised account balances persists even if the database system hosting the transaction becomes temporarily unavailable.
+Of which ACID semantic is this an example?
+A. durability
+B. isolation
+C. atomicity
+D. consistency
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 260 discussion - Oct. 12, 2023, 5:18 p.m.
+Which statement is an example of Data Manipulation Language (DML)?
+A. INSERT
+B. ALTER
+C. DROP
+D. CREATE
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 261 discussion - June 29, 2023, 1:07 p.m.
+Which language is used to define queries in Azure Synapse Data Explorer?
+A. Bash
+B. PowerShell
+C. KQL
+D. SQL
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 262 discussion - June 29, 2023, 1:08 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image49.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 263 discussion - June 20, 2023, 6:55 a.m.
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image51.png
+
+Highly Voted comment found!
+YES NO YES
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 264 discussion - Aug. 17, 2023, 10:24 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image53.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 265 discussion - Aug. 30, 2023, 8:25 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image55.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 266 discussion - July 19, 2023, 9:57 a.m.
+DRAG DROP
+-
+Match the Azure Cosmos DB APIs to the appropriate data structures.
+To answer, drag the appropriate API from the column on the left to its data structure on the right. Each API may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/dp-900/image57.png
+
+Highly Voted comment found!
+Correct !
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 267 discussion - July 19, 2023, 9:58 a.m.
+Which Azure Cosmos DB API should you use for a graph database?
+A. Azure Cosmos DB for Table
+B. Azure Cosmos DB for Apache Cassandra
+C. Azure Cosmos DB for NoSQL
+D. Azure Cosmos DB for Apache Gremlin
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 268 discussion - Nov. 17, 2023, 10:53 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image59.png
+
+Highly Voted comment found!
+Database Administrator
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 269 discussion - Nov. 15, 2023, 3:37 p.m.
+DRAG DROP
+-
+Match the cloud service model to the appropriate Azure relational database service.
+To answer, drag the appropriate cloud service model from the column on the left to its service on the right. Each model may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/dp-900/image61.png
+
+Highly Voted comment found!
+PAAS,PAAS,IAAS
+******************************
+Highly Voted comment found!
+The "contributor access" is a complete waste of money!! Not with all these wrong answers.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 270 discussion - Nov. 17, 2023, 10:55 p.m.
+A bank needs to ensure that a transaction involving debiting funds from a source account and crediting the same funds to a destination account must complete both actions. If either action falls to complete, the other action must fail.
+Of which ACID semantic is this an example?
+A. consistency
+B. durability
+C. atomicity
+D. isolation
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 271 discussion - Nov. 17, 2023, 10:55 p.m.
+Blob rehydration occurs in Azure Blob storage when a blob moves between which access tiers?
+A. Hot to Cool
+B. Hot to Archive
+C. Cool to Archive
+D. Archive to Cool
+
+Highly Voted comment found!
+While a blob is in the archive access tier, it's considered to be offline, and can't be read or modified. In order to read or modify data in an archived blob, you must first rehydrate the blob to an online tier, either the hot or cool tier.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 272 discussion - Nov. 17, 2023, 10:56 p.m.
+Which activity is most common for transactional workloads?
+A. recording small units of work events in real time
+B. aggregating massive amounts of data
+C. producing complex reports
+D. performing self-service data exploration
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 273 discussion - Nov. 23, 2023, 12:55 p.m.
+You have a banking application that transfers money in to and out of accounts.
+Of which type of solution is this is an example?
+A. online transaction processing (OLTP)
+B. online analytical processing (OLAP)
+C. extract, transform and load (ETL)
+D. a data warehouse
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 274 discussion - Nov. 23, 2023, 1:02 p.m.
+DRAG DROP
+-
+Match the job roles to the appropriate tasks.
+To answer, drag the appropriate job role from the column on the left to its task on the right. Each role may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/dp-900/image63.png
+
+Highly Voted comment found!
+Correct Ans:
+1. Data Engineer
+2. Data Administrator
+3. Data Analyst
+
+Notes:
+The job roles define differentiated tasks and responsibilities. In some organizations, the same person might perform multiple roles; so in their role as database administrator they might provision a transactional database, and then in their role as a data engineer they might create a pipeline to transfer data from the database to a data warehouse for analysis.
+
+https://learn.microsoft.com/en-us/training/modules/explore-roles-responsibilities-world-of-data/2-explore-job-roles
+******************************
+Highly Voted comment found!
+Data Engineer --> Create Pipelines --> CORRECT
+Data Analyst --> Create a chart -->CORRECT
+Data Architect --> Create a transactional DB --> INCORRECT
+
+Tipically a Data Architect is responsible for designing the overall structure. The DB ADMIN on the other hand implements the design created by the Data Architect.
+
+So DB Admin --> Create Transactional DB
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 275 discussion - Nov. 17, 2023, 10:58 p.m.
+DRAG DROP
+-
+Match the job roles to the appropriate tasks.
+To answer, drag the appropriate role from the column on the left to its task on the right. Each role may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/dp-900/image65.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 276 discussion - Jan. 28, 2025, 5:06 p.m.
+You need to accept and store large quantities of IoT streaming data.
+Which database solution should you use?
+A. Azure Database for PostgreSQL
+B. Azure Database for MariaDB
+C. Azure Cache for Redis
+D. Azure Cosmos DB
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 277 discussion - Nov. 23, 2023, 1:08 p.m.
+DRAG DROP
+-
+Match the job roles to the appropriate tasks.
+To answer, drag the appropriate role from the column on the left to its task on the right. Each role may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/dp-900/image69.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 278 discussion - Nov. 23, 2023, 1:10 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image71.png
+
+Highly Voted comment found!
+semi-structured is correct
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 279 discussion - Nov. 23, 2023, 1:11 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image73.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 280 discussion - Nov. 23, 2023, 1:12 p.m.
+SELECT, INSERT, and UPDATE are examples of which type of SQL statement?
+A. Data Definition Language (DDL)
+B. Data Control Language (DCL)
+C. Data Manipulation Language (DML)
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 281 discussion - Nov. 23, 2023, 1:13 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image75.png
+
+Highly Voted comment found!
+Update
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 282 discussion - Nov. 23, 2023, 1:18 p.m.
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image77.png
+
+Highly Voted comment found!
+Yes - The pgAdmin tool can indeed be used to manage Azure Database for PostgreSQL12345.
+No - Azure Database for MariaDB offers point-in-time restore, but the backup retention period can be configured up to 35 days, not 365 days67.
+Yes - By default, Azure Database for MySQL enforces SSL connections between your server and your client applications to protect against “man in the middle” attacks
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 283 discussion - Nov. 23, 2023, 1:20 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image79.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 284 discussion - Nov. 23, 2023, 1:23 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image81.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 285 discussion - March 4, 2025, 6:29 a.m.
+How is raw data stored in a data lakehouse?
+A. as tables
+B. as queues
+C. as files
+D. as disks
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 285 discussion - Nov. 23, 2023, 1:27 p.m.
+In an analytical data model, which type of table contains entities that are used to aggregate numeric values, where each entity is represented by a row with a unique key value?
+A. bridge
+B. dimension
+C. fact
+
+Highly Voted comment found!
+- Fact Table is the correct answer because it is designed to store and aggregate numeric values. The rows in the fact table represent individual transactions or events and are uniquely identified by a combination of foreign keys and sometimes a unique identifier (such as a transaction ID).
+- These numeric values (facts) are the ones aggregated to provide insights, such as total sales, average order value, or total profit, making the fact table central to quantitative analysis in an analytical data model.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 286 discussion - Jan. 15, 2025, 9:13 a.m.
+What is the typical latency for read operations against media files stored in the Cool access tier of Azure Blob Storage?
+A. a few milliseconds
+B. a few seconds
+C. a few minutes
+D. a few hours
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 286 discussion - Nov. 23, 2023, 1:27 p.m.
+In a fully denormalized database, how is data read and written for a single entity?
+A. Data is read from a single table and written to a single table.
+B. Data is read from multiple tables and written to a single table.
+C. Data is read from a single table and written to multiple tables.
+D. Data is read from multiple tables and written to multiple tables.
+
+Highly Voted comment found!
+Agree, for fully denormalized DB looks correct.
+But why in 214-question, for fully normalized DB we can find the same answer, marked as correct? :)
+******************************
+Highly Voted comment found!
+Denormalization involves consolidating data into a single table to reduce the need for joins and simplify querying. This results in improved read performance as all the necessary data for a single entity can be retrieved from a single table without requiring joins with other tables. Similarly, when writing data, it is written to a single table without the need to update multiple tables. This approach is commonly used in data warehousing and reporting scenarios where read performance is prioritized over storage efficiency and data modification speed.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 287 discussion - Feb. 13, 2024, 3:57 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image83.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 288 discussion - Nov. 23, 2023, 1:33 p.m.
+HOTSPOT -
+Select the answer that correctly completed the sentence.
+https://img.examtopics.com/dp-900/image85.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 289 discussion - March 12, 2025, 6:19 p.m.
+HOTSPOT
+-
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image112.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 289 discussion - Nov. 23, 2023, 1:34 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image87.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 290 discussion - Nov. 23, 2023, 1:38 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image89.png
+
+Highly Voted comment found!
+Correct: An aggregated measure.
+
+In an analytical model, any point where dimensions intersect represents an aggregated measure. These intersections represent specific data points within the multidimensional structure, and the aggregated measures provide quantitative values based on the selected dimensions and context. Each intersection corresponds to a unique combination of dimension values, and the aggregated measure represents the result of applying aggregation functions (such as sum, average, count, etc.) to the underlying data associated with that combination of dimension values.
+******************************
+Highly Voted comment found!
+The answer should be Cube.
+https://learn.microsoft.com/en-us/analysis-services/multidimensional-models/cubes-in-multidimensional-models?view=asallproducts-allversions
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 291 discussion - April 22, 2024, 5:09 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image91.png
+
+Highly Voted comment found!
+It's Azure Synapse Analytics
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 292 discussion - April 23, 2024, 2:23 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image93.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 293 discussion - April 23, 2024, 2 p.m.
+GRANT, REVOKE, and DENY are examples of which type of SQL statement?
+A. Data Definition language (DDL)
+B. Data Control Language (DCL)
+C. Data Manipulation Language (DML)
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 294 discussion - April 23, 2024, 2:02 p.m.
+DRAG DROP -
+Match the ACID terms to the appropriate descriptions.
+To answer, drag the appropriate term from the column on the left to its description on the right. Each term may be used once, more than once or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/dp-900/image95.png
+
+Highly Voted comment found!
+Correct:  Isolation, Atomicity, Consistency, Durability
+
+https://learn.microsoft.com/en-us/azure/databricks/lakehouse/acid
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 296 discussion - April 28, 2024, 9:38 p.m.
+DRAG DROP -
+Match the database normalization terms to the appropriate descriptions.
+To answer, drag the appropriate term from the column on the left to its description on the right. Each term may be used once, more than once, or not at all.
+NOTE: Each correct match is worth one point.
+https://img.examtopics.com/dp-900/image97.png
+
+Highly Voted comment found!
+The answer is correct. 
+Explanation from ChatGPT
+Attribute - Get separated into individual columns
+In a database, an attribute typically refers to a column in a table, which is where individual data elements of an entity are stored.
+Entities - Get separated into individual tables
+Entities in a database are typically represented as tables. Each table represents a specific type of object or concept within the system.
+Foreign Keys - Link two related entities
+A foreign key is a field (or collection of fields) in one table that uniquely identifies a row of another table. It is used to establish and enforce a link between the data in two tables.
+
+Primary keys are the unique identifier for each record in a table.
+Schema refers to the organization or structure of a database, including its tables, views, relationships, and other elements.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 297 discussion - April 22, 2024, 5:09 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image99.png
+
+Highly Voted comment found!
+Wouldn't it be both the Desktop app and the BI Service? Both services can create a dashboard.
+******************************
+Highly Voted comment found!
+https://learn.microsoft.com/en-us/power-bi/fundamentals/service-service-vs-desktop
+The Venn diagram suggests Power BI Service
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 298 discussion - Jan. 15, 2025, 9:22 a.m.
+HOTSPOT
+-
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image119.png
+
+Highly Voted comment found!
+I think the answer is NYN
+The data governance is under data analysis and the data engineer does create pipelines.
+******************************
+Highly Voted comment found!
+From ChatGPT so "take it a pinch of salt " :
+Data engineers identify data governance rules.
+Answer: No
+Explanation: Identifying data governance rules is typically the responsibility of data stewards or data governance teams, not data engineers. However, data engineers may implement these rules in the systems they develop.
+
+Data engineers create data ingestion pipelines.
+Answer: Yes
+Explanation: Data engineers are responsible for designing, building, and managing data ingestion pipelines to move data from various sources to storage or processing systems.
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 298 discussion - April 20, 2024, 12:38 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image101.png
+
+Highly Voted comment found!
+Y,N,N is the right Ans
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 299 discussion - March 10, 2025, 1:29 p.m.
+You have an Azure SQL database that contains tables for customers and orders.
+You need to create a query that will return the orders placed by each customer.
+Which two Transact-SOL statements should you include in the query? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. INDEX
+B. EXISTS
+C. JOIN
+D. ORDERBY
+E. SELECT
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 299 discussion - April 23, 2024, 2:10 p.m.
+Structured data where each row represents a single data entity uses which type of schema?
+A. XML
+B. tabular
+C. blob
+D. JSON
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 300 discussion - May 11, 2024, 6:44 p.m.
+HOTSPOT -
+Select the answer that correctly completes the sentence.
+https://img.examtopics.com/dp-900/image103.png
+
+Highly Voted comment found!
+Answer is correct
+Desktop- create
+Phone app - monitor/read
+service - share
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 301 discussion - Jan. 15, 2025, 11:59 a.m.
+You have a database that stores data in the format shown in the following table.
+https://img.examtopics.com/dp-900/image123.png
+Of which type of database is this an example?
+A. column family
+B. relational
+C. key-value
+D. document
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 301 discussion - April 20, 2024, 12:45 p.m.
+You need to implement an Azure platform as a service (PaaS) service that will host a relational database. The solution must support built-in autoscaling.
+Which service should you implement?
+A. Azure SQL Database
+B. SQL Server on Azure Virtual Machines
+C. Azure SQL Managed Instance
+D. Azure SQL Edge
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 302 discussion - May 4, 2024, 1:38 a.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image105.png
+
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 303 discussion - April 23, 2024, 2:18 p.m.
+HOTSPOT -
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+https://img.examtopics.com/dp-900/image107.png
+
+Highly Voted comment found!
+Answer is YNN
+1. Azure SQL Managed support cross-DB queries three-part name queries
+2. Elastic pools are used to manage and scale multiple databases with varying workloads on Azure SQL Database, not SQL Server on Azure Virtual Machines.
+3. SQL DB Supported on both Physical & VMs (Not Azure SQL)
+******************************
+
+
+======================================================================================
+
+Exam DP-900 topic 1 question 304 discussion - April 23, 2024, 2:16 p.m.
+You have the following data.
+https://img.examtopics.com/dp-900/image109.png
+Which type of data is this?
+A. unstructured
+B. semi-structured
+C. structured
+
+Highly Voted comment found!
+Correct answer
+******************************
+
+
+======================================================================================
+
